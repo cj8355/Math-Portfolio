@@ -1,0 +1,24 @@
+.example {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 250px;
+    align-items: center;
+    justify-content: center;
+}
+
+.example > p {
+    flex: calc(100%/7);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.solutions {
+    width: 100%;
+}
