@@ -15,10 +15,10 @@ export default function Calculus1_Ch1() {
             <MathComponent tex="e^{i \pi} = -1" />
             <p>For every X input there is 1 Y output</p>
             
-        <Link to="Sec1.1"><p>Sec 1.1</p></Link>
+        <Link to="Sec1.1"><p>Sec 1.1 Review of Functions</p></Link>
         <p>Intro to Sec 1.1</p>
-        <p>Sec 1.2</p>
-        <p>Intro to Sec 1.2</p>
+        <Link to="Sec1.2"><p>Sec 1.2 Representing Functions</p></Link>
+        <p>Formulas, Graphs, Tables and Words</p>
         <p>Sec 1.3</p>
         <p>Intro to Sec 1.3</p>
             .....

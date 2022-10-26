@@ -7,7 +7,7 @@ export default function Calculus1_Ch1_Sec1() {
     
     return (
         <div className='container'> 
-        Ch. 1 Sec 1
+        Ch. 1 Sec 1 Review of Functions
         <div className="sectionText">
         <p>A <b>function</b> f is a rule that assigns to eash value x in a set D a unique value denoted f(x)
             The set D is the <b>domain</b>  of the funtion. The <b>range</b>  is the set of all values of f(x) 
