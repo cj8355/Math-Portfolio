@@ -19,8 +19,8 @@ export default function Calculus1_Ch1() {
         <p>Intro to Sec 1.1</p>
         <Link to="Sec1.2"><p>Sec 1.2 Representing Functions</p></Link>
         <p>Formulas, Graphs, Tables and Words</p>
-        <p>Sec 1.3</p>
-        <p>Intro to Sec 1.3</p>
+        <Link to="Sec1.3"><p>Sec 1.3 Inverse, Exponential, and Logarithmic Functions</p></Link>
+        <p>Properties of exponential functions, The Natural Exponential Function, Horizontal Line Test, Finding Inverse Functions</p>
             .....
         </div>
     );
