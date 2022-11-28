@@ -21,7 +21,10 @@ export default function Calculus1_Ch1() {
         <p>Formulas, Graphs, Tables and Words</p>
         <Link to="Sec1.3"><p>Sec 1.3 Inverse, Exponential, and Logarithmic Functions</p></Link>
         <p>Properties of exponential functions, The Natural Exponential Function, Horizontal Line Test, Finding Inverse Functions</p>
+        <Link to="Sec1.4"><p>Sec 1.4 Trigonometric Functions and Their Inverses</p></Link>
+        <p>Radian Measure, Trigonometric Functions, Trigonometric Identities</p>
             .....
         </div>
     );
 }
+

@@ -9,7 +9,7 @@ export default function Calculus1_Ch1_Sec3() {
     
     return (
         <div className='container'> 
-        Ch. 1 Sec 3 Inverse, Exponential, and Logarithmic Functions
+        <h1>Ch. 1 Sec 3 Inverse, Exponential, and Logarithmic Functions</h1>
         <div className="sectionText">
            <span>Exponential Functions are functions with the form <MathComponent tex="f(x) = b^x" /> where b <MathComponent tex="\neq" /> 1</span>
             <div>
