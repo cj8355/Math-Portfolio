@@ -71,10 +71,20 @@ export default function Calculus1_Ch1_Sec4() {
             <div className="examples"> 
                 <div className="Example1">
                     <h3>Example 1</h3>
-                    <span>Determine the largest possible sets of points on which the following function has an inverse</span>
-                    <MathComponent tex="f(x) = 3x + 4" />
-                    <span>Answer:
-                        For every x input there is 1 y output, therefore the functions inverse would have a set of points from <MathComponent tex="(-\infty,\infty)" />
+                    <span>How is the radian measure of an angle determined?</span>
+                    
+                    <span>
+                        <p>Answer:</p>
+                        The radian measure of an angle <MathComponent tex="\theta" /> is the length s of an arc on the unit circle associated with <MathComponent tex="\theta" />
+                    </span>
+                </div>
+
+                <div className="Example2">
+                    <h3>Example 2</h3>
+                    <span><MathComponent tex="sin\frac{2\pi}{3}" /> = <MathComponent tex="\frac{\sqrt{3}}{2}" /></span>
+                    
+                    <span>
+                         <MathComponent tex="cos0" /> = 1
                     </span>
                 </div>
 
