@@ -88,6 +88,25 @@ export default function Calculus1_Ch1_Sec4() {
                     </span>
                 </div>
 
+                <div className="Example3">
+                    <h3>Example 3</h3>
+                    <span><MathComponent tex="sin^{-1}1" /> = <MathComponent tex="\frac{\pi}{2}" /></span>
+                    
+                    <span>
+                         <MathComponent tex="cos^{-1}(-\frac{1}{2})" /> = <MathComponent tex="\frac{2\pi}{3}" />
+                    </span>
+                </div>
+
+                <div className="Example4">
+                    <h3>Example 4</h3>
+                    <span>Prove <MathComponent tex="sec\theta" /> = <MathComponent tex="\frac{1}{cos\theta}" /></span>
+                    
+                    <span>
+                        Answer:
+                        <MathComponent tex="sec\theta" /> = <MathComponent tex="\frac{r}{x}" /> = <MathComponent tex="\frac{1}{x/r}" /> = <MathComponent tex="\frac{1}{cos\theta}" />
+                    </span>
+                </div>
+
                
 
                 
