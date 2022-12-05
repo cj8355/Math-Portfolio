@@ -71,7 +71,25 @@ export default function Calculus1_Ch2_Sec1() {
 
                         <MathComponent tex="v_{inst} = 4" /> 
                     </span> *11
-                </div>           
+                </div>    
+
+                <div className="Example3">
+                    <h3>Example 3</h3>
+                    <span><bold>Slopes of tangent lines</bold>Make a table of slopes of secant lines and make a conjecture about the slope of 
+                    the tangent line at the indicate point for the following function function <MathComponent tex="f(x) = 2x^{2}" /> at <MathComponent tex="x = 2" />
+                            
+                     </span>
+                    
+                    <span>
+                        
+                         
+                        <p>Answer:</p>
+                        <MathComponent tex="\begin{array} {|r|r|}\hline Interval & Slope of Secant Line \\ \hline [1, 2] & 6 \\ \hline [1.5, 2] & 7 \\ \hline [1.9, 2] & 7.8 \\ \hline [1.99, 2] & 7.98 \\ \hline [1.999, 2] & 7.998 \\ \hline  \end{array}" />
+                       
+
+                        <MathComponent tex="m_{tan} = 8" /> 
+                    </span> *12
+                </div>       
                
 
                 
