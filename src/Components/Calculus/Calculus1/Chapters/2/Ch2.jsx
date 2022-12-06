@@ -17,6 +17,8 @@ export default function Calculus1_Ch2() {
             
         <Link to="Sec2.1"><p>Sec 2.1 The Idea of Limits</p></Link>
         <p>Intro to Sec 2.1</p>
+        <Link to="Sec2.2"><p>Sec 2.2 Definitions of Limits</p></Link>
+        <p>Intro to Sec 2.2</p>
         
             .....
         </div>
