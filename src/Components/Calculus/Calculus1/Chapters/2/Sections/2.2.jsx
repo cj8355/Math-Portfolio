@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
 import "./2.2.css";
 import { MathComponent } from "mathjax-react";
+import graph1 from "./images/graph1.png";
+import graph2 from "./images/graph2.png";
 
 
 export default function Calculus1_Ch2_Sec2() {
@@ -70,7 +72,64 @@ export default function Calculus1_Ch2_Sec2() {
                 </div>
 
                  
-               
+                <div className="Example2">
+                    <h3>Example 2</h3>
+                    
+
+                    <span>
+                        <p>Evaluating limits graphically</p>
+                        <p>Sketch a graph of f and use it to make a conjecture about the values of f(a),
+                        <MathComponent tex="\lim_{x\to a^{-}} f(x)" />,
+                        <MathComponent tex="\lim_{x\to a^{+}} f(x)" />,
+                        <MathComponent tex="\lim_{x\to a} f(x)" />
+                        or state that they do not exist.
+                             </p>
+                      
+                        
+                        <p>
+                        <MathComponent tex="f(x) = x^2 + 1" /> if <MathComponent tex="x \leq -1" />
+                        <MathComponent tex="f(x) = 3" /> if <MathComponent tex="x > -1" />
+                        <MathComponent tex="a = -1" />
+                        </p> 
+                        <p>Answer:<br/>
+                            <img src={graph1} alt="Grpah of Function" width="350px" height="350px" />
+                            <p>
+                            <MathComponent tex="f(a) = 2" />  
+                            <MathComponent tex="\lim_{x\to a^{-}} f(x) = 2" /> 
+                            <MathComponent tex="\lim_{x\to a^{+}} f(x) = 3" /> 
+                            <MathComponent tex="\lim_{x\to a} f(x) = DNE(Does Not Exist)" /> 
+                            </p>
+                        </p>
+                       
+                        
+                    </span> *15
+                </div>
+
+                <div className="Example3">
+                    <h3>Example 3</h3>
+                    
+
+                    <span>
+                        <p>Estimating limits graphically and numerically</p>
+                        <p>Use a graph of f to estimate <MathComponent tex="\lim_{x\to a} f(x)" />
+                        or to show that the limit does not exist. Evaluate f(x) near x = a to support your conjecture.
+                        <MathComponent tex="f(x) = \frac{sin(x + 1)}{|x + 1|}" />
+                        a = -1
+                        
+                             </p>
+                      
+                        <p>Answer:<br/>
+                            <img src={graph2} alt="Grpah of Function" width="400px" height="250px" />
+                            <p>
+                            <MathComponent tex="\begin{array} {|r|r|}\hline x & -1.1 & -1.01 & -1.001 \\ \hline g(x) & -0.9983342 & -0.9999833 & -0.9999998 \\ \hline x & -0.999 & -0.99 & -0.9 \\ \hline g(x) & 0.9999998 & 0.9999833 & 0.9983342 \\ \hline  \end{array}" />  
+                            
+                            </p>
+                            Based off the graph and table, the limit DNE
+                        </p>
+                       
+                        
+                    </span> *16
+                </div>
 
                 
             </div>
