@@ -37,8 +37,46 @@ export default function Calculus1_Ch2_Sec3() {
     
         </span> * 18
 
-          
+        <h2>Limits of Polynomial and Rational Functions</h2>
+        <span>
+           <p>Assume p and q are polynomials and a is a constant</p>
+            <p><bold>a. Polynomial functions: </bold><MathComponent tex="\lim_{x\to a} p(x) = p(a)" /> </p>
+            <p><bold>b. Rational Functions</bold><MathComponent tex="\lim_{x\to a} ( \frac {p(x)}{q(x)}) = \frac {p(a)}{q(a)}" />, provided <MathComponent tex="q(a) \neq 0" />  </p>
+            
     
+        </span> * 18
+
+
+        <h2>Limit Laws for One-Sided Limits</h2>
+        <span>
+           <p> Laws 1 - 6 hold with  <MathComponent tex="\lim_{x\to a}" /> replaced with <MathComponent tex="\lim_{x\to a^{+}}" /> or <MathComponent tex="\lim_{x\to a^{-}}" />
+            Law 7 is modified as follows. Assume <MathComponent tex="n > 0" /> is an integer.
+            </p>
+            <p><bold>7. Root</bold>
+            <span>
+            a. <MathComponent tex="\lim_{x\to a^{+}} (f(x))^{\frac {1}{n}} = ( \lim_{x\to a^{+}} f(x))^{\frac{1}{n}}" />, provided <MathComponent tex="f(x) \geq 0" /> for some x near a with  <MathComponent tex="x > a" />, if n is even
+            </span>
+            <span>
+            b. <MathComponent tex="\lim_{x\to a^{-}} (f(x))^{\frac {1}{n}} = ( \lim_{x\to a^{-}} f(x))^{\frac{1}{n}}" />, provided <MathComponent tex="f(x) \geq 0" /> for some x near a with  <MathComponent tex="x < a" />, if n is even
+            </span>
+            </p>
+
+       
+    
+        </span> * 19
+
+          
+        <h2>The Squeeze Theorem</h2>
+        <span>
+           <p>Assume the functions f, g, and h satisfy  <MathComponent tex="f(x) \leq g(x) \leq h(x)" /> for all values of x near a,
+           except possibly at a. If  <MathComponent tex="\lim_{x\to a} f(x) = \lim_{x\to a} h(x) = L" /> then
+            <MathComponent tex="\lim_{x\to a} g(x) = L" />
+           
+            </p>
+
+       
+    
+        </span> * 20
                 
             
             
