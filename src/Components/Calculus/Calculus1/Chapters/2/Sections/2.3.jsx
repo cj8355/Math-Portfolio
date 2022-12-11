@@ -88,21 +88,50 @@ export default function Calculus1_Ch2_Sec3() {
                     
 
                     <span>
-                        Let
-                        <MathComponent tex="f(x) = \frac{x^{2} - 4}{x - 2}" /> 
-                        <p>a. Calculate f(x) for each value of x in the following table.</p>
+                        Assume
+                        <MathComponent tex="\lim_{x\to 1} f(x) = 8" />, <MathComponent tex="\lim_{x\to 1} g(x) = 3" />, and 
+                        <MathComponent tex="\lim_{x\to 1} h(x) = 2" />.
+                        Compute the following limits and state the limit laws used to justify your computations
                         
-                        <p>b. Make a conjecture about the value of </p> 
-                        <MathComponent tex="\lim_{x\to 2} \frac{x^{2} - 4}{x - 2}" />
+                        
+                        <MathComponent tex="\lim_{x\to 1} (4f(x))" />
+                        <p>Answer:
+                        <MathComponent tex="4(8) = 32" />
+                        Constant Multiple Law
+                        </p>
 
-                        <MathComponent tex="\begin{array} {|r|r|}\hline x & 1.9 & 1.99 & 1.999 & 1.9999 \\ \hline f(x) = \frac{x^{2} - 4}{x - 2} &  &  &  &  \\ \hline x & 2.1 & 2.01 & 2.001 & 2.0001 \\ \hline f(x) = \frac{x^{2} - 4}{x - 2} &  &  &  &  \\ \hline  \end{array}" />
-                        <MathComponent tex="\begin{array} {|r|r|}\hline x & 1.9 & 1.99 & 1.999 & 1.9999 \\ \hline f(x) = \frac{x^{2} - 4}{x - 2} & 3.9 & 3.99 & 3.999 & 3.9999 \\ \hline x & 2.1 & 2.01 & 2.001 & 2.0001 \\ \hline f(x) = \frac{x^{2} - 4}{x - 2} & 4.1 & 4.01 & 4.001 & 4.0001 \\ \hline  \end{array}" />
-
-                        4
-                    </span> *14
+                        <MathComponent tex="\lim_{x\to 1} (f(x) - g(x))" />
+                        <p>Answer:
+                        <MathComponent tex="8 - 3 = 5" />
+                        Difference Law
+                        </p>
+                        
+                    </span> *21
                 </div>
 
-            
+                <div className="Example1">
+                    <h3>Example 2</h3>
+                    
+
+                    <span>
+                        <bold>Evaluating Limits</bold>
+                        Find the following limits or state that they do not exist. Assume a, b, c, and k are fixed real numbers.
+                        <MathComponent tex="\lim_{x\to 4} (3x - 7)" />
+                        <p>Answer:
+                        <MathComponent tex="3(4) - 7 = 5" />
+                        
+                        </p>
+                        <MathComponent tex="\lim_{x\to 1} \frac{5x^{2} + 6x + 1}{8x - 4}" />
+                        
+                        <p>Answer:
+                        <MathComponent tex="\frac{5(1)^{2} + 6(1) + 1}{8(1) - 4} = \frac{12}{4} = 3" />
+                        
+                        </p>
+
+                          
+                        
+                    </span> *22
+                </div>
 
                 
             </div>
