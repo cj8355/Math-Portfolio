@@ -109,7 +109,7 @@ export default function Calculus1_Ch2_Sec3() {
                     </span> *21
                 </div>
 
-                <div className="Example1">
+                <div className="Example2">
                     <h3>Example 2</h3>
                     
 
@@ -133,6 +133,48 @@ export default function Calculus1_Ch2_Sec3() {
                     </span> *22
                 </div>
 
+
+                <div className="Example3">
+                    <h3>Example 3</h3>
+                    
+
+                    <span>
+                        <bold>One-Sided Limits</bold>
+                        Let
+                        <MathComponent tex="f(x) = x^{2} + 1" /> if <MathComponent tex="x < -1" />
+                        <MathComponent tex="f(x) = \sqrt{x + 1}" /> if <MathComponent tex="x \geq -1" />
+                        Compute the following limits or state that they do not exist.
+                       
+                        <MathComponent tex="\lim_{x\to -1^{-} f(x)" />
+                        <p>Answer:
+                        <MathComponent tex="(-1)^{2} + 1 = 2" />
+                        </p>
+                     
+                          
+                        
+                    </span> *23
+                </div>
+
+                <div className="Example4">
+                    <h3>Example 4</h3>
+                    
+
+                    <span>
+                        <bold>One-Sided Limits</bold>
+                        Evaluate
+                        <MathComponent tex="\lim_{x\to 2^{+} \sqrt{x - 2}" />
+
+
+
+                        <p>Answer:
+                        <MathComponent tex="\sqrt{2^{+} - 2} = 0" />
+                        </p>
+                       
+
+                          
+                        
+                    </span> *24
+                </div>
                 
             </div>
             </div>
