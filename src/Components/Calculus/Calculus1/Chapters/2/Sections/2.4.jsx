@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import "./2.4.css";
 import { MathComponent } from "mathjax-react";
-
+import graph1 from "./images/graph3.png"
 
 
 export default function Calculus1_Ch2_Sec4() {
@@ -55,28 +55,52 @@ export default function Calculus1_Ch2_Sec4() {
                     
 
                     <span>
-                        Assume
-                        <MathComponent tex="\lim_{x\to 1} f(x) = 8" />, <MathComponent tex="\lim_{x\to 1} g(x) = 3" />, and 
-                        <MathComponent tex="\lim_{x\to 1} h(x) = 2" />.
-                        Compute the following limits and state the limit laws used to justify your computations
-                        
-                        
-                        <MathComponent tex="\lim_{x\to 1} (4f(x))" />
-                        <p>Answer:
-                        <MathComponent tex="4(8) = 32" />
-                        Constant Multiple Law
+                        Graph the function <MathComponent tex="f(x) = \frac{1}{x^{2} - x}" />
+                        using a graphing utility with the window
+                        <MathComponent tex="[-1,2] x [-10,10]" />
+                        Use your graph to determine the following limits
+                        <p>
+                            a. <MathComponent tex="\lim_{x\to 0^{-}} f(x)" />
+                        </p>
+                        <p>
+                            b. <MathComponent tex="\lim_{x\to 0^{+}} f(x)" />
                         </p>
 
-                        <MathComponent tex="\lim_{x\to 1} (f(x) - g(x))" />
-                        <p>Answer:
-                        <MathComponent tex="8 - 3 = 5" />
-                        Difference Law
+                        <p>Answer:</p>
+                        <p>
+                        <img src={graph1} alt="Graph of function" ></img>
+                        a. <MathComponent tex="\infty" />
+                        b. <MathComponent tex="- \infty" />
                         </p>
+                    
                         
-                    </span> *
+                    </span> *28
                 </div>
 
-          
+
+                <div className="Example2">
+                    <h3>Example 2</h3>
+                    
+
+                    <span>
+                        Determining limits analytically
+                        Determine the following limits.
+                        a. <MathComponent tex="\lim_{x\to 2^{+}} \frac{1}{x - 2}" />
+                        b. <MathComponent tex="\lim_{x\to 2^{-}} \frac{1}{x - 2}" />
+                        c. <MathComponent tex="\lim_{x\to 2} \frac{1}{x - 2}" />
+                        
+
+                        <p>Answer:</p>
+                        <p>
+                        
+                        a. <MathComponent tex="\infty" />
+                        b. <MathComponent tex="- \infty" />
+                        c. Does not Exist
+                        </p>
+                        
+                        
+                    </span> *29
+                </div>
                 
             </div>
             </div>
