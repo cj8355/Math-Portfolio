@@ -36,7 +36,13 @@ export default function Calculus1_Ch2_Sec4() {
         </span> *26
 
 
-        
+        <h2>Vertical Asymptote</h2>
+        <span>
+            If <MathComponent tex="\lim_{x\to a} f(x) = \pm \infty" />,  <MathComponent tex="\lim_{x\to a^{+}} f(x) = \pm \infty" />, or <MathComponent tex="\lim_{x\to a^{-}} f(x) = \pm \infty" />,
+            the line <MathComponent tex="x = a" /> is called a vertical asymptote of f.
+            
+    
+        </span> *27
           
         
             
