@@ -1,7 +1,10 @@
 import { Link } from "react-router-dom";
 import "./2.4.css";
 import { MathComponent } from "mathjax-react";
-import graph1 from "./images/graph3.png"
+import graph1 from "./images/graph3.png";
+import graph2 from "./images/graph4.png";
+import graph3 from "./images/graph5.png";
+
 
 
 export default function Calculus1_Ch2_Sec4() {
@@ -101,6 +104,57 @@ export default function Calculus1_Ch2_Sec4() {
                         
                     </span> *29
                 </div>
+
+
+                <div className="Example3">
+                    <h3>Example 3</h3>
+                    
+
+                    <span>
+                        Finding vertical asymptotes
+                        Find all vertical asymptotes <MathComponent tex="x = a" /> of the following functions. For each value of a, determine 
+                        
+                         <MathComponent tex="\lim_{x\to a^{+}} f(x)" />
+                         <MathComponent tex="\lim_{x\to a^{-}} f(x)" />
+                       <MathComponent tex="\lim_{x\to a} f(x)" />
+                       <MathComponent tex="f(x) = \frac{x^{2} - 9x + 14}{x^{2} - 5x + 6}" />
+
+                        <p>Answer:</p>
+                        <p>
+                        
+                        <img src={graph2} alt="Graph of function" ></img>
+                        Vertical Asymptote: <MathComponent tex="\x = 3" />
+                        <MathComponent tex="\lim_{x\to 3^{+}} f(x) = - \infty" />
+                         <MathComponent tex="\lim_{x\to 3^{-}} f(x) = \infty" />
+                       <MathComponent tex="\lim_{x\to 3} f(x) = Does Not Exist" />
+                        </p>
+                        
+                        
+                    </span> *30
+                </div>
+
+                <div className="Example4">
+                    <h3>Example 4</h3>
+                    
+
+                    <span>
+                        Asymptotes
+                       Use analytical methods and/or a graphing utility to identify the vertical asymptotes (if any) of the following function 
+                       
+                       <MathComponent tex="f(x) = \frac{x^{2} - 3x + 2}{x^{10} - x^{9}}" />
+
+                        <p>Answer:</p>
+                        <p>
+                        
+                        <img src={graph3} alt="Graph of function" ></img>
+                        Vertical Asymptote: <MathComponent tex="x = 0" />
+                       
+                        </p>
+                        
+                        
+                    </span> *31
+                </div>
+
                 
             </div>
             </div>
