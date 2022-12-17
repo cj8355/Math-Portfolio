@@ -105,26 +105,38 @@ export default function Calculus1_Ch2_Sec5() {
                     
 
                     <span>
-                        Graph the function <MathComponent tex="f(x) = \frac{1}{x^{2} - x}" />
-                        using a graphing utility with the window
-                        <MathComponent tex="[-1,2] x [-10,10]" />
-                        Use your graph to determine the following limits
-                        <p>
-                            a. <MathComponent tex="\lim_{x\to 0^{-}} f(x)" />
-                        </p>
-                        <p>
-                            b. <MathComponent tex="\lim_{x\to 0^{+}} f(x)" />
-                        </p>
+                        <p>Determine the following limits at infinity</p>
+                        
+                        <MathComponent tex="\lim_{x\to \infty} x^{-6}" />
+                       
 
                         <p>Answer:</p>
-                        <p>
+                      
+                        <MathComponent tex="x^{-6}" /> could also be written as <MathComponent tex="\frac{1}{x^{6}}" />
+                        As x approaches infinity the denominator will get inifinitely smaller, the limit approaches 0
                         
-                        a. <MathComponent tex="\infty" />
-                        b. <MathComponent tex="- \infty" />
+                    </span> *37
+                </div>
+
+
+                <div className="Example2">
+                    <h3>Example 2</h3>
+                    
+
+                    <span>
+                        <bold> Limits at infinity</bold>
+                        <p>Determine the following limits</p>
+                        
+                        <MathComponent tex="\lim_{x\to \infty} 3x^{12} - 9x^{7}" />
+                       
+                        <p>Answer:</p>
+                        <p>
+                        Taking infinity times a coeffiecient or to the power of still results in infinity, so <MathComponent tex="\infty - \infty = \infty" />
+                       
                         </p>
                     
                         
-                    </span> *
+                    </span> *38
                 </div>
 
 
