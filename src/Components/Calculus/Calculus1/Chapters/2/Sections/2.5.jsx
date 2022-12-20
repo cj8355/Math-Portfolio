@@ -140,7 +140,64 @@ export default function Calculus1_Ch2_Sec5() {
                 </div>
 
 
+                <div className="Example3">
+                    <h3>Example 3</h3>
+                    
+
+                    <span>
+                        <bold>Horizontal Asymptotes</bold>
+                        <p>Determine</p>
+                        
+                        <MathComponent tex="\lim_{x\to \infty} f(x)" /> and <MathComponent tex="\lim_{x\to - \infty} f(x)" />
+                        <p>for the following functions. Then give the horizontal asymptotes of f (if any).</p>
+                        <MathComponent tex="f(x) = \frac{3x^{3} - 7}{x^{4} + 5x^{2}}" />
+                       
+                        <p>Answer:</p>
+                        <p>
+                        <MathComponent tex="\lim_{x\to \infty} f(x) = \lim_{x\to - \infty} f(x) = 0" />
+                        <MathComponent tex="y = 0" />
+                        </p>
+                    
+                        
+                    </span> *39
+                </div>
                
+
+                <div className="Example4">
+                    <h3>Example 4</h3>
+                    
+
+                    <span>
+                        <bold>Horizontal and Vertical Asymptotes</bold>
+                        <p>a. Analyze <MathComponent tex="\lim_{x\to \infty} f(x)" /> and <MathComponent tex="\lim_{x\to - \infty} f(x)" />,
+                        and then identify any horizontal asymptotes.
+
+                        </p>
+
+                        <p>b. Find the vertical asymptotes. For each vertical asymptote <MathComponent tex="x = a" />,
+                        analyze <MathComponent tex="\lim_{x\to a^{-}} f(x)" /> and <MathComponent tex="\lim_{x\to a^{+}} f(x)" />
+
+                        </p>
+                        <MathComponent tex="f(x) = \frac{3x^{4} + 3x^{3} - 36x^{2}}{x^{4} - 25x^{2} + 144}" />
+                       
+                       
+                        <p>Answer:</p>
+                        <p>
+                        a. <MathComponent tex="\lim_{x\to \infty} f(x) = \lim_{x\to - \infty} f(x) = 3" />
+                        <MathComponent tex="y = 3" />
+                        </p>
+                        <p>
+                        b. <MathComponent tex="x = -3" /> and <MathComponent tex="x = 4" /> 
+                        <MathComponent tex="\lim_{x\to -3^{-}} f(x) = \infty" />
+                        <MathComponent tex="\lim_{x\to -3^{+}} f(x) = - \infty" />
+                        <MathComponent tex="\lim_{x\to 4^{-}} f(x) = - \infty" />
+                        <MathComponent tex="\lim_{x\to 4^{+}} f(x) =  \infty" />
+                        
+                        </p>
+                    
+                        
+                    </span> *40
+                </div>
 
                 
             </div>
