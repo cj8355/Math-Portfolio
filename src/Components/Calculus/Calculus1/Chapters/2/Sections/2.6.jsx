@@ -69,6 +69,55 @@ export default function Calculus1_Ch2_Sec6() {
     
         </span> *45
 
+
+        <h2>Limits of Composite Functions</h2>
+        <span>
+           <p>1. If g is continuous at a and f is continuous at g(a), then
+           <MathComponent tex="\lim_{x\to a} f(g(x)) = f(\lim_{x\to a} g(x))" />
+           </p>
+           <p>2. If <MathComponent tex="\lim_{x\to a} g(x) = L" /> and f is continuous at L, then
+           <MathComponent tex="\lim_{x\to a} f(g(x)) = f(\lim_{x\to a} g(x))" />
+           </p>
+          
+    
+        </span> *46
+
+
+        <h2>Continuity at Endpoints</h2>
+        <span>
+           <p>A function f is continuous from the right (or right-continuous) at a if
+           <MathComponent tex="\lim_{x\to a^{+}} f(x) = f(a)" />
+           , and f is continuous from the left (or left-continuous) at b if
+           <MathComponent tex="\lim_{x\to b^{-}} f(x) = f(b)" />
+           </p>
+          
+    
+        </span> *47
+
+
+        <h2>Continuity on an Interval</h2>
+        <span>
+           <p>A function f is continuous on an interval I if it is continuous at all points of I. If I contains
+            its endpoints, continuity on I means continuous from the right or left at the endpoints
+           
+           </p>
+          
+    
+        </span> *48
+
+
+        <h2>Continuity of Functions with Roots</h2>
+        <span>
+           <p>Assume n is a positive integer. If n is an odd integer, then  <MathComponent tex="(f(x))^{1/n}" />
+           is continuous at all points at which f is continuous. If n is even, then <MathComponent tex="(f(x))^{1/n}" />
+           is continuous at all points at a which f is continuous and <MathComponent tex="f(a) > 0" />.
+           
+           </p>
+          
+    
+        </span> *49
+
+
             
             </div>
 
