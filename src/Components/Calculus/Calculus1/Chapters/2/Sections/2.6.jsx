@@ -118,6 +118,90 @@ export default function Calculus1_Ch2_Sec6() {
         </span> *49
 
 
+        <h2>Continuity of Inverse Functions</h2>
+        <span>
+           <p>If a function f is continuous on an interval I and has an inverse on I, then its inverse <MathComponent tex="f^{-1}" />
+           is also continuous (on the interval consisting of the points f(x), where x is in I).
+           
+           </p>
+          
+    
+        </span> *50
+
+
+        <h2>Continuity of Transcendental Functions</h2>
+        <span>
+           <p>The following functions are continuous at all points of their domains.
+            
+
+             <MathComponent tex="f^{-1}" />
+           is also continuous (on the interval consisting of the points f(x), where x is in I).
+           
+           </p>
+
+           <div>
+            <p>Trigonometric</p>
+            <div>
+            <MathComponent tex="sin x" />
+            <MathComponent tex="tan x" />
+            <MathComponent tex="sec x" />
+            </div>
+            <div>
+            <MathComponent tex="cos x" />
+            <MathComponent tex="cot x" />
+            <MathComponent tex="csc x" />
+            </div>
+           </div>
+
+           <div>
+            <p>Inverse Trigonometric</p>
+            <div>
+            <MathComponent tex="sin^{-1} x" />
+            <MathComponent tex="tan^{-1} x" />
+            <MathComponent tex="sec^{-1} x" />
+            </div>
+            <div>
+            <MathComponent tex="cos^{-1} x" />
+            <MathComponent tex="cot^{-1} x" />
+            <MathComponent tex="csc^{-1} x" />
+            </div>
+           </div>
+
+           <div>
+            <p>Exponential</p>
+            <div>
+            <MathComponent tex="b^{x}" />
+            </div>
+            <div>
+            <MathComponent tex="e^{x}" />
+            </div>
+           </div>
+
+           <div>
+            <p>Logarithmic</p>
+            <div>
+            <MathComponent tex="log_{b} x" />
+            </div>
+            <div>
+            <MathComponent tex="ln x" />
+            </div>
+           </div>
+          
+    
+        </span> *51
+
+
+        <h2>Intermediate Value Theorem</h2>
+        <span>
+           <p>Suppose f is continuous on the interval [a,b] and L is a number strictly between f(a)
+            and f(b), Then there exists at least one number c in (a,b) satisfying  <MathComponent tex="f(c) = L" />.
+          
+           
+           </p>
+          
+    
+        </span> *52
+
             
             </div>
 
