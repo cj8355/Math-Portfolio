@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import "./2.6.css";
 import { MathComponent } from "mathjax-react";
-
+import graph6 from "./images/graph6.png";
 
 
 
@@ -210,14 +210,31 @@ export default function Calculus1_Ch2_Sec6() {
             <div className="examples"> 
                 <div className="Example1">
                     <h3>Example 1</h3>
-                    
+                        <p>Continuity at a Point</p>
+                        <p>Determine whether the following function is continuous at a. Use the continuity checklist to justify your answer</p>
+                        <MathComponent tex="f(x) = \frac{2x^{2} + 3x + 1}{x^{2} + 5x}" />
+                        <MathComponent tex="a = -5" />
 
+                        <p>Answer:</p>
+                        <p>No, the function isn't continuous because <MathComponent tex="f(x) = \frac{something}{0}" /> so f(-5) will be undefined</p>
                     <span>
                         
-                    </span> *
+                    </span> *53
                 </div>
 
+                <div className="Example2">
+                    <h3>Example 2</h3>
+                        <p>Continuity at a Point</p>
+                        <p>Determine the interval(s) on which the following function is continuous</p>
+                        <MathComponent tex="f(x) = \frac{x^{5} + 6x + 17}{x^{2} - 9}" />
 
+                        <p>Answer:</p>
+                        <img src={graph6} alt="Graph of function" ></img>
+                        <p> <MathComponent tex="(- \infty, -3), (-3, 3), (3, \infty)" /></p>
+                    <span>
+                        
+                    </span> *54
+                </div>
                 
 
              
