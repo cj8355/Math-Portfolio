@@ -224,7 +224,7 @@ export default function Calculus1_Ch2_Sec6() {
 
                 <div className="Example2">
                     <h3>Example 2</h3>
-                        <p>Continuity at a Point</p>
+                        <p>Continuity</p>
                         <p>Determine the interval(s) on which the following function is continuous</p>
                         <MathComponent tex="f(x) = \frac{x^{5} + 6x + 17}{x^{2} - 9}" />
 
@@ -236,8 +236,37 @@ export default function Calculus1_Ch2_Sec6() {
                     </span> *54
                 </div>
                 
+                <div className="Example3">
+                    <h3>Example 3</h3>
+                        <p>Limits</p>
+                        <p>Evaluate each limit and justify your answer.</p>
+                        <MathComponent tex="\lim_{x\to 0} (x^{8} - 3x^{6} - 1)^{40}" />
 
+                        <p>Answer:</p>
+                        <p>The first two terms will be zero leaving just the last term, -1. A negative number raised to an even exponent, will result in a positive number</p>
+                        <p> <MathComponent tex="-1^{80} = 1" /></p>
+                    <span>
+                        
+                    </span> *55
+                </div>
              
+
+                <div className="Example4">
+                    <h3>Example 4</h3>
+                        <p>Functions with roots</p>
+                        <p>Determine the interval(s) on which the following function is continuous. At which finite endpoints
+                            of the intervals of continuity is f continuous from the left or continuous from the right?</p>
+                        <MathComponent tex="f(x) = \sqrt{2x^{2} - 16}" />
+
+                        <p>Answer:</p>
+                        
+                        <p> <MathComponent tex="(- \infty, -2 \sqrt{2}], [2 \sqrt{2}, \infty)" /></p>
+                        <p>Left-continuous at <MathComponent tex="-2 \sqrt{2}" /></p>
+                        <p>Right-continuous at <MathComponent tex="2 \sqrt{2}" /></p>
+                    <span>
+                        
+                    </span> *56
+                </div>
 
                 
             </div>
