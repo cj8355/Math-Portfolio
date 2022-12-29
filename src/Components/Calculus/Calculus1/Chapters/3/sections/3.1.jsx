@@ -34,6 +34,43 @@ export default function Calculus1_Ch3_Sec1() {
         </span> *57
 
 
+        <h2>Rate of Change and the Slope of the Tangent Line</h2>
+        <span>
+            <p>
+            The average rate of change in f on the interval [a, a + h] is the slope of the corresponding secant line: 
+            <MathComponent tex="m_{sec} = \frac{f(a + h) - f(a)}{h}" />
+            </p>
+            <p>
+                The instantaneous rate of change in f at a is 
+                <MathComponent tex="m_{tan} = \lim_{h\to 0} \frac{f(a + h) - f(a)}{h}" />
+            </p>
+            <p>
+                which is also the slope of the tangent line at (a, f(a)), provided this limit exists.
+                
+            </p>
+    
+        </span> *58
+
+
+        <h2>The Derivative of a Function at a Point</h2>
+        <span>
+            <p>
+            The derivative of f at a, denoted f'(a), is given by either of the two following limits,
+            provided the limits exist and a is in the domain of f: 
+            <MathComponent tex="f'(a) = \lim_{x\to a} \frac{f(x) - f(a)}{x - a}" /> (1)
+            </p>
+            <p>or</p>
+            <p>
+              
+                <MathComponent tex="f'(a) = \lim_{h\to 0} \frac{f(a + h) - f(a)}{h}" />
+                (2)
+            </p>
+            <p>
+                If f'(a) exists, we say that f is differentiable at a.
+                
+            </p>
+    
+        </span> *59
       
 
             
