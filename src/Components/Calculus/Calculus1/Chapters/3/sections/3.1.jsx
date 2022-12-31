@@ -81,19 +81,47 @@ export default function Calculus1_Ch3_Sec1() {
             <div className="examples"> 
                 <div className="Example1">
                     <h3>Example 1</h3>
-                        <p>Continuity at a Point</p>
-                        <p>Determine whether the following function is continuous at a. Use the continuity checklist to justify your answer</p>
-                        <MathComponent tex="f(x) = \frac{2x^{2} + 3x + 1}{x^{2} + 5x}" />
-                        <MathComponent tex="a = -5" />
+                        <p>Derivatives and tangent lines</p>
+                        <p>a. For the following functions and values of a, find f'(a).</p>
+                        <p>b. Determine an equation of the line tangent to the graph of f at the point (a, f(a)) for the given value of a.</p>
+                        <MathComponent tex="f(x) = 8x" />
+                        <MathComponent tex="a = -3" />
 
                         <p>Answer:</p>
-                        <p>No, the function isn't continuous because <MathComponent tex="f(x) = \frac{something}{0}" /> so f(-5) will be undefined</p>
+                        <p>a. 8 </p>
+                        <p>b.  <MathComponent tex="y = 8x" /></p>
+
+                        <div>
+                        <MathComponent tex="f(x) = \frac{1}{x + 5}" />
+                        <MathComponent tex="a = 5" />
+
+                        <p>Answer:</p>
+                        <p>a.  <MathComponent tex="- \frac{1}{100}" /></p>
+                        <p>b.  <MathComponent tex="y = - \frac{x}{100} + \frac{3}{20}" /></p>
+                        </div>
                     <span>
                         
-                    </span> *
+                    </span> *60
                 </div>
 
               
+                <div className="Example2">
+                    <h3>Example 2</h3>
+                        <p>Derivatives Calculations</p>
+                        <p>Evaluate the derivative of the following functions at the given point.</p>
+                        
+                        <div>
+                        <MathComponent tex="f(t) = \frac{1}{t + 1}" />
+                        <MathComponent tex="a = 1" />
+
+                        <p>Answer:</p>
+                        <p><MathComponent tex="- \frac{1}{4}" /></p>
+                        
+                        </div>
+                    <span>
+                        
+                    </span> *61
+                </div>
 
                 
             </div>
