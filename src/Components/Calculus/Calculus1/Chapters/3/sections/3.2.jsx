@@ -46,6 +46,21 @@ export default function Calculus1_Ch3_Sec2() {
            
         </span> *66
 
+
+        <h2>When Is a Function Not Differentiable at a Point? </h2>
+        <span>
+           
+            <p>
+              A function f is not differentiable at a if at least one of the following conditions holds:
+            </p>
+            <ul>
+                <li>a. f is not continuous at a</li>
+                <li>b. f has a corner at a</li>
+                <li>c. f has a vertical tangent at a</li>
+            </ul>
+           
+        </span> *67
+
             
             </div>
 
