@@ -69,11 +69,46 @@ export default function Calculus1_Ch3_Sec2() {
             <div className="examples"> 
                 <div className="Example1">
                     <h3>Example 1</h3>
-                       
+                       <h2>Derivatives</h2>
+                       <p>a. Use limits to find the derivative function f' for the following function f.</p>
+                       <p>b. Evaluate f'(a) for the given values of a.</p>
+
+                       <MathComponent tex="f(x) = 5x + 2" />
+                       <MathComponent tex="a = 1, 2" />
+
+                       <div>
+                        Answer:
+                       <p>a.<MathComponent tex="f' (x) = 5" /> </p> 
+                       <p>b. <MathComponent tex="f'(1) = 5" />
+                       <MathComponent tex="f'(2) = 5" />
+                        </p> 
+                       </div>
                     <span>
                         
-                    </span> *
+                    </span> *68
                 </div>
+
+                <div className="Example2">
+                    <h3>Example 2</h3>
+                       <h2>Derivatives</h2>
+                       <p>a. Use limits to find the derivative function f' for the following function f.</p>
+                       <p>b. Evaluate f'(a) for the given values of a.</p>
+
+                       <MathComponent tex="f(s) = 4s^{3} + 3s" />
+                       <MathComponent tex="a = -3, -1" />
+
+                       <div>
+                        Answer:
+                       <p>a.<MathComponent tex="f' (s) = 12s^{2} + 3" /> </p> 
+                       <p>b. <MathComponent tex="f'(-3) = 111" />
+                       <MathComponent tex="f'(-1) = 15" />
+                        </p> 
+                       </div>
+                    <span>
+                        
+                    </span> *69
+                </div>
+
 
               
              
