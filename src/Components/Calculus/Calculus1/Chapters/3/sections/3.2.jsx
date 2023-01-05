@@ -109,8 +109,51 @@ export default function Calculus1_Ch3_Sec2() {
                     </span> *69
                 </div>
 
+                <div className="Example3">
+                    <h3>Example 3</h3>
+                       <h2>Velocity Functions</h2>
+                       <p>A projectile is fired vertically upward into the air, and its position (in feet) above the ground after t seconds is given by the function s(t)</p>
+                       <p>a. For the following functions s(t), find the instantaneous velocity functions v(t).
+                        (Recall that the velocity function v is the derivative of the position function s.)</p>
+                        <p>b. Determine the instantaneous velocity of the projectile at t = 1 and t = 2 seconds.</p>
 
+                       <MathComponent tex="s(t)) = -16t^{2} + 100t" />
+                       
+
+                       <div>
+                        Answer:
+                       <p>a.<MathComponent tex="v(t) = -32t + 100" /> </p> 
+                       <p>b. <MathComponent tex="v(1) = 68" /> ft/s
+                       <MathComponent tex="v(2) = 36" /> ft/s
+                        </p> 
+                       </div>
+                    <span>
+                        
+                    </span> *70
+                </div>
               
+
+                <div className="Example4">
+                    <h3>Example 4</h3>
+                       <h2>Tangent Lines</h2>
+                       <p>a. Find the derivative function f' for the following functions f.</p>
+                       <p>b. Find an equation of the line tangent to the graph of f at (a, f(a)) for the given value of a</p>
+                        
+
+                       <MathComponent tex="f(x)) = 3x^{2} + 2x - 10" />
+                       <MathComponent tex="a = 1" />
+
+                       <div>
+                        Answer:
+                       <p>a.<MathComponent tex="6x + 2" /> </p> 
+                       <p>b. <MathComponent tex="y = 8x - 13" /> 
+                       
+                        </p> 
+                       </div>
+                    <span>
+                        
+                    </span> *71
+                </div>
              
                 
             </div>
