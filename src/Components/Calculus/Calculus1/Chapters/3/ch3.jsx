@@ -19,7 +19,7 @@ export default function Calculus1_Ch3() {
         <p>Intro to Sec 3.1</p>
         <Link to="Sec3.2"><p>Sec 3.2 The Derivative as a Function</p></Link>
         <p>Intro to Sec 2.2</p>
-        <Link to="Sec2.3"><p>Sec 2.3 Techniques for Computing Limits</p></Link>
+        <Link to="Sec3.3"><p>Sec 3.3 Rules of Differentiation</p></Link>
         <p>Intro to Sec 2.3</p>
         <Link to="Sec2.4"><p>Sec 2.4 Infinite Limits</p></Link>
         <p>Intro to Sec 2.4</p>
