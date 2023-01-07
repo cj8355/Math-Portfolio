@@ -26,6 +26,15 @@ export default function Calculus1_Ch3_Sec3() {
             </p> *73
 
 
+            <h2>Constant Multiple Rule</h2>
+      <p>
+            If f is differentiable at x and c is a constant , then <MathComponent tex="\frac{d}{dx} (cf(x)) = cf'(x)" />
+            </p> *74
+
+            <h2>Sum Rule</h2>
+      <p>
+            If f and g are differentiable at x , then <MathComponent tex="\frac{d}{dx} (f(x) + g(x)) = f'(x) + g'(x)" />
+            </p> *75
 
 
             </div>
