@@ -37,6 +37,27 @@ export default function Calculus1_Ch3_Sec3() {
             </p> *75
 
 
+            <h2> The Number e</h2>
+      <p>
+            The number e = 2.718281828459... satisfies <MathComponent tex="\lim_{h\to 0} \frac{e^{h} - 1}{h} = 1" />
+            It is the base of the batural exponential function <MathComponent tex="f(x) = e^{x}" />
+            </p> *76
+
+            <h2>The Derivative of e^x</h2>
+            <p>
+                The function <MathComponent tex="f(x) = e^{x}" /> is differentiable for all real numbers x, and
+                <MathComponent tex="\frac{d}{dx} (e^{x}) = e^{x}" />
+            </p> *77
+
+            <h2>Higher-Order Derivatives</h2>
+            <p>
+                Assuming  <MathComponent tex="y = f(x)" /> can be differentiated as often as necessary. the second derivative of f is
+                <MathComponent tex="f''(x) = \frac{d}{dx} (f'(x))" />
+                For integers <MathComponent tex="n \geq 1" /> the nth derivative of f is
+                <MathComponent tex="f^{('')} (x) = \frac{d}{dx} (f^{(n - 1)} (x))" />
+            </p> *78
+
+
             </div>
 
 
