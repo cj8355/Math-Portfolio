@@ -65,11 +65,49 @@ export default function Calculus1_Ch3_Sec3() {
             <div className="examples"> 
                 <div className="Example1">
                     <h3>Example 1</h3>
-                      
+                      <h2>Derivatives</h2>
+                      <p>
+                        Find the derivative of the following function.
+                      </p>
+                      <MathComponent tex="f(x) = 5" />
+                    <p>
+                        Answer:
+                        <MathComponent tex="f'(x) = 0" />
+                    </p>
                         
-                    *
+                    *79
                 </div>
 
+                <div className="Example2">
+                    <h3>Example 2</h3>
+                      <h2>Derivatives</h2>
+                      <p>
+                        Find the derivative of the following function.
+                      </p>
+                      <MathComponent tex="f(x) = 5x^{3}" />
+                    <p>
+                        Answer:
+                        <MathComponent tex="f'(x) = 15x^{2}" />
+                    </p>
+                        
+                    *80
+                </div>
+
+
+                <div className="Example3">
+                    <h3>Example 3</h3>
+                      <h2>Derivatives</h2>
+                      <p>
+                        Find the derivative of the following function.
+                      </p>
+                      <MathComponent tex="g(t) = 100t^{2}" />
+                    <p>
+                        Answer:
+                        <MathComponent tex="g'(t) = 200t" />
+                    </p>
+                        
+                    *81
+                </div>
              
              
                 
