@@ -109,6 +109,40 @@ export default function Calculus1_Ch3_Sec3() {
                     *81
                 </div>
              
+
+                <div className="Example4">
+                    <h3>Example 4</h3>
+                      <h2>Derivatives of products and quotients</h2>
+                      <p>
+                        Find the derivative of the following functions by first expanding or simplifying the expression. Simplify your answer.
+                      </p>
+                      <MathComponent tex="f(x) = (2x + 1)(3x^{2} + 2)" />
+                    <p>
+                        Answer:
+                        <MathComponent tex="f(x) = 6x^{3} + 3x^{2} + 4x + 2" />
+                        <MathComponent tex="f'(x) = 18x^{2} + 6x + 4" />
+                    </p>
+                        
+                    *82
+                </div>
+
+
+                <div className="Example5">
+                    <h3>Example 5</h3>
+                      <h2>Higher-order Derivatives</h2>
+                      <p>
+                        Find f'(x), f''(x), f'''(x) for the following function.
+                      </p>
+                      <MathComponent tex="f(x) = 5x^{4} + 10x^{3} + 3x + 6" />
+                    <p>
+                        Answer:
+                        <MathComponent tex="f'(x) = 20x^{3} + 30x^{2} + 3" />
+                        <MathComponent tex="f''(x) = 60x^{2} + 60x" />
+                        <MathComponent tex="f'''(x) = 120x + 60" />
+                    </p>
+                        
+                    *83
+                </div>
              
                 
             </div>
