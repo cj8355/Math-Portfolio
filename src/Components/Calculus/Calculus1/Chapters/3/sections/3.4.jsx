@@ -26,6 +26,13 @@ export default function Calculus1_Ch3_Sec4() {
             </p> *85
 
 
+            <h2>Power Rule</h2>
+      <p>
+            If n is any real number, then
+             <MathComponent tex="\frac{d}{dx} (x^{n})= nx^{n - 1}" />
+            </p> *86
+
+
             </div>
 
 
