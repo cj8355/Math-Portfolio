@@ -40,11 +40,44 @@ export default function Calculus1_Ch3_Sec4() {
             <div className="examples"> 
                 <div className="Example1">
                     <h3>Example 1</h3>
-                      <h2></h2>
-                    
-                        
-                    *
+                      <h4>Derivatives</h4>
+                    <p>Find and simplify the derivative of the following function.</p>
+                    <MathComponent tex="f(x) = \frac{x}{x + 1}" />
+
+                    <p>
+                        Answer:
+                        <MathComponent tex="\frac{1}{(x + 1)^{2}}" />
+                    </p>
+                    *87
                 </div>
+
+                <div className="Example2">
+                    <h3>Example 2</h3>
+                      <h4>Derivatives</h4>
+                    <p>Find and simplify the derivative of the following function.</p>
+                    <MathComponent tex="f(x) = 3x^{-9}" />
+
+                    <p>
+                        Answer:
+                        <MathComponent tex="-27x^{-10}" />
+                    </p>
+                    *88
+                </div>
+
+
+                <div className="Example3">
+                    <h3>Example 3</h3>
+                      <h4>Derivatives</h4>
+                    <p>Find and simplify the derivative of the following function.</p>
+                    <MathComponent tex="g(w) = \frac{\sqrt{w} + w}{\sqrt{w} - w}" />
+
+                    <p>
+                        Answer:
+                        <MathComponent tex="\frac{\sqrt{w}}{(\sqrt{w} - w)^{2}}" />
+                    </p>
+                    *89
+                </div>
+
 
              
              
