@@ -79,6 +79,36 @@ export default function Calculus1_Ch3_Sec4() {
                 </div>
 
 
+                <div className="Example4">
+                    <h3>Example 4</h3>
+                      <h4>Higher-Order Derivatives</h4>
+                    <p>Find f'(x), f''(x), f'''(x).</p>
+                    <MathComponent tex="f(x) = x^{2} (2 + x^{-3})" />
+
+                    <p>
+                        Answer:
+                        <MathComponent tex="f'(x) = 4x - \frac{1}{x^{2}}" />
+                        <MathComponent tex="f''(x) = 2( \frac{1}{x^{3}} + 2)" />
+                        <MathComponent tex="f'''(x) = - \frac{6}{x^{4}}" />
+                    </p>
+                    *90
+                </div>
+
+
+                <div className="Example5">
+                    <h3>Example 5</h3>
+                      <h4>First and second derivatives</h4>
+                    <p>Find f'(x) and f''(x).</p>
+                    <MathComponent tex="f(x) = \frac{x^{2} - 7x}{x + 1}" />
+
+                    <p>
+                        Answer:
+                        <MathComponent tex="f'(x) = \frac{x^{2} + 2x - 7}{(x + 1)^{2}}" />
+                        <MathComponent tex="f''(x) = \frac{16}{(x + 1)^{3}}" />
+                        
+                    </p>
+                    *91
+                </div>
              
              
                 
