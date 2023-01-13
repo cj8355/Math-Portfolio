@@ -23,7 +23,7 @@ export default function Calculus1_Ch3() {
         <p>Intro to Sec 2.3</p>
         <Link to="Sec3.4"><p>Sec 3.4 The Product and Quotient Rules</p></Link>
         <p>Intro to Sec 2.4</p>
-        <Link to="Sec2.5"><p>Sec 2.5 Limits at Infinity</p></Link>
+        <Link to="Sec3.5"><p>Sec 3.5 Derivatives of Trigonometric Functions</p></Link>
         <p>Intro to Sec 2.5</p>
         <Link to="Sec2.6"><p>Sec 2.6 Continuity</p></Link>
         <p>Intro to Sec 2.6</p>
