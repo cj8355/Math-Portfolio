@@ -48,7 +48,74 @@ export default function Calculus1_Ch3_Sec5() {
 
             <h1>Examples</h1>
             <div className="examples"> 
-               
+            <div className="Example1">
+                    <h3>Example 1</h3>
+                      <h4>Trigonometric limits</h4>
+                    <p>Use Trigonometric Limits to evaluate the following limits.</p>
+                    <MathComponent tex="\lim_{x\to 0} \frac{sin 3x}{x}" />
+
+                    <p>
+                        Answer:
+                        3
+                    </p>
+                    *95
+                </div>
+
+
+                <div className="Example2">
+                    <h3>Example 2</h3>
+                      <h4>Trigonometric limits</h4>
+                    <p>Use Trigonometric Limits to evaluate the following limits.</p>
+                    <MathComponent tex="\lim_{x\to 0} \frac{tan 5x}{x}" />
+
+                    <p>
+                        Answer:
+                        5
+                    </p>
+                    *96
+                </div>
+
+
+                <div className="Example3">
+                    <h3>Example 3</h3>
+                      <h4>Calculating Derivatives</h4>
+                    <p>Find the derivative of the following function.</p>
+                    <MathComponent tex="y = sinx + cosx" />
+
+                    <p>
+                        Answer:
+                        <MathComponent tex="cos x - sin x" />
+                    </p>
+                    *97
+                </div>
+
+
+                <div className="Example4">
+                    <h3>Example 4</h3>
+                      <h4>Calculating Derivatives</h4>
+                    <p>Find the derivative of the following function.</p>
+                    <MathComponent tex="y = cos^{2} x" />
+
+                    <p>
+                        Answer:
+                        <MathComponent tex="-2 sinx cosx = -sin 2x" />
+                    </p>
+                    *98
+                </div>
+
+
+                <div className="Example5">
+                    <h3>Example 5</h3>
+                      <h4>Second Derivatives</h4>
+                    <p>Find y" for the following function.</p>
+                    <MathComponent tex="y = x sin x" />
+
+                    <p>
+                        Answer:
+                        <MathComponent tex="2 cos x - x sin x" />
+                    </p>
+                    *99
+                </div> 
              
              
                 
