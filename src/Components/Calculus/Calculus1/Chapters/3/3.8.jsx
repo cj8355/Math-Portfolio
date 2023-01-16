@@ -48,9 +48,88 @@ export default function Calculus1_Ch3_Sec8() {
             <div className="examples"> 
             <div className="Example1">
                     <h3>Example 1</h3>
-                      
+                    <h4>Implicit Differentiation</h4>
+                      <p>Carry out the following steps</p>
+                      <p>
+                        a. Use implicit differentiation to find <MathComponent tex="\frac{dy}{dx}" />
+                        b. Find the slope of the curve at the given point.
+                      </p>
+                     
+                      <MathComponent tex="x^{4} + y^{4} = 2" /> (1, -1)
+
+
+                    <p>
+                        Answer:
+                        a.
+                        <MathComponent tex="y^{4} = 2 - x^{4}" />
+                        <MathComponent tex="- \frac{x^{3}}{y^{3}}" />
+                        b.
+                        1
+                    </p>
+                    *118
                 </div>
 
+
+                <div className="Example2">
+                    <h3>Example 2</h3>
+                    <h4>Implicit Differentiation</h4>
+                      
+                      <p>
+                        Use implicit differentiation to find <MathComponent tex="\frac{dy}{dx}" />
+                       
+                      </p>
+                     
+                      <MathComponent tex="sinx + siny = y" /> 
+
+
+                    <p>
+                        Answer:
+                        <MathComponent tex="\frac{cos x}{1 - cos y}" />
+                        
+                    </p>
+                    *119
+                </div>
+
+
+                <div className="Example3">
+                    <h3>Example 3</h3>
+                    <h4>Implicit Differentiation</h4>
+                      
+                      <p>
+                        Use implicit differentiation to find <MathComponent tex="\frac{dy}{dx}" />
+                       
+                      </p>
+                     
+                      <MathComponent tex="6x^{3} + 7y^{3} = 13xy" /> 
+
+
+                    <p>
+                        Answer:
+                        <MathComponent tex="\frac{13y - 18x^{2}}{21y^{2} - 13x}" />
+                        
+                    </p>
+                    *120
+                </div>
+
+                <div className="Example4">
+                    <h3>Example 4</h3>
+                    <h4>Second Derivatives</h4>
+                      
+                      <p>
+                        Find <MathComponent tex="\frac{d^{2}y}{dx^{2}}" />
+                       
+                      </p>
+                     
+                      <MathComponent tex="x + y^{2} = 1" /> 
+
+
+                    <p>
+                        Answer:
+                        <MathComponent tex="- \frac{1}{4y^{3}}" />
+                        
+                    </p>
+                    *121
+                </div>
            
              
                 
