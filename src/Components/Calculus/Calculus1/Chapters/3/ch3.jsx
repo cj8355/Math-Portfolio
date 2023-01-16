@@ -27,6 +27,8 @@ export default function Calculus1_Ch3() {
         <p>Intro to Sec 2.5</p>
         <Link to="Sec3.6"><p>Sec 3.6 Derivatives as Rates of Change</p></Link>
         <p>Intro to Sec 2.6</p>
+        <Link to="Sec3.7"><p>Sec 3.7 The Chain Rule</p></Link>
+        <p>Intro to Sec 2.6</p>
             .....
         </div>
     );
