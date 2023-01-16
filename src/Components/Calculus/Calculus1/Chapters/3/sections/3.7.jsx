@@ -57,13 +57,82 @@ export default function Calculus1_Ch3_Sec7() {
             <div className="Example1">
                     <h3>Example 1</h3>
                       <h4></h4>
+                      <p>
+                        For each of the following composite functions, find an inner function u = g(x)
+                        and an outer function y = f(u) such that y = f(g(x)), Then calculate dy/dx.
+                      </p>
                      
-                    
+                      <MathComponent tex="y = (3x + 7)^{10}" />
 
-                    *
+                      <p>
+                        Answer:
+
+                        <MathComponent tex="u = 3x + 7" />
+                        <MathComponent tex="f(u) = u^{10}" />
+                        <MathComponent tex="30(3x + 7)^{9}" />
+                      </p>
+
+                    *111
+                </div>
+
+                <div className="Example2">
+                    <h3>Example 2</h3>
+                      <h4></h4>
+                      <p>
+                        Calculate the derivative of the following function.
+                      </p>
+                     
+                      <MathComponent tex="y = (3x^{2} + 7x)^{10}" />
+
+                      <p>
+                        Answer:
+
+                        <MathComponent tex="10(6x + 7)(3x^{2} + 7x)^{9}" />
+                        
+                      </p>
+
+                    *112
                 </div>
 
 
+                <div className="Example3">
+                    <h3>Example 3</h3>
+                      <h4></h4>
+                      <p>
+                        Calculate the derivative of the following function.
+                      </p>
+                     
+                      <MathComponent tex="y = tan e^{x}" />
+
+                      <p>
+                        Answer:
+
+                        <MathComponent tex="e^{x} sec^{2} e^{x}" />
+                        
+                      </p>
+
+                    *113
+                </div>
+
+
+                <div className="Example4">
+                    <h3>Example 4</h3>
+                      <h4></h4>
+                      <p>
+                        Calculate the derivative of the following function.
+                      </p>
+                     
+                      <MathComponent tex="y = (p + 3)^{2} sin p^{2}" />
+
+                      <p>
+                        Answer:
+
+                        <MathComponent tex="2(p + 3)(sinp^{2} + p(p + 3) cos p^{2})" />
+                        
+                      </p>
+
+                    *114
+                </div>
 
              
                 
