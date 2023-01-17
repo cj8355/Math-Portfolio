@@ -61,7 +61,81 @@ export default function Calculus1_Ch3_Sec9() {
 
             <h1>Examples</h1>
             <div className="examples"> 
-         
+            <div className="Example1">
+                    <h3>Example 1</h3>
+                    <h4>Derivatives</h4>
+                      <p>Find the derivative of the following function.</p>
+                      
+                      <MathComponent tex="y = ln 7x" />
+
+                      <p>
+                        Answer:
+                        
+                        <MathComponent tex="\frac{1}{x}" />
+                      </p>
+
+
+                  
+                    *127
+                </div>
+
+
+                <div className="Example2">
+                    <h3>Example 2</h3>
+                    <h4>Derivatives</h4>
+                      <p>Find the derivative of the following function.</p>
+                      
+                      <MathComponent tex="y = x^{e}" />
+
+                      <p>
+                        Answer:
+                        
+                        <MathComponent tex="ex^{e - 1}" />
+                      </p>
+
+
+                  
+                    *128
+                </div>
+
+
+                <div className="Example3">
+                    <h3>Example 3</h3>
+                    <h4>Logarithmic differentiation</h4>
+                      <p>Use logarithmic differentiation to evaluate f'(x).</p>
+                      
+                      <MathComponent tex="f(x) = x^{10x}" />
+
+                      <p>
+                        Answer:
+                        
+                        <MathComponent tex="10x^{10x} (1 + ln x)" />
+                      </p>
+
+
+                  
+                    *129
+                </div>
+
+
+                <div className="Example4">
+                    <h3>Example 4</h3>
+                    <h4>Logarithmic differentiation</h4>
+                      <p>Use logarithmic differentiation to evaluate f'(x).</p>
+                      
+                      <MathComponent tex="f(x) = (1 + \frac{1}{x)^{x}}" />
+
+                      <p>
+                        Answer:
+                        
+                        <MathComponent tex="(1 + \frac{1}{x})^{x} (ln(1 + \frac{1}{x}) - \frac{1}{x + 1})" />
+                      </p>
+
+
+                  
+                    *130
+                </div>
+              
            
              
                 
