@@ -60,18 +60,73 @@ export default function Calculus1_Ch3_Sec10() {
             <div className="examples"> 
             <div className="Example1">
                     <h3>Example 1</h3>
-                    <h4></h4>
+                    <h4>Evaluate the derivative of the following function</h4>
                       
-                      
+                    <MathComponent tex="f(x) = sin^{-1} 2x" />
                      
-
+                    <p>
+                        Answer:
+                        <MathComponent tex="\frac{2}{\sqrt{1 - 4x^{2}}}" />
+                    </p>
 
                   
-                    *
+                    *134
                 </div>
 
 
-             
+                <div className="Example2">
+                    <h3>Example 2</h3>
+                    <h4>Evaluate the derivative of the following function</h4>
+                      
+                    <MathComponent tex="f(x) = cos^{-1} (1/x)" />
+                     
+                    <p>
+                        Answer:
+                        <MathComponent tex="\frac{1}{|x| \sqrt{x^{2} - 1}}" />
+                    </p>
+
+                  
+                    *135
+                </div>
+
+
+                <div className="Example3">
+                    <h3>Example 3</h3>
+                    <h4>Derivatives of Inverse functions at a point</h4>
+                      
+                    <p>
+                        Consider the following functions. In each case, without finding the inverse, evaluate the
+                        derivative of the inverse at the given point.
+                    </p>
+                    <MathComponent tex="f(x) = 3x + 4" />; (16, 4)
+                     
+                    <p>
+                        Answer:
+                        <MathComponent tex="\frac{1}{3}" />
+                    </p>
+
+                  
+                    *136
+                </div>
+
+
+                <div className="Example4">
+                    <h3>Example 4</h3>
+                    <h4>Derivatives of Inverse functions</h4>
+                      
+                    <p>
+                        Consider the following functions. Find the derivative of the inverse function.
+                    </p>
+                    <MathComponent tex="f(x) = 3x - 4" />
+                     
+                    <p>
+                        Answer:
+                        <MathComponent tex="\frac{1}{3}" />
+                    </p>
+
+                  
+                    *137
+                </div>
            
              
                 
