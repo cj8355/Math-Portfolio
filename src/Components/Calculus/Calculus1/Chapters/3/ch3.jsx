@@ -35,6 +35,8 @@ export default function Calculus1_Ch3() {
         <p>Intro to Sec 2.6</p>
         <Link to="Sec3.10"><p>Sec 3.10 Derivatives of Inverse Trigonometric Functions</p></Link>
         <p>Intro to Sec 2.6</p>
+        <Link to="Sec3.11"><p>Sec 3.11 Related Rates</p></Link>
+        <p>Intro to Sec 2.6</p>
             .....
         </div>
     );
