@@ -95,13 +95,88 @@ export default function Calculus1_Ch4_Sec1() {
             <div className="examples"> 
             <div className="Example1">
                     <h3>Example 1</h3>
-                      <h4></h4>
+                      <h4>Locating critical points</h4>
+                      <p>
+                        Find the critical points of the following function. Assume a is a nonzero constant.
+                      </p>
                      
                      
-                      <MathComponent tex="" />
+                      <MathComponent tex="f(x) = 3x^{2} - 4x + 2" />
+
+                      <p>
+                        Answer:
+                        <MathComponent tex="x = \frac{2}{3}" />
+                      </p>
 
 
-                    *
+                    *149
+                </div>
+
+
+                <div className="Example2">
+                    <h3>Example 2</h3>
+                      <h4>Locating critical points</h4>
+                      <p>
+                        Find the critical points of the following function. Assume a is a nonzero constant.
+                      </p>
+                     
+                     
+                      <MathComponent tex="f(x) = x \sqrt{x - a}" />
+
+                      <p>
+                        Answer:
+                        If <MathComponent tex="a \geq 0" />, there is no critical point. If <MathComponent tex="a < 0" />, x = 2a/3 is
+                        the only critical point.
+                      </p>
+
+
+                    *150
+                </div>
+
+
+                <div className="Example3">
+                    <h3>Example 3</h3>
+                      <h4>Absolute maxima and minima</h4>
+                      <p>
+                        Determine the location and value of the absolute extreme values of f on the given interval,
+                        if they exist.
+                      </p>
+                     
+                     
+                      <MathComponent tex="f(x) = x^{2} - 10" /> on [-2, 3]
+
+                      <p>
+                        Answer:
+                        Abs max: -1 at x = 3
+                        Abs min: -10 at x = 0
+                         
+                      </p>
+
+
+                    *151
+                </div>
+
+
+                <div className="Example4">
+                    <h3>Example 4</h3>
+                      <h4>Absolute maxima and minima</h4>
+                      <p>
+                        Determine the location and value of the absolute extreme values of f on the given interval,
+                        if they exist.
+                      </p>
+                     
+                     
+                      <MathComponent tex="f(x) = x^{2} + cos^{-1} x" /> on [-1, 1]
+
+                      <p>
+                        Answer:
+                        Abs max: <MathComponent tex="1 + \pi" /> at x = -1
+                        Abs min: 1 at x = 1
+                         
+                      </p>
+
+
+                    *152
                 </div>
 
               
