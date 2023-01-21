@@ -13,6 +13,8 @@ export default function Calculus1() {
         <p>Intro to ch 2</p>
         <Link to="Ch.3"><p>Ch. 3</p></Link>
         <p>Intro to ch 3</p>
+        <Link to="Ch.4"><p>Ch. 4</p></Link>
+        <p>Intro to ch 4</p>
             .....
         </div>
     );

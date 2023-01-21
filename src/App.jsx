@@ -27,6 +27,8 @@ import Calculus1_Ch3_Sec6 from './Components/Calculus/Calculus1/Chapters/3/secti
 import Calculus1_Ch3_Sec7 from './Components/Calculus/Calculus1/Chapters/3/sections/3.7';
 import Calculus1_Ch3_Sec8 from './Components/Calculus/Calculus1/Chapters/3/sections/3.8';
 import Calculus1_Ch3_Sec9 from './Components/Calculus/Calculus1/Chapters/3/sections/3.9';
+import Calculus1_Ch4_Sec1 from './Components/Calculus/Calculus1/Chapters/4/sections/4.1';
+import Calculus1_Ch4 from './Components/Calculus/Calculus1/Chapters/4/ch4';
 import Calculus2 from './Components/Calculus/Calculus2/Calculus2';
 import Home from './Components/Home/Home';
 import NotFound from './Components/NotFound';
@@ -73,6 +75,8 @@ function App() {
         <Route path='/calculus/calculus1/Ch.3/Sec3.10' element={<Calculus1_Ch3_Sec10/>}/>
         <Route path='/calculus/calculus1/Ch.3/Sec3.11' element={<Calculus1_Ch3_Sec11/>}/>
 
+        <Route path='/calculus/calculus1/Ch.4' element={<Calculus1_Ch4 />}/>
+        <Route path='/calculus/calculus1/Ch.4/Sec4.1' element={<Calculus1_Ch4_Sec1/>}/>
 
         <Route path='/calculus/calculus2' element={<Calculus2 />}/>
         
