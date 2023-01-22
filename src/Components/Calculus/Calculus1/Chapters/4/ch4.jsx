@@ -15,8 +15,8 @@ export default function Calculus1_Ch4() {
             
         <Link to="Sec4.1"><p>Sec 4.1 Maxima and Minima</p></Link>
         <p>Intro to Sec 4.1</p>
-        <Link to="Sec4.2"><p>Sec 3.2 The Derivative as a Function</p></Link>
-        <p>Intro to Sec 2.2</p>
+        <Link to="Sec4.2"><p>Sec 4.2 Mean Value Theorem</p></Link>
+        <p>Intro to Sec 4.2</p>
         <Link to="Sec4.3"><p>Sec 3.3 Rules of Differentiation</p></Link>
         <p>Intro to Sec 2.3</p>
         <Link to="Sec4.4"><p>Sec 3.4 The Product and Quotient Rules</p></Link>

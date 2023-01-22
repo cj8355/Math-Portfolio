@@ -32,6 +32,7 @@ import Calculus1_Ch4 from './Components/Calculus/Calculus1/Chapters/4/ch4';
 import Calculus2 from './Components/Calculus/Calculus2/Calculus2';
 import Home from './Components/Home/Home';
 import NotFound from './Components/NotFound';
+import Calculus1_Ch4_Sec2 from './Components/Calculus/Calculus1/Chapters/4/sections/4.2';
 
 function App() {
   return (
@@ -77,6 +78,7 @@ function App() {
 
         <Route path='/calculus/calculus1/Ch.4' element={<Calculus1_Ch4 />}/>
         <Route path='/calculus/calculus1/Ch.4/Sec4.1' element={<Calculus1_Ch4_Sec1/>}/>
+        <Route path='/calculus/calculus1/Ch.4/Sec4.2' element={<Calculus1_Ch4_Sec2/>}/>
 
         <Route path='/calculus/calculus2' element={<Calculus2 />}/>
         
