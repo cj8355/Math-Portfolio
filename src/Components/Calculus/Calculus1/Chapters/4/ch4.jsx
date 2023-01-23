@@ -17,7 +17,7 @@ export default function Calculus1_Ch4() {
         <p>Intro to Sec 4.1</p>
         <Link to="Sec4.2"><p>Sec 4.2 Mean Value Theorem</p></Link>
         <p>Intro to Sec 4.2</p>
-        <Link to="Sec4.3"><p>Sec 3.3 Rules of Differentiation</p></Link>
+        <Link to="Sec4.3"><p>Sec 4.3 What Derivatives Tell Us</p></Link>
         <p>Intro to Sec 2.3</p>
         <Link to="Sec4.4"><p>Sec 3.4 The Product and Quotient Rules</p></Link>
         <p>Intro to Sec 2.4</p>
