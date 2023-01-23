@@ -132,19 +132,101 @@ export default function Calculus1_Ch4_Sec3() {
             <div className="examples"> 
             <div className="Example1">
                     <h3>Example 1</h3>
-                      <h4></h4>
-                      
+                      <h4>Increasing and Decreasing functions</h4>
+                      <p>Find the intervals on which f is increasing and the intervals on which it is decreasing.</p>
                      
-                      <MathComponent tex="" />
+                      <MathComponent tex="f(x) = 4 - x^{2}" />
+                      <p>
+                        Answer:
+                        Increasing on <MathComponent tex="(- \infty, 0)" />;
+                        Decreasing on <MathComponent tex="(0, \infty)" />
+                      </p>
 
 
-
-                    *
+                    *168
                 </div>
 
 
+                <div className="Example2">
+                    <h3>Example 2</h3>
+                      <h4>Increasing and Decreasing functions</h4>
+                      <p>Find the intervals on which f is increasing and the intervals on which it is decreasing.</p>
+                     
+                      <MathComponent tex="f(x) = 12 + x - x^{2}" />
+                      <p>
+                        Answer:
+                        Increasing on <MathComponent tex="(- \infty, 1/2)" />;
+                        Decreasing on <MathComponent tex="(1/2, \infty)" />
+                      </p>
 
+
+                    *169
+                </div>
                
+
+                <div className="Example3">
+                    <h3>Example 3</h3>
+                      <h4>First Derivative Test</h4>
+                      <div>
+                        <p>a. Locate the critical points of f.</p>
+                        <p>b. Use the First Derivative Test to locate the local maximum and minimum values.</p>
+                        <p>c. Identify the absolute maximum and minimum values of the function on the given interval (when they exist)</p>
+                      </div>
+                     
+                     <p> <MathComponent tex="f(x) = x^{2} + 3" /> on [-3, 2]</p>
+                     
+                      <p>
+                        Answer:
+                        <div>
+                            <p>a. x = 0</p>
+                            <p>b. Local min at x = 0</p>
+                            <p>c. Abs. min: 3 at x = 0; Abs. max: 12 at x = -3</p>
+                        </div>
+                      </p>
+
+
+                    *170
+                </div>
+
+
+                <div className="Example4">
+                    <h3>Example 4</h3>
+                      <h4>Concavity</h4>
+                      <p>Determine the intervals on which the following functions are concave up or concave down.
+                        Identify any inflection points.
+                      </p>
+                     
+                      <MathComponent tex="f(x) = x^{4} - 2x^{3} + 1" />
+                      <p>
+                        Answer:
+                        Concave up on <MathComponent tex="(- \infty, 0), (1, \infty)" />;
+                        Concave down on (0,1);
+                        inflection points at x=0 and x=1
+                      </p>
+
+
+                    *171
+                </div>
+
+
+                <div className="Example5">
+                    <h3>Example 5</h3>
+                      <h4>Concavity</h4>
+                      <p>Determine the intervals on which the following functions are concave up or concave down.
+                        Identify any inflection points.
+                      </p>
+                     
+                      <MathComponent tex="f(x) = e^{x}(x - 3)" />
+                      <p>
+                        Answer:
+                        Concave down on <MathComponent tex="(- \infty, 1)" />;
+                        Concave up on <MathComponent tex="(1, \infty)" />;
+                        inflection points at x=1
+                      </p>
+
+
+                    *172
+                </div>
               
              
                 
