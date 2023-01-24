@@ -19,7 +19,7 @@ export default function Calculus1_Ch4() {
         <p>Intro to Sec 4.2</p>
         <Link to="Sec4.3"><p>Sec 4.3 What Derivatives Tell Us</p></Link>
         <p>Intro to Sec 2.3</p>
-        <Link to="Sec4.4"><p>Sec 3.4 The Product and Quotient Rules</p></Link>
+        <Link to="Sec4.4"><p>Sec 4.4 Graphing Functions</p></Link>
         <p>Intro to Sec 2.4</p>
         <Link to="Sec4.5"><p>Sec 3.5 Derivatives of Trigonometric Functions</p></Link>
         <p>Intro to Sec 2.5</p>
