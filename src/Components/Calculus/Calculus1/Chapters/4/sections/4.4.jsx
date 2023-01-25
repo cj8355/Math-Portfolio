@@ -1,7 +1,10 @@
 import { Link } from "react-router-dom";
 import "./4.4.css";
 import { MathComponent } from "mathjax-react";
-
+import graph1 from "./images/graph1.png";
+import graph2 from "./images/graph2.png";
+import graph3 from "./images/graph3.png";
+import graph4 from "./images/graph4.png";
 
 
 export default function Calculus1_Ch4_Sec4() {
@@ -60,14 +63,75 @@ export default function Calculus1_Ch4_Sec4() {
             <div className="examples"> 
             <div className="Example1">
                     <h3>Example 1</h3>
-                      <h4></h4>
+                      <h4>Graphing Functions</h4>
+                      <p>Use the guidelines of this section to make a complete graph of f.</p>
                       
                      
-                      <MathComponent tex="" />
+                      <MathComponent tex="f(x) = x^{2} - 6x" />
+                      <p>
+                        Answer:<br/>
+                        <img src={graph1} alt="Graph of function" ></img>
+                      </p>
                       
 
 
-                    *
+                    *174
+                </div>
+
+
+                <div className="Example2">
+                    <h3>Example 2</h3>
+                      <h4>Graphing Functions</h4>
+                      <p>Use the guidelines of this section to make a complete graph of f.</p>
+                      
+                     
+                      <MathComponent tex="f(x) = \frac{x^{2}}{x - 2}" />
+                      <p>
+                        Answer:<br/>
+                        <img src={graph2} alt="Graph of function" ></img>
+                      </p>
+                      
+
+
+                    *175
+                </div>
+
+
+                <div className="Example3">
+                    <h3>Example 3</h3>
+                      <h4>Graphing Functions</h4>
+                      <p>Use the guidelines of this section to make a complete graph of f.</p>
+                      
+                     
+                      <MathComponent tex="f(x) = x - 3x^{1/3}" />
+                      <p>
+                        Answer:<br/>
+                        <img src={graph3} alt="Graph of function" ></img>
+                      </p>
+                      
+
+
+                    *176
+                </div>
+
+
+                <div className="Example4">
+                    <h3>Example 4</h3>
+                      <h4>Graphing with technology</h4>
+                      <p>Make a complete graph of the following functions. A graphing utility is useful in locating intercepts,
+                        local extreme values, and inflection points.
+                      </p>
+                      
+                     
+                      <MathComponent tex="f(x) = \frac{1}{3}x^{3} -2x^{2} - 5x + 2" />
+                      <p>
+                        Answer:<br/>
+                        <img src={graph4} alt="Graph of function" ></img>
+                      </p>
+                      
+
+
+                    *177
                 </div>
 
 
