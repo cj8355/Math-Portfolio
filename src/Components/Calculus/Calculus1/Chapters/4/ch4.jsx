@@ -21,7 +21,7 @@ export default function Calculus1_Ch4() {
         <p>Intro to Sec 2.3</p>
         <Link to="Sec4.4"><p>Sec 4.4 Graphing Functions</p></Link>
         <p>Intro to Sec 2.4</p>
-        <Link to="Sec4.5"><p>Sec 3.5 Derivatives of Trigonometric Functions</p></Link>
+        <Link to="Sec4.5"><p>Sec 4.5 Optimization Problems</p></Link>
         <p>Intro to Sec 2.5</p>
         <Link to="Sec4.6"><p>Sec 3.6 Derivatives as Rates of Change</p></Link>
         <p>Intro to Sec 2.6</p>
