@@ -23,7 +23,7 @@ export default function Calculus1_Ch4() {
         <p>Intro to Sec 2.4</p>
         <Link to="Sec4.5"><p>Sec 4.5 Optimization Problems</p></Link>
         <p>Intro to Sec 2.5</p>
-        <Link to="Sec4.6"><p>Sec 3.6 Derivatives as Rates of Change</p></Link>
+        <Link to="Sec4.6"><p>Sec 4.6 Linear Approximation and Differentials</p></Link>
         <p>Intro to Sec 2.6</p>
         <Link to="Sec4.7"><p>Sec 3.7 The Chain Rule</p></Link>
         <p>Intro to Sec 2.6</p>
