@@ -101,11 +101,83 @@ export default function Calculus1_Ch4_Sec7() {
             <div className="examples"> 
             <div className="Example1">
                     <h3>Example 1</h3>
+                      <h4>Limits</h4>
+                     <p>Evaluate the following limits. Use <MathComponent tex="L'H \hat{o}pital's \hspace{.05in} Rule" /> when it 
+                        is convenient and applicable.
+                     </p>
                       
+                     
+                     <MathComponent tex="\lim_{x\to 2} \frac{x^{2} - 2x}{x^{2} - 6x + 8}" /> 
+                    
+                    <p>
+                        Answer: <br/>
+                        <MathComponent tex="\lim_{x\to 2} \frac{f'(x)}{g'(x)} = \lim_{x\to 2} \frac{2x - 2}{2x - 6} = \frac{2}{-2} = -1" /> 
+                    </p>
                       
                    
 
-                    *
+                    *194
+                </div>
+
+
+                <div className="Example2">
+                    <h3>Example 2</h3>
+                      <h4>Limits</h4>
+                     <p>Evaluate the following limits. Use <MathComponent tex="L'H \hat{o}pital's \hspace{.05in} Rule" /> when it 
+                        is convenient and applicable.
+                     </p>
+                      
+                     
+                     <MathComponent tex="\lim_{x\to 0} \frac{3sin4x}{5x}" /> 
+                    
+                    <p>
+                        Answer: <br/>
+                        <MathComponent tex="\lim_{x\to 0} \frac{f'(x)}{g'(x)} = \lim_{x\to 0} \frac{12cos4x}{5} = \frac{12}{5}" /> 
+                    </p>
+                      
+                   
+
+                    *195
+                </div>
+
+                <div className="Example3">
+                    <h3>Example 3</h3>
+                      <h4>Limits</h4>
+                     <p>Evaluate the following limits. Use <MathComponent tex="L'H \hat{o}pital's \hspace{.05in} Rule" /> when it 
+                        is convenient and applicable.
+                     </p>
+                      
+                     
+                     <MathComponent tex="\lim_{x\to 0^{+}} x^{2x}" /> 
+                    
+                    <p>
+                        Answer: <br/>
+                        1 
+                    </p>
+                      
+                   
+
+                    *196
+                </div>
+
+
+                <div className="Example4">
+                    <h3>Example 4</h3>
+                      <h4>More Limits</h4>
+                     <p>Evaluate the following limits.
+                     </p>
+                      
+                     
+                     <MathComponent tex="\lim_{x\to 1} \frac{xlnx - x + 1}{xln^{2}x}" /> 
+                    
+                    <p>
+                        Answer: <br/>
+                        <MathComponent tex="\lim_{x\to 1} \frac{f''(x)}{g''(x)} = \frac{\frac{1}{x}}{\frac{2ln(x)}{x}+\frac{2}{x}} = \frac{1}{2}" /> 
+                    </p>
+                      
+                   
+
+                    *197
                 </div>
 
 
