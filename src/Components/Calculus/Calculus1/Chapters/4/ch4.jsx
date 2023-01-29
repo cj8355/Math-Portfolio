@@ -27,7 +27,7 @@ export default function Calculus1_Ch4() {
         <p>Intro to Sec 2.6</p>
         <Link to="Sec4.7"><p>Sec 4.7 L'Hopital's Rule</p></Link>
         <p>Intro to Sec 2.6</p>
-        <Link to="Sec4.8"><p>Sec 3.8 Implicit Differentiation</p></Link>
+        <Link to="Sec4.8"><p>Sec 4.8 Newton's Method</p></Link>
         <p>Intro to Sec 2.6</p>
         <Link to="Sec4.9"><p>Sec 3.9 Derivatives of Logarithmic and Exponential Functions</p></Link>
         <p>Intro to Sec 2.6</p>
