@@ -29,7 +29,7 @@ export default function Calculus1_Ch4() {
         <p>Intro to Sec 2.6</p>
         <Link to="Sec4.8"><p>Sec 4.8 Newton's Method</p></Link>
         <p>Intro to Sec 2.6</p>
-        <Link to="Sec4.9"><p>Sec 3.9 Derivatives of Logarithmic and Exponential Functions</p></Link>
+        <Link to="Sec4.9"><p>Sec 4.9 Antiderivatives</p></Link>
         <p>Intro to Sec 2.6</p>
         <Link to="Sec4.10"><p>Sec 3.10 Derivatives of Inverse Trigonometric Functions</p></Link>
         <p>Intro to Sec 2.6</p>
