@@ -15,6 +15,8 @@ export default function Calculus1() {
         <p>Intro to ch 3</p>
         <Link to="Ch.4"><p>Ch. 4</p></Link>
         <p>Intro to ch 4</p>
+        <Link to="Ch.5"><p>Ch. 5</p></Link>
+        <p>Intro to ch 5</p>
             .....
         </div>
     );
