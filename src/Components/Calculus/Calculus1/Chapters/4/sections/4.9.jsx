@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import "./4.9.css";
 import { MathComponent } from "mathjax-react";
-import graph5 from "./images/graph5.png";
 
 
 export default function Calculus1_Ch4_Sec9() {
@@ -64,14 +63,76 @@ export default function Calculus1_Ch4_Sec9() {
             <div className="examples"> 
             <div className="Example1">
                     <h3>Example 1</h3>
-                      <h4></h4>
+                      <h4>Finding Antiderivatives</h4>
+                      <p>
+                        Find all the antiderivatives of the following function. Check your work by taking derivatives
+                      </p>
                       
-                    
-                     
-                     <MathComponent tex="" /> 
+                     <MathComponent tex="f(x) = 5x^{4}" />
+
+                     <p>
+                        Answer:<br/>
+                        <MathComponent tex="F(x) = x^{5} + C" />
+                        </p> 
                      
 
-                    *
+                    *207
+                </div>
+
+
+                <div className="Example2">
+                    <h3>Example 2</h3>
+                      <h4>Finding Antiderivatives</h4>
+                      <p>
+                        Find all the antiderivatives of the following function. Check your work by taking derivatives
+                      </p>
+                      
+                     <MathComponent tex="f(x) = e^{x}" />
+
+                     <p>
+                        Answer:<br/>
+                        <MathComponent tex="F(x) = e^{x} + C" />
+                        </p> 
+                     
+
+                    *208
+                </div>
+
+                <div className="Example3">
+                    <h3>Example 3</h3>
+                      <h4>Indefinite integrals</h4>
+                      <p>
+                        Find all the antiderivatives of the following function. Check your work by differentiation.
+                      </p>
+                      
+                     <MathComponent tex="\int (3x^{5} - 5x^{9}) dx" />
+
+                     <p>
+                        Answer:<br/>
+                        <MathComponent tex="F(x) = \frac{1}{2}x^{6} - \frac{1}{2}x^{10} + C" />
+                        </p> 
+                     
+
+                    *209
+                </div>
+
+
+                <div className="Example4">
+                    <h3>Example 4</h3>
+                      <h4>Indefinite integrals</h4>
+                      <p>
+                        Find all the antiderivatives of the following function. Check your work by differentiation.
+                      </p>
+                      
+                     <MathComponent tex="\int \frac{1}{2y} dy" />
+
+                     <p>
+                        Answer:<br/>
+                        <MathComponent tex="F(x) = \frac{1}{2}ln|y| + C" />
+                        </p> 
+                     
+
+                    *210
                 </div>
 
              
