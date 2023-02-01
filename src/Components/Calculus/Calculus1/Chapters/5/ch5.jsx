@@ -12,9 +12,9 @@ export default function Calculus1_Ch5() {
             
            
             
-        <Link to="Sec5.1"><p>Sec 5.1 Maxima and Minima</p></Link>
+        <Link to="Sec5.1"><p>Sec 5.1 Approximating Areas under Curves</p></Link>
         <p>Intro to Sec 4.1</p>
-        <Link to="Sec5.2"><p>Sec 4.2 Mean Value Theorem</p></Link>
+        <Link to="Sec5.2"><p>Sec 5.2 Definite Integrals</p></Link>
         <p>Intro to Sec 4.2</p>
         <Link to="Sec5.3"><p>Sec 4.3 What Derivatives Tell Us</p></Link>
         <p>Intro to Sec 2.3</p>
