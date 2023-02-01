@@ -1,6 +1,11 @@
 import { Link } from "react-router-dom";
 import "./5.1.css";
 import { MathComponent } from "mathjax-react";
+import graph1 from "./images/graph1.png";
+import graph2 from "./images/graph2.png";
+import graph3 from "./images/graph3.png";
+import graph4 from "./images/graph4.png";
+import graph5 from "./images/graph5.png";
 
 
 export default function Calculus1_Ch5_Sec1() {
@@ -91,15 +96,91 @@ export default function Calculus1_Ch5_Sec1() {
             <div className="examples"> 
             <div className="Example1">
                     <h3>Example 1</h3>
-                      <h4></h4>
+                      <h4>Left and right Riemann sums</h4>
+                      <p>Complete the following steps for the given function, interval, and value of n.</p>
+                      <div>
+                        <p><b>a.</b>Sketch the graph of the following function on the given interval.</p>
+                        <p><b>b.</b>Calculate <MathComponent tex="\Delta x" />and the grid points <MathComponent tex="x_{0},x_{1},...,x_{n}" /></p>
+                        <p><b>c.</b>Illustrate the left and right Riemann sums. Then determine which Riemann sum underestimates and which
+                        sum overestimates the area under the curve.</p>
+                        <p><b>d.</b>Calculate the left and right Riemann sums.</p>
+                      </div>
                       
                       
-                     <MathComponent tex="" />
+                     <MathComponent tex="f(x) = x + 1" /> on [0,4]; n = 4
+
+                     <p>
+                        Answer:<br/>
+                        a/c.
+                        <img src={graph1} alt="Graph of function" ></img>
+                        <p>Left Riemann sum underestimates area</p>
+                        <img src={graph2} alt="Graph of function" ></img>
+                        <p>Right Riemann sum overestimates area</p>
+                        b. <MathComponent tex="\Delta x = 1;x_{0}=0,x_{1}=1,x_{2}=2,x_{3}=3,x_{4}=4" />
+                        d. 10, 14
+                     </p>
 
                      
-                     
+                    *215
+                </div>
 
-                    *
+
+                <div className="Example2">
+                    <h3>Example 2</h3>
+                      <h4>Left and right Riemann sums</h4>
+                      <p>Complete the following steps for the given function, interval, and value of n.</p>
+                      <div>
+                        <p><b>a.</b>Sketch the graph of the following function on the given interval.</p>
+                        <p><b>b.</b>Calculate <MathComponent tex="\Delta x" />and the grid points <MathComponent tex="x_{0},x_{1},...,x_{n}" /></p>
+                        <p><b>c.</b>Illustrate the left and right Riemann sums. Then determine which Riemann sum underestimates and which
+                        sum overestimates the area under the curve.</p>
+                        <p><b>d.</b>Calculate the left and right Riemann sums.</p>
+                      </div>
+                      
+                      
+                     <MathComponent tex="f(x) = x^{2} - 1" /> on [2,4]; n = 4
+
+                     <p>
+                        Answer:<br/>
+                        a/c.
+                        <img src={graph3} alt="Graph of function" ></img>
+                        <p>Left Riemann sum underestimates area</p>
+                        <img src={graph4} alt="Graph of function" ></img>
+                        <p>Right Riemann sum overestimates area</p>
+                        b. <MathComponent tex="\Delta x = 0.5;2,2.5,3,3.5,4" />
+                        d. 13.75, 19.75
+                     </p>
+
+                     
+                    *216
+                </div>
+
+
+                <div className="Example3">
+                    <h3>Example 3</h3>
+                      <h4>Midpoint Riemann sums</h4>
+                      <p>Complete the following steps for the given function, interval, and value of n.</p>
+                      <div>
+                        <p><b>a.</b>Sketch the graph of the following function on the given interval.</p>
+                        <p><b>b.</b>Calculate <MathComponent tex="\Delta x" />and the grid points <MathComponent tex="x_{0},x_{1},...,x_{n}" /></p>
+                        <p><b>c.</b>Illustrate the midpoint Riemann sum by sketching the appropriate rectangles</p>
+                        <p><b>d.</b>Calculate the midpoint Riemann sums.</p>
+                      </div>
+                      
+                      
+                     <MathComponent tex="f(x) = x^{2} - 1" /> on [2,4]; n = 4
+
+                     <p>
+                        Answer:<br/>
+                        a/c.
+                        <img src={graph5} alt="Graph of function" ></img>
+                        <p>Left Riemann sum underestimates area</p>
+                        b. <MathComponent tex="\Delta x = 1;0,1,2,3,4" />
+                        d. 20
+                     </p>
+
+                     
+                    *217
                 </div>
 
 
