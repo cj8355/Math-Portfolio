@@ -1,8 +1,10 @@
 import { Link } from "react-router-dom";
 import "./5.2.css";
 import { MathComponent } from "mathjax-react";
-import graph1 from "./images/graph1.png";
-
+import graph6 from "./images/graph6.png";
+import graph7 from "./images/graph7.png";
+import graph8 from "./images/graph8.png";
+import graph9 from "./images/graph9.png";
 
 
 export default function Calculus1_Ch5_Sec2() {
@@ -75,15 +77,107 @@ export default function Calculus1_Ch5_Sec2() {
             <div className="examples"> 
             <div className="Example1">
                     <h3>Example 1</h3>
-                      <h4> </h4>
+                      <h4>Approximating net area</h4>
+                      <p>The following functions are negative on the given interval.</p>
+                      <div>
+                        <p>a. Sketch the function on the interval.</p>
+                        <p>b. Approximate the net area bounded by the graph of f and the x-axis on the given interval using
+                            a left, right and midpoint Riemann sum with n = 4.
+                        </p>
+                      </div>
                       
                       
-                     <MathComponent tex="" />
+                     <MathComponent tex="f(x) = -2x - 1" /> <p>on [0,4]</p>
 
-                 
+                     <p>
+                        Answer: <br/>
+                        a.<img src={graph6} alt="Graph of function" ></img>
+                        <p>b. -16,-24,-20</p>
+                     </p>
 
-                     
-                    *
+                    *223
+                </div>
+
+
+                <div className="Example2">
+                    <h3>Example 2</h3>
+                      <h4>Approximating net area</h4>
+                      <p>The following functions are negative on the given interval.</p>
+                      <div>
+                        <p>a. Sketch the function on the interval.</p>
+                        <p>b. Approximate the net area bounded by the graph of f and the x-axis on the given interval using
+                            a left, right and midpoint Riemann sum with n = 4.
+                        </p>
+                      </div>
+                      
+                      
+                     <MathComponent tex="f(x) = sin2x" /> <p>on <MathComponent tex="[\frac{\pi}{2},\pi]" /></p>
+
+                     <p>
+                        Answer: <br/>
+                        a.<img src={graph7} alt="Graph of function" ></img>
+                        <p>b. -0.948,-0.948,-1.026</p>
+                     </p>
+
+                    *224
+                </div>
+
+
+                <div className="Example3">
+                    <h3>Example 3</h3>
+                      <h4>Approximating definite integrals</h4>
+                      <p>Complete the following steps for the given integral and the given value of n.</p>
+                      <div>
+                        <p>a. Sketch the graph of the integrand on the interval of integration.</p>
+                        <p>b. Calculate <MathComponent tex="\Delta x" /> and the grid points <MathComponent tex="x_{0},x_{1},...,x_{n}" />, assuming a regular partition.</p>
+                        <p>c. Calculate the left and right Riemann sums for the given value of n.</p>
+                        <p>d. Determine which Riemann sum (left or right) underestimates the value of the definite integral and which overestimates the value of the definite integral.</p>
+                      </div>
+                      
+                      
+                     <MathComponent tex="\int_{3}^{6} (1-2x) dx" /> <p>n = 6</p>
+
+                     <p>
+                        Answer: <br/>
+                        <div>
+                            <p>a.<img src={graph8} alt="Graph of function" ></img></p>
+                            <p>b.  <MathComponent tex="\Delta x = \frac{1}{2}; 3,3.5,4,4.5,5,5.5,6" /></p>
+                            <p>c. -22.5, -25.5</p>
+                            <p>d. The left Riemann sum overestimates the integral; the right Riemann sum underestimates the integral.</p>
+                        </div>
+                        
+                     </p>
+
+                    *225
+                </div>
+
+
+                <div className="Example3">
+                    <h3>Example 3</h3>
+                      <h4>Approximating definite integrals</h4>
+                      <p>Complete the following steps for the given integral and the given value of n.</p>
+                      <div>
+                        <p>a. Sketch the graph of the integrand on the interval of integration.</p>
+                        <p>b. Calculate <MathComponent tex="\Delta x" /> and the grid points <MathComponent tex="x_{0},x_{1},...,x_{n}" />, assuming a regular partition.</p>
+                        <p>c. Calculate the left and right Riemann sums for the given value of n.</p>
+                        <p>d. Determine which Riemann sum (left or right) underestimates the value of the definite integral and which overestimates the value of the definite integral.</p>
+                      </div>
+                      
+                      
+                     <MathComponent tex="\int_{1}^{7} \frac{1}{x} dx" /> <p>n = 6</p>
+
+                     <p>
+                        Answer: <br/>
+                        <div>
+                            <p>a.<img src={graph9} alt="Graph of function" ></img></p>
+                            <p>b.  <MathComponent tex="\Delta x = 1; 1,2,3,4,5,6,7" /></p>
+                            <p>c. <MathComponent tex="\frac{49}{20}; \frac{223}{140}" /></p>
+                            <p>d. The left Riemann sum overestimates the integral; the right Riemann sum underestimates the integral.</p>
+                        </div>
+                        
+                     </p>
+
+                    *226
                 </div>
 
 
