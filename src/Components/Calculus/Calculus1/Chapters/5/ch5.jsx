@@ -20,7 +20,7 @@ export default function Calculus1_Ch5() {
         <p>Intro to Sec 2.3</p>
         <Link to="Sec5.4"><p>Sec 5.4 Working with Integrals</p></Link>
         <p>Intro to Sec 2.4</p>
-        <Link to="Sec5.5"><p>Sec 4.5 Optimization Problems</p></Link>
+        <Link to="Sec5.5"><p>Sec 5.5 Substitution Rule</p></Link>
         <p>Intro to Sec 2.5</p>
         <Link to="Sec5.6"><p>Sec 4.6 Linear Approximation and Differentials</p></Link>
         <p>Intro to Sec 2.6</p>
