@@ -18,7 +18,7 @@ export default function Calculus1_Ch5() {
         <p>Intro to Sec 4.2</p>
         <Link to="Sec5.3"><p>Sec 5.3 Fundamental Theorem of Calculus</p></Link>
         <p>Intro to Sec 2.3</p>
-        <Link to="Sec5.4"><p>Sec 4.4 Graphing Functions</p></Link>
+        <Link to="Sec5.4"><p>Sec 5.4 Working with Integrals</p></Link>
         <p>Intro to Sec 2.4</p>
         <Link to="Sec5.5"><p>Sec 4.5 Optimization Problems</p></Link>
         <p>Intro to Sec 2.5</p>
