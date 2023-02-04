@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 import "./5.4.css";
 import { MathComponent } from "mathjax-react";
-
-
+import graph10 from "./images/graph10.png";
+import graph11 from "./images/graph11.png";
 
 export default function Calculus1_Ch5_Sec4() {
     
@@ -50,16 +50,82 @@ export default function Calculus1_Ch5_Sec4() {
             <div className="examples"> 
             <div className="Example1">
                     <h3>Example 1</h3>
-                      <h4></h4>
+                      <h4>Symmetry in integrals</h4>
+                      <p>
+                        Use symmetry to evaluate the following integrals.
+                      </p>
                       
                      
-                     <MathComponent tex="" />
-                    
+                     <MathComponent tex="\int_{-2}^{2} x^{9} dx" />
+                    <p>
+                        Answer:<br/>
+                        0
+                    </p>
 
 
-                    *
+                    *237
                 </div>
 
+
+                <div className="Example2">
+                    <h3>Example 2</h3>
+                      <h4>Symmetry in integrals</h4>
+                      <p>
+                        Use symmetry to evaluate the following integrals.
+                      </p>
+                      
+                     
+                     <MathComponent tex="\int_{-2}^{2} (x^{2} + x^{3}) dx" />
+                    <p>
+                        Answer:<br/>
+                        <MathComponent tex=" (\frac{1}{3} x^{3} + \frac{1}{4} x^{4})  |_{-2}^{2} dx = \frac{16}{3}" />
+                    </p>
+
+
+                    *238
+                </div>
+
+
+
+                <div className="Example3">
+                    <h3>Example 3</h3>
+                      <h4>Average values</h4>
+                      <p>
+                        Find the average value of the following functions on the given interval. Draw a graph of the function
+                        abd indicate the average value.
+                      </p>
+                      
+                     
+                     <MathComponent tex="f(x) = x^{3}" /> <p>on [-1,1]</p>
+                    <p>
+                        Answer:<br/>
+                        0
+                        <img src={graph10} alt="Graph of function" ></img>
+                    </p>
+
+
+                    *239
+                </div>
+
+
+                <div className="Example4">
+                    <h3>Example 4</h3>
+                      <h4>Mean Value Theorem for Integrals</h4>
+                      <p>
+                        Find or approximate all points at which the given function equals its average value on the given interval.
+                      </p>
+                      
+                     
+                     <MathComponent tex="f(x) = 8 - 2x" /> <p>on [0,4]</p>
+                    <p>
+                        Answer:<br/>
+                        <MathComponent tex="\bar{f} = \frac{1}{4-0} \int_{0}^{4} 8 - 2x dx = 4" />
+                        <img src={graph11} alt="Graph of function" ></img>
+                    </p>
+
+
+                    *240
+                </div>
 
 
 
