@@ -15,3 +15,14 @@
     min-width: 400px;
     max-width: 600px;
 }
+
+
+.examples {
+    min-width: 400px;
+    max-width: 600px;
+}
+
+.textBorder {
+    border: 2px solid white;
+    border-radius: 20px;
+}

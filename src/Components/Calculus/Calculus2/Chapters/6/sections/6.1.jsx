@@ -11,7 +11,7 @@ export default function Calculus2_Ch6_Sec1() {
         <div className="sectionText">
 
         <h2 className="oneT">Position, Velocity, Displacement, and Distance</h2>
-        <div>
+        <div className="textBorder">
             <ol>
                 <li>The <b>position</b> of an object moving along a line at time t, denoted s(t), is the location
                 of the object relative to the origin.</li>
@@ -26,7 +26,7 @@ export default function Calculus2_Ch6_Sec1() {
 
 
       <h2>Position from Velocity</h2>
-      <p>
+      <p className="textBorder">
         Given the velocity v(t) of an obejct moving along a line and its initial position s(0), the position function
         of the object for future times <MathComponent tex="t \geq 0" /> is
         <MathComponent tex="s(t) = s(0) + \int_{0}^{t} v(x) dx" />.
@@ -35,7 +35,7 @@ export default function Calculus2_Ch6_Sec1() {
 
 
       <h2>Velocity from Acceleration</h2>
-      <p>
+      <p className="textBorder">
         Given the acceleration a(t) of an obejct moving along a line and its initial velocity v(0), the velocity
         of the object for future times <MathComponent tex="t \geq 0" /> is
         <MathComponent tex="v(t) = v(0) + \int_{0}^{t} a(x) dx" />.
@@ -44,7 +44,7 @@ export default function Calculus2_Ch6_Sec1() {
 
 
       <h2>Net Change and Future Value</h2>
-      <p>
+      <p className="textBorder">
        Suppose a quantity Q changes over time at a known rate Q'. Then the <b>net change</b>in Q between t = a 
        and <MathComponent tex="t = b > a" /> is <MathComponent tex="Q(b) - Q(a) = \int_{a}^{b} Q'(t) dt" />.
         Given the initial value Q(0), the <b>future value</b> of Q at time <MathComponent tex="t \geq 0" /> is
@@ -61,7 +61,8 @@ export default function Calculus2_Ch6_Sec1() {
             <div className="examples"> 
             <div className="Example-1">
                     <h3>Example 1</h3>
-                      <h4>Displacement from Velocity</h4>
+                    <div className="textBorder">
+                    <h4>Displacement from Velocity</h4>
                       <p>
                         Consider an object moving along a line with the given velocity v. Assume time t
                         is measured in seconds and velocities have units of m/s.
@@ -83,11 +84,14 @@ export default function Calculus2_Ch6_Sec1() {
                     </p>
 
                     *253
+                    </div>
+                     
                 </div>
 
 
                 <div className="Example-2">
                     <h3>Example 2</h3>
+                    <div className="textBorder">
                       <h4>Displacement from Velocity</h4>
                       <p>
                         Consider an object moving along a line with the given velocity v. Assume time t
@@ -110,11 +114,13 @@ export default function Calculus2_Ch6_Sec1() {
                     </p>
 
                     *254
+                    </div>
                 </div>
 
 
                 <div className="Example-3">
                     <h3>Example 3</h3>
+                    <div className="textBorder">
                       <h4>Position from Velocity</h4>
                       <p>
                         Consider an object moving along a line with the given velocity v and initial position.
@@ -134,11 +140,13 @@ export default function Calculus2_Ch6_Sec1() {
                     </p>
 
                     *255
+                    </div>
                 </div>
 
 
                 <div className="Example-4">
                     <h3>Example 4</h3>
+                    <div className="textBorder">
                       <h4>Position from Velocity</h4>
                       <p>
                         Consider an object moving along a line with the given velocity v and initial position.
@@ -158,11 +166,13 @@ export default function Calculus2_Ch6_Sec1() {
                     </p>
 
                     *256
+                    </div>
                 </div>
 
 
                 <div className="Example-5">
                     <h3>Example 5</h3>
+                    <div className="textBorder">
                       <h4>Position and velocity from acceleration</h4>
                       <p>
                         Find the position and velocity of an object moving along a straight line with the given
@@ -178,6 +188,7 @@ export default function Calculus2_Ch6_Sec1() {
                     </p>
 
                     *257
+                    </div>
                 </div>
 
 
