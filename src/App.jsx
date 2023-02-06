@@ -54,7 +54,7 @@ function App() {
     <div className="App">
       <h1>Math Portfolio</h1>
         <h3>Charles Callender</h3>
-        <Link to="/">Home</Link>
+        <Link to="/" className='HomeLink'>Home</Link>
         <Routes>
         <Route path='/' element={<Home/>}/>
         

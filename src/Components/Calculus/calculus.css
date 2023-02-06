@@ -1,2 +1,30 @@
+.container > a {
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 2px;
+    border-radius: 10%;
+    font-size: 20px;
+}
 
+.container > a:hover {
+    background-color: rgb(158, 157, 157);
+}
 
+.container > p {
+    text-decoration: none;
+    color: white;
+    
+}
+
+a > p {
+    text-decoration: none;
+    color: white;
+    margin: 0;
+    
+}
+
+.container {
+    text-decoration: none;
+    color: white;
+}

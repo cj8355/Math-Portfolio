@@ -1,6 +1,6 @@
 import { Link, Route, Routes } from 'react-router-dom';
 import Calculus from '../Calculus/Calculus';
-
+import "./home.css";
 
 export default function Home() {
     
@@ -13,7 +13,7 @@ export default function Home() {
 
         <div className='branches'>
         
-        <Link to="/calculus">Calculus!!!</Link>
+        <Link to="/calculus">Calculus</Link>
       </div>
 
       <Routes>
