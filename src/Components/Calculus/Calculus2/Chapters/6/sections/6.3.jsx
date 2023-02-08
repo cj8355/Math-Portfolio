@@ -1,6 +1,10 @@
 import { Link } from "react-router-dom";
 import "./6.3.css";
 import { MathComponent } from "mathjax-react";
+import graph3 from "./images/graph3.png";
+import graph4 from "./images/graph4.png";
+import graph5 from "./images/graph5.png";
+
 
 export default function Calculus2_Ch6_Sec3() {
     
@@ -73,19 +77,25 @@ export default function Calculus2_Ch6_Sec3() {
             <div className="Example-1">
                     <h3>Example 1</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                      <h4>Solids of revolution</h4>
                       <p>
-                        
+                        Let R be the region bounded by the following curves. Find the volume of the solid
+                        generated when R is revolved about the given axis.
                       </p>
+                      <p>
+                        y = 2x, y = 0, and x = 3; about the x-axis (verify that your answer agrees with the
+                        volume formula for a cone.)
+                      </p>
+                      <img src={graph3} alt="Graph of function" ></img>
                       
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="V = \int_{0}^{3} \pi (2x)^{2} dx = 36 \pi" />    
                          
                     </p>
 
-                    *
+                    *262
                     </div>
                 </div>
 
@@ -93,19 +103,24 @@ export default function Calculus2_Ch6_Sec3() {
                 <div className="Example-2">
                     <h3>Example 2</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                    <h4>Solids of revolution</h4>
                       <p>
-                        
+                        Let R be the region bounded by the following curves. Find the volume of the solid
+                        generated when R is revolved about the given axis.
                       </p>
+                      <p>
+                        y = x and  <MathComponent tex="y = 2 \sqrt{x}" />  ; about the x-axis
+                      </p>
+                      <img src={graph4} alt="Graph of function" ></img>
                       
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="V = \int_{0}^{4} \pi (4x - x^{2}) dx = \frac{32}{3} \pi" />    
                          
                     </p>
 
-                    *
+                    *263
                     </div>
                 </div>
 
@@ -113,62 +128,29 @@ export default function Calculus2_Ch6_Sec3() {
                 <div className="Example-3">
                     <h3>Example 3</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                    <h4>Solids of revolution</h4>
                       <p>
-                        
+                        Let R be the region bounded by the following curves. Find the volume of the solid
+                        generated when R is revolved about the given axis.
                       </p>
+                      <p>
+                    <MathComponent tex="y = x^{3}" />, y = 0, and x = 1; about the y-axis
+                      </p>
+                      <img src={graph5} alt="Graph of function" ></img>
                       
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="V = \int_{0}^{1} \pi (1 - y^{\frac{2}{3}}) dy = \frac{2 \pi}{5}" />    
                          
                     </p>
 
-                    *
+                    *264
                     </div>
                 </div>
 
 
-                <div className="Example-4">
-                    <h3>Example 4</h3>
-                    <div className="textBorder">
-                      <h4></h4>
-                      <p>
-                        
-                      </p>
-                      
-                     
-                    <p>
-                        Answer: <br/>
-                         <MathComponent tex="" />    
-                         
-                    </p>
-
-                    *
-                    </div>
-                </div>
-
-
-                <div className="Example-5">
-                    <h3>Example 5</h3>
-                    <div className="textBorder">
-                      <h4></h4>
-                      <p>
-                        
-                      </p>
-                      
-                     
-                    <p>
-                        Answer: <br/>
-                         <MathComponent tex="" />    
-                         
-                    </p>
-
-                    *
-                    </div>
-                </div>
-
+            
 
 
 
