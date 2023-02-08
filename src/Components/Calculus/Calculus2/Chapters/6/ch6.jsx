@@ -16,7 +16,7 @@ export default function Calculus2_Ch6() {
         <p>Intro to Sec 6.1</p>
         <Link to="Sec6.2"><p>Sec 6.2 Regions Between Curves</p></Link>
         <p>Intro to Sec 4.2</p>
-        <Link to="Sec5.3"><p>Sec 5.3 Fundamental Theorem of Calculus</p></Link>
+        <Link to="Sec6.3"><p>Sec 6.3 Volume by Slicing</p></Link>
         <p>Intro to Sec 2.3</p>
         <Link to="Sec5.4"><p>Sec 5.4 Working with Integrals</p></Link>
         <p>Intro to Sec 2.4</p>
