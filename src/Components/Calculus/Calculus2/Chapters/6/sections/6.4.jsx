@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import "./6.4.css";
 import { MathComponent } from "mathjax-react";
+import graph6 from "./images/graph6.png";
 
 export default function Calculus2_Ch6_Sec4() {
     
@@ -30,19 +31,23 @@ export default function Calculus2_Ch6_Sec4() {
             <div className="Example-1">
                     <h3>Example 1</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                      <h4>Shell Method</h4>
                       <p>
-                        
+                        Let R be the region bounded by the following curves. Use the shell method to find
+                        the volume of the solid generated when R is revolved about indicated axis.
                       </p>
-                      
-                     
+                      <p>
+                        y = 3x, y = 3, and x = 0; about the y-axis (Use integration and check your answer using the
+                        colume formula for a cone.)
+                      </p>
+                      <img src={graph6} alt="Graph of function" ></img>
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="\pi \int_{0}^{3} (\frac{y}{3})^{2} dy = \pi" />    
                          
                     </p>
 
-                    *
+                    *266
                     </div>
                 </div>
 
@@ -50,19 +55,22 @@ export default function Calculus2_Ch6_Sec4() {
                 <div className="Example-2">
                     <h3>Example 2</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                    <h4>Shell Method</h4>
                       <p>
-                        
+                        Let R be the region bounded by the following curves. Use the shell method to find
+                        the volume of the solid generated when R is revolved about indicated axis.
+                      </p>
+                      <p>
+                      <MathComponent tex="x = y^{2}" /> , x = 0, and y = 3; about the x-axis
                       </p>
                       
-                     
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="\pi \int_{0}^{9} 9 - x dx = \frac{81 \pi}{2}" />    
                          
                     </p>
 
-                    *
+                    *267
                     </div>
                 </div>
 
@@ -70,59 +78,22 @@ export default function Calculus2_Ch6_Sec4() {
                 <div className="Example-3">
                     <h3>Example 3</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                    <h4>Shell Method</h4>
                       <p>
-                        
+                        Let R be the region bounded by the following curves. Use the shell method to find
+                        the volume of the solid generated when R is revolved about indicated axis.
+                      </p>
+                      <p>
+                      <MathComponent tex="y = x^{3} - x^{8} + 1" /> , y = 1; about the y-axis
                       </p>
                       
-                     
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex=" = \frac{\pi}{5}" />    
                          
                     </p>
 
-                    *
-                    </div>
-                </div>
-
-
-                <div className="Example-4">
-                    <h3>Example 4</h3>
-                    <div className="textBorder">
-                      <h4></h4>
-                      <p>
-                        
-                      </p>
-                      
-                     
-                    <p>
-                        Answer: <br/>
-                         <MathComponent tex="" />    
-                         
-                    </p>
-
-                    *
-                    </div>
-                </div>
-
-
-                <div className="Example-5">
-                    <h3>Example 5</h3>
-                    <div className="textBorder">
-                      <h4></h4>
-                      <p>
-                        
-                      </p>
-                      
-                     
-                    <p>
-                        Answer: <br/>
-                         <MathComponent tex="" />    
-                         
-                    </p>
-
-                    *
+                    *268
                     </div>
                 </div>
 
