@@ -1,38 +1,38 @@
 import { Link } from "react-router-dom";
-import "./6.1.css";
+import "./6.5.css";
 import { MathComponent } from "mathjax-react";
 
-export default function Calculus2_Ch6_Sec1() {
+export default function Calculus2_Ch6_Sec5() {
     
     
     return (
         <div className='container'> 
-        <h1>Ch. 6 Sec. </h1>
+        <h1>Ch. 6 Sec. 5 Length of Curves</h1>
         <div className="sectionText">
 
-      <h2></h2>
+      <h2>Arc Length for y = f(x)</h2>
       <p className="textBorder">
-       
-        <MathComponent tex="" />.
-        *
+       <p>
+        Let f have a continuous first derivative on the interval [a,b]. The length of the curve from (a, f(a)) to
+        (b, f(b)) is
+       </p>
+        <MathComponent tex="L = \int_{a}^{b} \sqrt{1+ f'(x)^{2}} dx" />.
+        *269
       </p>
 
 
-      <h2></h2>
+      <h2>Arc Length for x = g(y)</h2>
       <p className="textBorder">
-       
-        <MathComponent tex="" />.
-        *
+       <p>
+        Let x = g(y) have a continuous first derivative on the interval [c,d]. The length of the curve from (g(c), c)
+        to (g(d), d) is
+       </p>
+        <MathComponent tex="L = \int_{c}^{d} \sqrt{1 + g'(y)^{2}} dy" />.
+        *270
       </p>
 
 
-      <h2></h2>
-      <p className="textBorder">
-       
-        <MathComponent tex="" />.
-        *
-      </p>
-      
+     
 
       
 
