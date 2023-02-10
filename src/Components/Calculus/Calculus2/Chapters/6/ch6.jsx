@@ -22,7 +22,7 @@ export default function Calculus2_Ch6() {
         <p>Intro to Sec 2.4</p>
         <Link to="Sec6.5"><p>Sec 6.5 Length of Curves</p></Link>
         <p>Intro to Sec 2.5</p>
-        <Link to="Sec5.6"><p>Sec 4.6 Linear Approximation and Differentials</p></Link>
+        <Link to="Sec6.6"><p>Sec 6.6 Surface Area</p></Link>
         <p>Intro to Sec 2.6</p>
         <Link to="Sec5.7"><p>Sec 4.7 L'Hopital's Rule</p></Link>
         <p>Intro to Sec 2.6</p>
