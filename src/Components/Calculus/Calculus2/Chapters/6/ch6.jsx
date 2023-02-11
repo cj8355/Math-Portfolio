@@ -24,17 +24,9 @@ export default function Calculus2_Ch6() {
         <p>Intro to Sec 2.5</p>
         <Link to="Sec6.6"><p>Sec 6.6 Surface Area</p></Link>
         <p>Intro to Sec 2.6</p>
-        <Link to="Sec5.7"><p>Sec 4.7 L'Hopital's Rule</p></Link>
+        <Link to="Sec6.7"><p>Sec 6.7 Physical Applications</p></Link>
         <p>Intro to Sec 2.6</p>
-        <Link to="Sec5.8"><p>Sec 4.8 Newton's Method</p></Link>
-        <p>Intro to Sec 2.6</p>
-        <Link to="Sec5.9"><p>Sec 4.9 Antiderivatives</p></Link>
-        <p>Intro to Sec 2.6</p>
-        <Link to="Sec5.10"><p>Sec 3.10 Derivatives of Inverse Trigonometric Functions</p></Link>
-        <p>Intro to Sec 2.6</p>
-        <Link to="Sec4.11"><p>Sec 3.11 Related Rates</p></Link>
-        <p>Intro to Sec 2.6</p>
-            .....
+      
         </div>
     );
 }
