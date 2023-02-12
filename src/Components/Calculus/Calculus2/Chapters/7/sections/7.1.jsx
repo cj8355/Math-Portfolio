@@ -125,19 +125,19 @@ export default function Calculus2_Ch7_Sec1() {
             <div className="Example-1">
                     <h3>Example 1</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                      <h4>Derivatives</h4>
                       <p>
-                        
+                        Evaluate the following derivative
                       </p>
-                      
+                      <MathComponent tex="\frac{d}{dx} (x ln x^{3})" /> 
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="3(lnx + 1)" />    
                          
                     </p>
 
-                    *
+                    *296
                     </div>
                 </div>
 
@@ -145,19 +145,19 @@ export default function Calculus2_Ch7_Sec1() {
                 <div className="Example-2">
                     <h3>Example 2</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                    <h4>Derivatives</h4>
                       <p>
-                        
+                        Evaluate the following derivative
                       </p>
-                      
+                      <MathComponent tex="\frac{d}{dx} ((2x)^{4x})" /> 
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="4^{2x+1} x^{4x} (1 + ln 2 x)" />    
                          
                     </p>
 
-                    *
+                    *297
                     </div>
                 </div>
 
@@ -165,19 +165,19 @@ export default function Calculus2_Ch7_Sec1() {
                 <div className="Example-3">
                     <h3>Example 3</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                      <h4>Integrals</h4>
                       <p>
-                        
+                        Evaluate the following integral. Include absolute values only when needed.
                       </p>
-                      
+                      <MathComponent tex="\int_{0}^{3} \frac{2x - 1}{x + 1} dx" /> 
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="6(1 - ln2)" />    
                          
                     </p>
 
-                    *
+                    *298
                     </div>
                 </div>
 
@@ -185,42 +185,21 @@ export default function Calculus2_Ch7_Sec1() {
                 <div className="Example-4">
                     <h3>Example 4</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                    <h4>Integrals</h4>
                       <p>
-                        
+                        Evaluate the following integral. Include absolute values only when needed.
                       </p>
-                      
+                      <MathComponent tex="\int_{-1}^{1} 10^{x} dx" /> 
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="\frac{99}{10 ln 10}" />    
                          
                     </p>
 
-                    *
+                    *299
                     </div>
                 </div>
-
-
-                <div className="Example-5">
-                    <h3>Example 5</h3>
-                    <div className="textBorder">
-                      <h4></h4>
-                      <p>
-                        
-                      </p>
-                      
-                     
-                    <p>
-                        Answer: <br/>
-                         <MathComponent tex="" />    
-                         
-                    </p>
-
-                    *
-                    </div>
-                </div>
-
 
 
 
