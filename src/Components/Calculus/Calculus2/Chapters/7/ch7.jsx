@@ -14,7 +14,7 @@ export default function Calculus2_Ch7() {
             
         <Link to="Sec7.1"><p>Sec 7.1 Logarithmic and Exponential Functions Revisited</p></Link>
         <p>Intro to Sec 6.1</p>
-        <Link to="Sec6.2"><p>Sec 6.2 Regions Between Curves</p></Link>
+        <Link to="Sec7.2"><p>Sec 7.2 Exponential Models</p></Link>
         <p>Intro to Sec 4.2</p>
         <Link to="Sec6.3"><p>Sec 6.3 Volume by Slicing</p></Link>
         <p>Intro to Sec 2.3</p>

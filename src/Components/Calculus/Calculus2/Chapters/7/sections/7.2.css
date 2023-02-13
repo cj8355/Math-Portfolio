@@ -1,0 +1,32 @@
+.MathJax{
+    display: inline-flexbox;
+    color: white;
+}
+
+
+
+.container {
+    background-color: rgb(58, 54, 54);
+    color: white;
+    
+}
+
+.sectionText {
+    min-width: 400px;
+    max-width: 600px;
+}
+
+
+.examples {
+    min-width: 400px;
+    max-width: 600px;
+}
+
+.textBorder {
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+.textList {
+    list-style: none;
+}
