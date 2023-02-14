@@ -16,7 +16,7 @@ export default function Calculus2_Ch7() {
         <p>Intro to Sec 6.1</p>
         <Link to="Sec7.2"><p>Sec 7.2 Exponential Models</p></Link>
         <p>Intro to Sec 4.2</p>
-        <Link to="Sec6.3"><p>Sec 6.3 Volume by Slicing</p></Link>
+        <Link to="Sec7.3"><p>Sec 7.3 Hyperbolic Functions</p></Link>
         <p>Intro to Sec 2.3</p>
         <Link to="Sec6.4"><p>Sec 6.4 Volume by Shells</p></Link>
         <p>Intro to Sec 2.4</p>
