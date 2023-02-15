@@ -11,3 +11,7 @@
 .container {
     margin-top: 15px;
 }
+
+html, body {
+    overflow-x: hidden;
+  }

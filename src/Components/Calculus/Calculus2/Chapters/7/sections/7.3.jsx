@@ -155,19 +155,19 @@ export default function Calculus2_Ch7_Sec3() {
             <div className="Example-1">
                     <h3>Example 1</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                      <h4>Derivatives</h4>
                       <p>
-                        
+                        Find the derivative of the follwoing function.
                       </p>
-                      
+                      <MathComponent tex="f(x) = sinh \hspace{.1cm} 4x" /> 
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="4 cosh(4x)" />    
                          
                     </p>
 
-                    *
+                    *308
                     </div>
                 </div>
 
@@ -175,19 +175,19 @@ export default function Calculus2_Ch7_Sec3() {
                 <div className="Example-2">
                     <h3>Example 2</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                    <h4>Derivatives</h4>
                       <p>
-                        
+                        Find the derivative of the follwoing function.
                       </p>
-                      
+                      <MathComponent tex="f(x) = cosh^{-1} \hspace{.1cm} 4x" /> 
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="\frac{4}{\sqrt{16x^{2} - 1}}" />    
                          
                     </p>
 
-                    *
+                    *309
                     </div>
                 </div>
 
@@ -195,19 +195,19 @@ export default function Calculus2_Ch7_Sec3() {
                 <div className="Example-3">
                     <h3>Example 3</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                      <h4>Integrals</h4>
                       <p>
-                        
+                        Evaluate each integral.
                       </p>
-                      
+                      <MathComponent tex="\int cosh \hspace{.1cm} 2x \hspace{.1cm} dx" /> 
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="\frac{(sinh \hspace{.1cm} 2x)}{2 + C}" />    
                          
                     </p>
 
-                    *
+                    *310
                     </div>
                 </div>
 
@@ -215,43 +215,21 @@ export default function Calculus2_Ch7_Sec3() {
                 <div className="Example-4">
                     <h3>Example 4</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                    <h4>Integrals</h4>
                       <p>
-                        
+                        Evaluate each integral.
                       </p>
-                      
+                      <MathComponent tex="\int cosh \hspace{.1cm} 2x \hspace{.1cm} dx" /> 
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="\frac{(sinh \hspace{.1cm} 2x)}{2 + C}" />    
                          
                     </p>
 
-                    *
+                    *311
                     </div>
                 </div>
-
-
-                <div className="Example-5">
-                    <h3>Example 5</h3>
-                    <div className="textBorder">
-                      <h4></h4>
-                      <p>
-                        
-                      </p>
-                      
-                     
-                    <p>
-                        Answer: <br/>
-                         <MathComponent tex="" />    
-                         
-                    </p>
-
-                    *
-                    </div>
-                </div>
-
-
 
 
             </div>
