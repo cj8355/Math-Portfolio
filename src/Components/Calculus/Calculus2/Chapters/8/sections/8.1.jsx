@@ -50,19 +50,22 @@ export default function Calculus2_Ch8_Sec1() {
             <div className="Example-1">
                     <h3>Example 1</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                      <h4>Integration review</h4>
                       <p>
-                        
+                        Evaluate the following integral
                       </p>
-                      
+                      <MathComponent tex="\int \frac{dx}{(3 - 5x)^{4}}" />
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="u = 3 - 5x, \hspace{.15cm} du = -5dx, \hspace{.15cm} dx = - \frac{1}{5} du" />
+                         <MathComponent tex="= \hspace{.15cm} \int \frac{1}{u^{4}} \cdot \frac{1}{-5} du" />
+                         <MathComponent tex="= \hspace{.15cm} - \frac{1}{5} \int u^{-4} \hspace{.15cm} du" />
+                         <MathComponent tex="= \hspace{.15cm} \frac{1}{15(3-5x)^{3}} + C" />    
                          
                     </p>
 
-                    *
+                    *313
                     </div>
                 </div>
 
@@ -70,19 +73,23 @@ export default function Calculus2_Ch8_Sec1() {
                 <div className="Example-2">
                     <h3>Example 2</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                    <h4>Integration review</h4>
                       <p>
-                        
+                        Evaluate the following integral
                       </p>
-                      
+                      <MathComponent tex="\int \frac{x + 2}{x^{2} + 4} dx" />
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                        <MathComponent tex="\int \frac{x}{x^{2} + 4} dx + \hspace{.15cm} \int \frac{2}{x^{2} + 4} dx" />
+                         <MathComponent tex="u = x^{2} + 4, \hspace{.15cm} du = 2xdx,x \hspace{.15cm} dx = \frac{1}{2} du" />
+                         <MathComponent tex="= \hspace{.15cm} \frac{1}{2} \int \frac{1}{u} \hspace{.15cm} du + \hspace{.15cm} 2 \int \frac{1}{x^{2} + 2^{2}} dx" />
+                         <MathComponent tex="= \hspace{.15cm} \frac{1}{2}(ln(|u|)) + C) \hspace{.15cm} + \hspace{.15cm} 2(\frac{1}{2} tan^{-1} (\frac{x}{2}) + C" />
+                         <MathComponent tex="= \hspace{.15cm} \frac{1}{2} ln(|x^{2} + 4|) \hspace{.15cm} + \hspace{.15cm} tan^{-1} (\frac{x}{2}) + C" />    
                          
                     </p>
 
-                    *
+                    *314
                     </div>
                 </div>
 
@@ -90,19 +97,23 @@ export default function Calculus2_Ch8_Sec1() {
                 <div className="Example-3">
                     <h3>Example 3</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                    <h4>Integration review</h4>
                       <p>
-                        
+                        Evaluate the following integral
                       </p>
-                      
+                      <MathComponent tex="\int \frac{dx}{x^{2} - 2x + 10}" />
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                        <MathComponent tex="\int \frac{1}{(x-1)^{2} + 9} dx" />
+                         <MathComponent tex="u = x - 1, \hspace{.15cm} du = dx" />
+                         <MathComponent tex="= \hspace{.15cm} \int \frac{1}{u^{2} + 3^{2}} \hspace{.15cm} du" />
+                         <MathComponent tex="= \hspace{.15cm} \frac{1}{3} tan^{-1}(\frac{1}{3}u) + C" />
+                         <MathComponent tex="= \hspace{.15cm} \frac{1}{3} tan^{-1}(\frac{x-1}{3}) + C" />    
                          
                     </p>
 
-                    *
+                    *315
                     </div>
                 </div>
 
@@ -110,19 +121,23 @@ export default function Calculus2_Ch8_Sec1() {
                 <div className="Example-4">
                     <h3>Example 4</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                    <h4>Integration review</h4>
                       <p>
-                        
+                        Evaluate the following integral
                       </p>
-                      
+                      <MathComponent tex="\int sin \hspace{.15cm} x \hspace{.15cm} sin \hspace{.15cm} 2x \hspace{.2cm} dx" />
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                        <MathComponent tex="2 \int sin^{2} x \hspace{.15cm} cos \hspace{.15cm} x \hspace{.15cm} dx" />
+                         <MathComponent tex="u = sin(x), \hspace{.15cm} du = cos(x) \hspace{.15cm} dx" />
+                         <MathComponent tex="= 2 \cdot \frac{u^{3}}{3}" />
+                         <MathComponent tex="= 2 \cdot \frac{sin^{3}(x)}{3}" />
+                         <MathComponent tex="= \hspace{.15cm} \frac{2sin^{3}(x)}{3} \hspace{.15cm} + C" />    
                          
                     </p>
 
-                    *
+                    *316
                     </div>
                 </div>
 
@@ -130,19 +145,23 @@ export default function Calculus2_Ch8_Sec1() {
                 <div className="Example-5">
                     <h3>Example 5</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                    <h4>Integration review</h4>
                       <p>
-                        
+                        Evaluate the following integral
                       </p>
-                      
+                      <MathComponent tex="\int_{1}^{3} \frac{2}{x^{2} + 2x + 1} \hspace{.2cm} dx" />
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                        <MathComponent tex="2 \int_{1}^{3} \frac{1}{(x+1)^{2}} \hspace{.15cm} dx" />
+                         <MathComponent tex="u = x + 1, \hspace{.15cm} du = dx" />
+                         <MathComponent tex="= 2 \int_{2}^{4} \frac{1}{u^{2}} \hspace{.15cm} du" />
+                         <MathComponent tex="= 2(-u^{-1} \vert_{2}^{4})" />
+                         <MathComponent tex="= \hspace{.15cm} \frac{1}{2}" />    
                          
                     </p>
 
-                    *
+                    *317
                     </div>
                 </div>
 
