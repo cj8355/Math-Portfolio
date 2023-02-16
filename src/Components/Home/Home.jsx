@@ -13,7 +13,7 @@ export default function Home() {
 
         <div className='branches'>
         
-        <Link to="/calculus">Calculus</Link>
+        <Link to="/calculus" className='branch'>Calculus</Link>
       </div>
 
       <Routes>
