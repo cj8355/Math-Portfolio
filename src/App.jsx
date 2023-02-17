@@ -60,6 +60,7 @@ import Calculus2_Ch7_Sec2 from './Components/Calculus/Calculus2/Chapters/7/secti
 import Calculus2_Ch7_Sec3 from './Components/Calculus/Calculus2/Chapters/7/sections/7.3';
 import Calculus2_Ch8 from './Components/Calculus/Calculus2/Chapters/8/ch8';
 import Calculus2_Ch8_Sec1 from './Components/Calculus/Calculus2/Chapters/8/sections/8.1';
+import Calculus2_Ch8_Sec2 from './Components/Calculus/Calculus2/Chapters/8/sections/8.2';
 
 function App() {
   return (
@@ -140,6 +141,7 @@ function App() {
 
         <Route path='/calculus/calculus2/Ch.8' element={<Calculus2_Ch8 />}/>
         <Route path='/calculus/calculus2/Ch.8/Sec8.1' element={<Calculus2_Ch8_Sec1/>}/>
+        <Route path='/calculus/calculus2/Ch.8/Sec8.2' element={<Calculus2_Ch8_Sec2/>}/>
         
       </Routes>
     </div>
