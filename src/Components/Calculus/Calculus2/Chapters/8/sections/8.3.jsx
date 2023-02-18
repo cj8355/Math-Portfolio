@@ -23,26 +23,6 @@ export default function Calculus2_Ch8_Sec3() {
       </p>
 
 
-      <h2></h2>
-      <p className="textBorder">
-       
-        <MathComponent tex="" />.
-        *
-      </p>
-
-
-      <h2></h2>
-      <p className="textBorder">
-       
-        <MathComponent tex="" />.
-        *
-      </p>
-      
-
-      
-
-
-
             </div>
 
 
@@ -51,19 +31,19 @@ export default function Calculus2_Ch8_Sec3() {
             <div className="Example-1">
                     <h3>Example 1</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                      <h4>Trigonometric integrals</h4>
                       <p>
-                        
+                        Evaluate the following integral.
                       </p>
-                      
+                      <MathComponent tex="\int cos^{3} \hspace{.15cm} x \hspace{.15cm} dx" /> 
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="= sin \hspace{.15cm} x - \frac{1}{3} sin^{3} \hspace{.15cm} x  + C" />    
                          
                     </p>
 
-                    *
+                    *326
                     </div>
                 </div>
 
@@ -71,19 +51,19 @@ export default function Calculus2_Ch8_Sec3() {
                 <div className="Example-2">
                     <h3>Example 2</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                    <h4>Trigonometric integrals</h4>
                       <p>
-                        
+                        Evaluate the following integral.
                       </p>
-                      
+                      <MathComponent tex="\int sin^{5} \hspace{.15cm} x \hspace{.15cm} dx" /> 
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="= -cos \hspace{.15cm} x + \frac{2}{3} cos^{3} \hspace{.15cm} x - \frac{1}{5}cos^{5} \hspace{.15cm} x + C" />    
                          
                     </p>
 
-                    *
+                    *327
                     </div>
                 </div>
 
@@ -91,19 +71,19 @@ export default function Calculus2_Ch8_Sec3() {
                 <div className="Example-3">
                     <h3>Example 3</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                    <h4>Trigonometric integrals</h4>
                       <p>
-                        
+                        Evaluate the following integral.
                       </p>
-                      
+                      <MathComponent tex="\int tan^{2} \hspace{.15cm} x \hspace{.15cm} dx" /> 
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="= tan \hspace{.15cm} x - \hspace{.15cm} x + C" />    
                          
                     </p>
 
-                    *
+                    *328
                     </div>
                 </div>
 
@@ -111,42 +91,26 @@ export default function Calculus2_Ch8_Sec3() {
                 <div className="Example-4">
                     <h3>Example 4</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                    <h4>Trigonometric integrals</h4>
                       <p>
-                        
+                        Evaluate the following integral.
                       </p>
-                      
+                      <MathComponent tex="\int_{0}^{\pi/4} sec^{4} \hspace{.15cm} \theta \hspace{.15cm} d\theta" /> 
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="\int_{0}^{\pi/4} sec^{2} \hspace{.15cm} (\theta) \hspace{.15cm} sec^{2} \hspace{.15cm} (\theta) \hspace{.15cm} d\theta" /> 
+                         <MathComponent tex="\int_{0}^{\pi/4} (1 + tan^{2} \hspace{.15cm} (\theta)) \hspace{.15cm} sec^{2} \hspace{.15cm} (\theta) \hspace{.15cm} d\theta" /> 
+                         <MathComponent tex="u = tan(\theta), \hspace{.15cm} du = sec^{2} (\theta) \hspace{.15cm} d \theta, \hspace{.15cm} d \theta = \frac{1}{sec^{2} (\theta)} \hspace{.15cm} du" /> 
+                         <MathComponent tex="\int_{0}^{1} 1 + u^{2} \hspace{.15cm} du" /> 
+                         <MathComponent tex="\int_{0}^{1} \hspace{.15cm} du + \int_{0}^{1} u^{2} \hspace{.15cm} du" /> 
+                         <MathComponent tex="= \frac{4}{3}" /> 
                          
                     </p>
 
-                    *
+                    *329
                     </div>
                 </div>
-
-
-                <div className="Example-5">
-                    <h3>Example 5</h3>
-                    <div className="textBorder">
-                      <h4></h4>
-                      <p>
-                        
-                      </p>
-                      
-                     
-                    <p>
-                        Answer: <br/>
-                         <MathComponent tex="" />    
-                         
-                    </p>
-
-                    *
-                    </div>
-                </div>
-
 
 
 
