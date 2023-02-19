@@ -18,7 +18,7 @@ export default function Calculus2_Ch8() {
         <p>Intro to Sec 4.2</p>
         <Link to="Sec8.3"><p>Sec 8.3 Trigonometric Integrals</p></Link>
         <p>Intro to Sec 2.3</p>
-        <Link to="Sec8.4"><p>Sec 8.4 Hyperbolic Functions</p></Link>
+        <Link to="Sec8.4"><p>Sec 8.4 Trigonometric Substitutions</p></Link>
         <p>Intro to Sec 2.3</p>
       
         </div>
