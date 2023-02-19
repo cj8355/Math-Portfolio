@@ -28,19 +28,22 @@ export default function Calculus2_Ch8_Sec4() {
             <div className="Example-1">
                     <h3>Example 1</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                      <h4>Trigonometric substitutions</h4>
                       <p>
-                        
+                        Evaluate the following integrals using trigonometric substitution.
                       </p>
                       
-                     
+                      <MathComponent tex="\int_{5}^{5 \sqrt{3}} \sqrt{100 - x^{2}} dx" /> 
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="x = 10 \hspace{.1cm} sin(t), \hspace{.1cm} where \hspace{.1cm} - \frac{\pi}{2} \leq t \leq \frac{\pi}{2}, \hspace{.1cm} dx = 10 \hspace{.1cm} cos(t) \hspace{.1cm} dt" />    
+                         <MathComponent tex="= \int_{\frac{\pi}{6}}^{\frac{\pi}{3}} \sqrt{100 - (10sin(t))^{2}} \hspace{.1cm} (10 cos(t)) \hspace{.1cm} dt" />
+                         <MathComponent tex="= \int_{\frac{\pi}{6}}^{\frac{\pi}{3}} 100 cos^{2}(t) \hspace{.1cm} dt" />
+                         <MathComponent tex="= \frac{25 \pi}{3}" />
                          
                     </p>
 
-                    *
+                    *331
                     </div>
                 </div>
 
@@ -48,19 +51,21 @@ export default function Calculus2_Ch8_Sec4() {
                 <div className="Example-2">
                     <h3>Example 2</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                    <h4>Trigonometric substitutions</h4>
                       <p>
-                        
+                        Evaluate the following integrals using trigonometric substitution.
                       </p>
                       
-                     
+                      <MathComponent tex="\int_{0}^{2} \frac{x^{2}}{x^{2} + 4} dx" /> 
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="= \int_{0}^{2} 1 - \hspace{.1cm} \frac{4}{x^{2} + 4} \hspace{.1cm} dx" />
+                         <MathComponent tex="= \int_{0}^{2} dx \hspace{.1cm}  + \hspace{.1cm} \int_{0}^{2} - \hspace{.1cm} \frac{4}{x^{2} + 4} \hspace{.1cm} dx" />
+                         <MathComponent tex="= 2 - \frac{\pi}{2}" />
                          
                     </p>
 
-                    *
+                    *332
                     </div>
                 </div>
 
@@ -68,65 +73,27 @@ export default function Calculus2_Ch8_Sec4() {
                 <div className="Example-3">
                     <h3>Example 3</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                    <h4>Trigonometric substitutions</h4>
                       <p>
-                        
+                        Evaluate the following integrals using trigonometric substitution.
                       </p>
                       
-                     
+                      <MathComponent tex="\int \sqrt{64 - x^{2}} \hspace{.1cm} dx" /> 
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                        <MathComponent tex="x = 8 \hspace{.1cm} sin(t), \hspace{.1cm} where \hspace{.1cm} - \frac{\pi}{2} \leq t \leq \frac{\pi}{2}, \hspace{.1cm} dx = 8 \hspace{.1cm} cos(t) \hspace{.1cm} dt" />
+                         <MathComponent tex="= \int \sqrt{64 - (8sin(t))^{2}} \hspace{.1cm} (8cos(t)) \hspace{.1cm} dt" />
+                         <MathComponent tex="= 64 \int cos^{2} (t) \hspace{.1cm} dt" />
+                         <MathComponent tex="= \frac{x}{2} \sqrt{64 - x^{2}} + 32 sin^{-1} \frac{x}{8} + C" />
                          
                     </p>
 
-                    *
+                    *333
                     </div>
                 </div>
 
 
-                <div className="Example-4">
-                    <h3>Example 4</h3>
-                    <div className="textBorder">
-                      <h4></h4>
-                      <p>
-                        
-                      </p>
-                      
-                     
-                    <p>
-                        Answer: <br/>
-                         <MathComponent tex="" />    
-                         
-                    </p>
-
-                    *
-                    </div>
-                </div>
-
-
-                <div className="Example-5">
-                    <h3>Example 5</h3>
-                    <div className="textBorder">
-                      <h4></h4>
-                      <p>
-                        
-                      </p>
-                      
-                     
-                    <p>
-                        Answer: <br/>
-                         <MathComponent tex="" />    
-                         
-                    </p>
-
-                    *
-                    </div>
-                </div>
-
-
-
-
+            
             </div>
             </div>
            
