@@ -43,11 +43,50 @@ export default function Calculus2_Ch8_Sec5() {
       </p>
 
 
-      <h2></h2>
+      <h2>Partial Fractions for Repeated Linear Factors</h2>
       <p className="textBorder">
-       
-        <MathComponent tex="" />
-        *
+       <span className="">
+        Suppose the repeated linear factor <MathComponent tex="(x-r)^{m}" /> appears in the denominator of a proper rationsal
+        function in reduced form. The partial fraction decomposition has a partial fraction in reduced form. The partial decomposition
+        has a partial fraction for each power of (x - r) up to and including the mth power; that is, the partial fraction decomposition
+        contains the sum <MathComponent tex="\frac{A_{1}}{(x - r)} + \frac{A_{2}}{(x - r)^{2}} + \frac{A_{3}}{(x - r)^{3}} + ... + \frac{A_{m}}{(x - r)^{m}}" />
+        where <MathComponent tex="A_{1}, ..., A_{m}" /> are constants to be determined.
+       </span><br/>
+        
+        *336
+      </p>
+
+      <h2>Partial Fractions with Simple Irreducible Quadratic Factors</h2>
+      <p className="textBorder">
+       <span className="">
+        Suppose a simple irreducible factor <MathComponent tex="ax^{2} + bx + c" /> appears in the denominator of a proper
+        rational function in reduced form. The partial fraction decomposition contains a term of the form 
+        <MathComponent tex="\frac{Ax + B}{ax^{2} + bx + c}," /> where A and B are unknown coefficients to be determined.
+       </span>
+        
+        *337
+      </p>
+
+      <h2>Partial Fractions Decompositon</h2>
+      <p className="textBorder">
+       <p>
+        Let f(x) = p(x)/q(x) be a proper rational function in reduced form. Assume the denominator q has been factored completly over
+        the real numbers and m is a positive integer.
+       </p>
+       <div>
+        <p><b>1. Simple linear factor</b> A factor x - r in the denominator requires the partial fraction <MathComponent tex="\frac{A}{x - r}" /></p>
+        <p className=""><b>2. Repeated linear factor</b> A factor <MathComponent tex="(x-r)^{m} \hspace{.1cm} \mathrm{with} \hspace{.1cm} m > 1" />
+            in the denominator requires the partial fractions <MathComponent tex="\frac{A_{1}}{(x - r)} + \frac{A_{2}}{(x - r)^{2}} + \frac{A_{3}}{(x - r)^{3}} + ... + \frac{A_{m}}{(x - r)^{m}}" />
+        </p>
+        <p><b>3. Simple irreducible quadratic factor </b> An irreducible factor <MathComponent tex="ax^{2} + bx + c" /> in the denominator
+            requires the partial fraction <MathComponent tex="\frac{Ax + B}{ax^{2} + bx + c}." />
+        </p>
+        <p><b>4. Repeated irreducible quadratic factor </b> An irreducible factor <MathComponent tex="(ax^{2} + bx + c)^{m} \hspace{.1cm} \mathrm{with} \hspace{.1cm} m > 1" /> in the denominator
+            requires the partial fractions <MathComponent tex="\frac{A_{1}x + B_{1}}{ax^{2} + bx + c} + \frac{A_{2}x + B_{2}}{(ax^{2} + bx + c)^{2}} + ... + \frac{A_{m}x + B_{m}}{(ax^{2} + bx + c)^{m}}" />
+        </p>
+       </div>
+        
+        *338
       </p>
       
 

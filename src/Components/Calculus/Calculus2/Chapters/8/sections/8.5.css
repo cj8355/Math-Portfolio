@@ -61,5 +61,6 @@
 }
 
 .textLine {
-    
+    display: flex;
+    flex-direction: row;
 }
