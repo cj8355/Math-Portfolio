@@ -20,6 +20,8 @@ export default function Calculus2_Ch8() {
         <p>Intro to Sec 2.3</p>
         <Link to="Sec8.4"><p>Sec 8.4 Trigonometric Substitutions</p></Link>
         <p>Intro to Sec 2.3</p>
+        <Link to="Sec8.5"><p>Sec 8.5 Partial Fractions</p></Link>
+        <p>Intro to Sec 2.3</p>
       
         </div>
     );

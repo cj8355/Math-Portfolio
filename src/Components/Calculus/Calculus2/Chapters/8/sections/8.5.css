@@ -1,0 +1,65 @@
+.MathJax{
+    display: inline-flexbox;
+    color: white;
+    font-size: 18px;
+}
+
+
+.container {
+    background-color: rgb(58, 54, 54);
+    color: white;
+}
+
+.container::-webkit-scrollbar {
+    display: none;
+  }
+
+.sectionText {
+    min-width: 450px;
+    max-width: 750px;
+    
+}
+
+
+
+.textBorder {
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.textList {
+    list-style: none;
+}
+
+.splitContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.oneLine {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    word-wrap: normal;
+}
+
+.negativeAlign {
+    margin-left: -35px;
+}
+
+.leftSide {
+    align-items: start;
+    justify-content: start;
+    margin-top: -70px;
+    
+}
+
+.textLine {
+    
+}
