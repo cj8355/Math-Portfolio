@@ -102,19 +102,19 @@ export default function Calculus2_Ch8_Sec5() {
             <div className="Example-1">
                     <h3>Example 1</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                      <h4>Partial Fractions</h4>
                       <p>
-                        
+                        Give the partial fraction decomposition for the following function.
                       </p>
-                      
+                      <MathComponent tex="\frac{5x-7}{x^{2} - 3x + 2}" /> 
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="\frac{2}{x-1} + \frac{3}{x-2}" />    
                          
                     </p>
 
-                    *
+                    *339
                     </div>
                 </div>
 
@@ -122,19 +122,19 @@ export default function Calculus2_Ch8_Sec5() {
                 <div className="Example-2">
                     <h3>Example 2</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                    <h4>Partial Fractions</h4>
                       <p>
-                        
+                        Give the partial fraction decomposition for the following function.
                       </p>
-                      
+                      <MathComponent tex="\frac{6}{x^{2} - 2x - 8}" /> 
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="\frac{1}{x-4} - \frac{1}{x+2}" />    
                          
                     </p>
 
-                    *
+                    *340
                     </div>
                 </div>
 
@@ -142,19 +142,22 @@ export default function Calculus2_Ch8_Sec5() {
                 <div className="Example-3">
                     <h3>Example 3</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                      <h4>Integration</h4>
                       <p>
-                        
+                        Evaluate the following integrals.
                       </p>
-                      
+                      <MathComponent tex="\int \frac{3}{(x-1)(x+2)} \hspace{.1cm} dx" /> 
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="3 \bigg( \int \frac{1}{3(x-1)} \hspace{.1cm} dx - \int \frac{1}{3(x+2)} \hspace{.1cm} dx \bigg)" />    
+                         <MathComponent tex="3 \bigg(\frac{1}{3} ln (\vert x - 1 \vert) - \frac{1}{3} ln (\vert x + 2 \vert)\bigg) \hspace{.1cm} + \hspace{.1cm} C" /> 
+                         <MathComponent tex="ln \bigg\vert \frac{x-1}{x+2}\bigg\vert \hspace{.1cm} + \hspace{.1cm} C" /> 
+                        
                          
                     </p>
 
-                    *
+                    *341
                     </div>
                 </div>
 
@@ -162,44 +165,26 @@ export default function Calculus2_Ch8_Sec5() {
                 <div className="Example-4">
                     <h3>Example 4</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                    <h4>Integration</h4>
                       <p>
-                        
+                        Evaluate the following integrals.
                       </p>
-                      
+                      <MathComponent tex="\int \frac{6x^{2}}{x^{4} - 5x^{2} + 4} \hspace{.1cm} dx" /> 
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="6 \bigg( \int - \frac{1}{3(x+2)} \hspace{.1cm} dx + \int \frac{1}{3(x-2)} \hspace{.1cm} dx + \int \frac{1}{6(x+1)} \hspace{.1cm} dx + \int - \frac{1}{6(x-1)} \hspace{.1cm} dx\bigg)" />     
+                         <MathComponent tex="ln \bigg\vert \frac{(x-2)^{2}(x+1)}{(x+2)^{2}(x-1)} \bigg\vert \hspace{.1cm} + \hspace{.1cm} C" /> 
+                        
                          
                     </p>
 
-                    *
+                    *342
                     </div>
                 </div>
 
 
-                <div className="Example-5">
-                    <h3>Example 5</h3>
-                    <div className="textBorder">
-                      <h4></h4>
-                      <p>
-                        
-                      </p>
-                      
-                     
-                    <p>
-                        Answer: <br/>
-                         <MathComponent tex="" />    
-                         
-                    </p>
-
-                    *
-                    </div>
-                </div>
-
-
-
+    
 
             </div>
             </div>
