@@ -1,13 +1,13 @@
 import { Link } from "react-router-dom";
-import "./6.1.css";
+import "./8.6.css";
 import { MathComponent } from "mathjax-react";
 
-export default function Calculus2_Ch6_Sec1() {
+export default function Calculus2_Ch8_Sec6() {
     
     
     return (
         <div className='container'> 
-        <h1>Ch. 6 Sec. Integration Strategies</h1>
+        <h1>Ch. 8 Sec. 6 </h1>
         <div className="sectionText">
 
       <h2></h2>
