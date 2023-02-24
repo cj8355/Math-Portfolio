@@ -52,19 +52,37 @@ export default function Calculus2_Ch8_Sec8() {
       </p>
       
 
-      <h2></h2>
+      <h2>Simpson's Rule</h2>
       <p className="textBorder">
+       <p>
+        Suppose f is defined and integrable on [a,b] and <MathComponent tex="n \geq 2" /> is an even integer. The
+        <b>Simpson's Rule approximation</b> to <MathComponent tex="\int_{a}^{b} f(x) \hspace{.2cm} dx" /> using n equally
+        spaced subintervals on [a,b] is 
+        <MathComponent tex="S(n) = (f(x_{0}) + 4f(x_{1}) + 2f(x_{2}) + 4f(x_{3}) + ... + 4f(x_{n-1}) + f(x_{n})) \frac{\Delta x}{3}," />
+        where n is an even integer, <MathComponent tex="\Delta x = (b - a)/n, \hspace{.2cm} \mathrm{and} \hspace{.2cm} x_{k} = a + k \Delta x, \hspace{.2cm} \mathrm{for} \hspace{.2cm} k = 0,1,...,n." />
+       </p>
        
-        <MathComponent tex="" />.
-        *
+        *346
       </p>
 
 
-      <h2></h2>
+      <h2>Errors in Numerical Integration</h2>
       <p className="textBorder">
-       
-        <MathComponent tex="" />.
-        *
+       <p>
+        Assume f'' is continuous on the interval [a,b] and k is a real number such that <MathComponent tex="\vert f''(x) \vert \leq k," />
+        for all x in [a,b]. The absolute errors in approximating the integral <MathComponent tex="\int_{a}^{b} f(x) \hspace{.2cm} dx" />
+        by the Midpoint Rule and Trapezoid Rule with n subintervals satisfy the inequalities
+        <MathComponent tex="E_{M} \leq \frac{k(b-a)}{24} (\Delta x)^{2} \hspace{.2cm} \mathrm{and} \hspace{.2cm} E_{T} \leq \frac{k(b-a)}{12} (\Delta x)^{2}," />
+        respectively, where <MathComponent tex="\Delta x = (b-a)/n." />
+       </p>
+       <p>
+        Assume  <MathComponent tex="f^{4}" /> is continuous on the interval [a,b] and K is a real number such that
+        <MathComponent tex="\vert f^{(4)} (x) \vert \leq K \mathrm{on \hspace{.2cm} [a,b].}" /> The absolute error in approximating the
+        integral  <MathComponent tex="\int_{a}^{b} f(x) \hspace{.2cm} dx" /> by Simpson's Rule with n subintervals satisfies the inequality
+        <MathComponent tex="E_{S} \leq \frac{K(b-a)}{180} (\Delta x)^{4}." />
+       </p>
+        
+        *347
       </p>
       
 
