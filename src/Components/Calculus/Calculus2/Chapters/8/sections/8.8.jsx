@@ -98,19 +98,19 @@ export default function Calculus2_Ch8_Sec8() {
             <div className="Example-1">
                     <h3>Example 1</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                      <h4>Midpoint Rule approximation</h4>
                       <p>
-                        
+                        Find the indicated Midpoint Rule approximation to the following integral.
                       </p>
-                      
+                      <MathComponent tex="\int_{2}^{10} 2x^{2} \hspace{.2cm} dx \hspace{.1cm} \mathrm{using \hspace{.2cm} n=1,2, \hspace{.2cm} and \hspace{.2cm} 4 \hspace{.2cm} subintervals}" /> 
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="576; 640; 656" />    
                          
                     </p>
 
-                    *
+                    *348
                     </div>
                 </div>
 
@@ -118,19 +118,19 @@ export default function Calculus2_Ch8_Sec8() {
                 <div className="Example-2">
                     <h3>Example 2</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                    <h4>Trapezoid Rule approximation</h4>
                       <p>
-                        
+                        Find the indicated Trapezoid Rule approximation to the following integral.
                       </p>
-                      
+                      <MathComponent tex="\int_{2}^{10} 2x^{2} \hspace{.2cm} dx \hspace{.1cm} \mathrm{using \hspace{.2cm} n=2,4, \hspace{.2cm} and \hspace{.2cm} 8 \hspace{.2cm} subintervals}" /> 
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="704; 672; 664" />    
                          
                     </p>
 
-                    *
+                    *349
                     </div>
                 </div>
 
@@ -138,59 +138,19 @@ export default function Calculus2_Ch8_Sec8() {
                 <div className="Example-3">
                     <h3>Example 3</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                    <h4>Simpson Rule approximation</h4>
                       <p>
-                        
+                        Find the indicated Simpson Rule approximation to the following integral.
                       </p>
-                      
+                      <MathComponent tex="\int_{0}^{\pi} \sqrt{sin \hspace{.2cm} x} \hspace{.2cm} dx \hspace{.1cm} \mathrm{using \hspace{.2cm} n=4 \hspace{.2cm} and \hspace{.2cm} n=6 \hspace{.2cm} subintervals}" /> 
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="2.28476811; 2.33512377" />    
                          
                     </p>
 
-                    *
-                    </div>
-                </div>
-
-
-                <div className="Example-4">
-                    <h3>Example 4</h3>
-                    <div className="textBorder">
-                      <h4></h4>
-                      <p>
-                        
-                      </p>
-                      
-                     
-                    <p>
-                        Answer: <br/>
-                         <MathComponent tex="" />    
-                         
-                    </p>
-
-                    *
-                    </div>
-                </div>
-
-
-                <div className="Example-5">
-                    <h3>Example 5</h3>
-                    <div className="textBorder">
-                      <h4></h4>
-                      <p>
-                        
-                      </p>
-                      
-                     
-                    <p>
-                        Answer: <br/>
-                         <MathComponent tex="" />    
-                         
-                    </p>
-
-                    *
+                    *350
                     </div>
                 </div>
 
