@@ -71,19 +71,21 @@ export default function Calculus2_Ch8_Sec9() {
             <div className="Example-1">
                     <h3>Example 1</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                      <h4>Improper integrals</h4>
                       <p>
-                        
+                        Evaluate the following integral or state that it diverges.
                       </p>
-                      
+                      <MathComponent tex="\int_{3}^{\infty} \frac{dx}{x^{2}}" />
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                        <MathComponent tex="=\lim_{\to \infty} \int_{3}^{t} \hspace{.2cm} x^{-2} \hspace{.2cm} dx" />
+                        <MathComponent tex="=\lim_{\to \infty} -t^{-1} \hspace{.2cm} + \hspace{.2cm} \frac{1}{3}" /> 
+                         <MathComponent tex="=\frac{1}{3}" />    
                          
                     </p>
 
-                    *
+                    *354
                     </div>
                 </div>
 
@@ -91,19 +93,19 @@ export default function Calculus2_Ch8_Sec9() {
                 <div className="Example-2">
                     <h3>Example 2</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                    <h4>Improper integrals</h4>
                       <p>
-                        
+                        Evaluate the following integral or state that it diverges.
                       </p>
-                      
+                      <MathComponent tex="\int_{0}^{\pi} cos \hspace{.1cm} x \hspace{.1cm} dx" />
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                        Diverges 
                          
                     </p>
 
-                    *
+                    *355
                     </div>
                 </div>
 
@@ -111,19 +113,19 @@ export default function Calculus2_Ch8_Sec9() {
                 <div className="Example-3">
                     <h3>Example 3</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                    <h4>Improper integrals</h4>
                       <p>
-                        
+                        Evaluate the following integral or state that it diverges.
                       </p>
-                      
+                      <MathComponent tex="\int_{0}^{2} \frac{dx}{(x-1)^{2}}" />
                      
-                    <p>
+                      <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                        Diverges  
                          
                     </p>
 
-                    *
+                    *356
                     </div>
                 </div>
 
@@ -131,39 +133,21 @@ export default function Calculus2_Ch8_Sec9() {
                 <div className="Example-4">
                     <h3>Example 4</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                    <h4>Improper integrals</h4>
                       <p>
-                        
+                        Evaluate the following integral or state that it diverges.
                       </p>
-                      
+                      <MathComponent tex="\int_{0}^{1} ln \hspace{.1cm} x \hspace{.1cm} dx" />
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                        <MathComponent tex="= x \hspace{.2cm} ln \hspace{.2cm} x - x \bigg\vert_{0}^{1}" />
+                        <MathComponent tex="= (1 \hspace{.2cm} ln \hspace{.2cm} (1) - 1) - (0 \hspace{.2cm} ln \hspace{.2cm} (0) - 0) " /> 
+                         <MathComponent tex="= -1" />    
                          
                     </p>
 
-                    *
-                    </div>
-                </div>
-
-
-                <div className="Example-5">
-                    <h3>Example 5</h3>
-                    <div className="textBorder">
-                      <h4></h4>
-                      <p>
-                        
-                      </p>
-                      
-                     
-                    <p>
-                        Answer: <br/>
-                         <MathComponent tex="" />    
-                         
-                    </p>
-
-                    *
+                    *357
                     </div>
                 </div>
 
