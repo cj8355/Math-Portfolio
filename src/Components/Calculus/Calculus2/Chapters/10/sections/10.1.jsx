@@ -74,19 +74,19 @@ export default function Calculus2_Ch10_Sec1() {
             <div className="Example-1">
                     <h3>Example 1</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                      <h4>Explicit formulas</h4>
                       <p>
-                        
+                        Write the first four terms of the sequence <MathComponent tex="\{a_{n}\}_{n=1}^{\infty}" />
                       </p>
-                      
+                      <MathComponent tex="a_{n} = \frac{1}{10^{n}}" />
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="\frac{1}{10},\frac{1}{100},\frac{1}{1000},\frac{1}{10000}" />    
                          
                     </p>
 
-                    *
+                    *361
                     </div>
                 </div>
 
@@ -94,19 +94,19 @@ export default function Calculus2_Ch10_Sec1() {
                 <div className="Example-2">
                     <h3>Example 2</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                      <h4>Recurrence relation</h4>
                       <p>
-                        
+                        Write the first four terms of the sequence <MathComponent tex="\{a_{n}\}" /> defined by the following recurrence relation.
                       </p>
-                      
+                      <MathComponent tex="a_{n+1} = 2a_{n}; \hspace{.2cm} a_{1} = 2" />
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="2,4,6,8" />    
                          
                     </p>
 
-                    *
+                    *362
                     </div>
                 </div>
 
@@ -114,19 +114,21 @@ export default function Calculus2_Ch10_Sec1() {
                 <div className="Example-3">
                     <h3>Example 3</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                      <h4>Limits of sequences</h4>
                       <p>
-                        
+                        Write the terms <MathComponent tex="a_{1}, a_{2}, a_{3}, \hspace{.2cm} \mathrm{and} \hspace{.2cm} a_{4}" />
+                        of the following sequence. If the sequence appears to converge, make a conjecture about its limit. If the
+                        sequence diverges, explain why.
                       </p>
-                      
+                      <MathComponent tex="a_{n} = 10^{n} - 1; \hspace{.2cm} n = 1,2,3,..." />
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
-                         
+                         <MathComponent tex="9, 99, 999, 9999" />    
+                         Diverges, the numbers get infinetely larger in the sequence.
                     </p>
 
-                    *
+                    *363
                     </div>
                 </div>
 
@@ -134,42 +136,23 @@ export default function Calculus2_Ch10_Sec1() {
                 <div className="Example-4">
                     <h3>Example 4</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                    <h4>Limits of sequences</h4>
                       <p>
-                        
+                        Write the terms <MathComponent tex="a_{1}, a_{2}, a_{3}, \hspace{.2cm} \mathrm{and} \hspace{.2cm} a_{4}" />
+                        of the following sequence. If the sequence appears to converge, make a conjecture about its limit. If the
+                        sequence diverges, explain why.
                       </p>
-                      
+                      <MathComponent tex="a_{n} = \frac{1}{10^{n}}; \hspace{.2cm} n = 1,2,3,..." />
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
-                         
+                         <MathComponent tex="\frac{1}{10}, \frac{1}{100}, \frac{1}{1000}, \frac{1}{10000}" />    
+                         Converges to zero.
                     </p>
 
-                    *
+                    *364
                     </div>
                 </div>
-
-
-                <div className="Example-5">
-                    <h3>Example 5</h3>
-                    <div className="textBorder">
-                      <h4></h4>
-                      <p>
-                        
-                      </p>
-                      
-                     
-                    <p>
-                        Answer: <br/>
-                         <MathComponent tex="" />    
-                         
-                    </p>
-
-                    *
-                    </div>
-                </div>
-
 
 
 
