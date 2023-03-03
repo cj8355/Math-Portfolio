@@ -65,27 +65,48 @@ export default function Calculus2_Ch10_Sec2() {
       </p>
       
 
-      <h2></h2>
+      <h2>Squeeze Theorem for Sequences</h2>
       <p className="textBorder">
        
-        <MathComponent tex="" />
-        *
+        <MathComponent tex="\mathrm{Let \hspace{.2cm} \{a_{n}\}, \hspace{.2cm} \{b_{n}\}, \hspace{.2cm} and \hspace{.2cm} \{c_{n}\} \hspace{.2cm} be \hspace{.2cm} sequences \hspace{.2cm} with \hspace{.2cm} a_{n} \leq b_{n} \leq c_{n}, \hspace{.2cm} for \hspace{.2cm} all \hspace{.2cm} integers \hspace{.2cm} n }" />
+        <MathComponent tex="\mathrm{\hspace{.2cm} greater \hspace{.2cm} than \hspace{.2cm} some \hspace{.2cm} index \hspace{.2cm} N. If \hspace{.2cm} \lim_{n\to \infty} a_{n} = \lim_{n\to \infty} c_{n} = L, \hspace{.2cm} then \hspace{.2cm} \lim_{n\to \infty} b_{n} = L.}" /> 
+        *369
       </p>
       
 
-      <h2></h2>
+      <h2>Bounded Monotonic Sequence</h2>
       <p className="textBorder">
+       <p>
+        A bounded monotonic sequence converges.
+       </p>
        
-        <MathComponent tex="" />.
-        *
+        *370
       </p>
       
 
-      <h2></h2>
+      <h2>Growth Rates of Sequences</h2>
       <p className="textBorder">
-       
-        <MathComponent tex="" />.
-        *
+       <p>The following sequences are ordered according to increasing growth rates as</p>
+        <MathComponent tex="n \to \infty; \mathrm{that \hspace{.2cm} is, \hspace{.2cm} if \hspace{.2cm} \{a_{n}\} \hspace{.2cm} appears \hspace{.2cm} before \hspace{.2cm} \{b_{n}\} \hspace{.2cm} in \hspace{.2cm} the \hspace{.2cm} list, \hspace{.2cm} then \hspace{.2cm} }" />
+        <MathComponent tex="\mathrm{\lim_{n\to \infty} \frac{a_{n}}{b_{n}} = 0 \hspace{.2cm} and \hspace{.2cm} \lim_{n\to \infty} \frac{b_{n}}{a_{n}} = \infty:}" />  
+        <MathComponent tex="\{ln^{q} \hspace{.2cm} n \} \ll \{n^{p}\} \ll \{n^{p} ln^{r} n \} \ll \{n^{p+s}\} \ll \{b^{n}\} \ll \{n!\} \ll \{n^{p}\}." />
+        <MathComponent tex="\mathrm{The \hspace{.2cm} ordering \hspace{.2cm} applies \hspace{.2cm} for \hspace{.2cm} positive \hspace{.2cm} real \hspace{.2cm} numbers \hspace{.2cm} p,q,r,s, \hspace{.2cm} and \hspace{.2cm} b > 1.}" />
+        *371
+      </p>
+      
+
+      <h2>Limits of a Sequence</h2>
+      <p className="textBorder">
+       <p>
+        The sequence  <MathComponent tex="\{a_{n}\}" /> converges to L provided the terms of <MathComponent tex="a_{n}" /> can be made
+        arbitrarily close to L by taking n sufficently large. More precisely, <MathComponent tex="\{a_{n}\}" /> has the unique limit L if,
+        given any <MathComponent tex="e > 0," /> it is possible to find a positive integer N (depending only on e) such that
+       </p>
+        <MathComponent tex="\vert a_{n} - L \vert < e \hspace{1cm} \mathnormal{whenever \hspace{.2cm} n > N.}" />
+        <p>If the limit of a sequence is L, we say the sequence converges to L, written</p>
+        <MathComponent tex="\lim_{n\to \infty} a_{n} = L." />
+        <p>A sequence that does not converge is said to diverge.</p>
+        *372
       </p>
       
 
@@ -109,7 +130,7 @@ export default function Calculus2_Ch10_Sec2() {
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                            
                          
                     </p>
 
