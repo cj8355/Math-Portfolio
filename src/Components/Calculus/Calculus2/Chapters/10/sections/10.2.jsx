@@ -122,19 +122,21 @@ export default function Calculus2_Ch10_Sec2() {
             <div className="Example-1">
                     <h3>Example 1</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                      <h4>Limits of sequences</h4>
                       <p>
-                        
+                        Find the limit of the following sequence or determine that the sequence diverges.
                       </p>
-                      
+                      <MathComponent tex="\bigg\{\frac{n^{3}}{n^{4} + 1} \bigg\}" /> 
                      
                     <p>
                         Answer: <br/>
-                            
-                         
+                            <p>
+                              0. The denominator increases faster than the numerator, the sequence will approach zero.
+                            </p>
+                       
                     </p>
 
-                    *
+                    *373
                     </div>
                 </div>
 
@@ -142,19 +144,21 @@ export default function Calculus2_Ch10_Sec2() {
                 <div className="Example-2">
                     <h3>Example 2</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                    <h4>Limits of sequences</h4>
                       <p>
-                        
+                        Find the limit of the following sequence or determine that the sequence diverges.
                       </p>
-                      
+                      <MathComponent tex="\bigg\{\frac{3^{n+1} + 3}{3^{n}} \bigg\}" /> 
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
-                         
+                            <p>
+                              3. The numerator appraoches approximately 3(denominator).
+                            </p>
+                       
                     </p>
 
-                    *
+                    *374
                     </div>
                 </div>
 
@@ -162,19 +166,18 @@ export default function Calculus2_Ch10_Sec2() {
                 <div className="Example-3">
                     <h3>Example 3</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                    <h4>Limits of sequences</h4>
                       <p>
-                        
+                        Find the limit of the following sequence or determine that the sequence diverges.
                       </p>
-                      
+                      <MathComponent tex="\bigg\{\bigg(1+ \frac{2}{n}\bigg) ^{n} \bigg\}" /> 
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
-                         
+                        <MathComponent tex="e^{2}" /> 
                     </p>
 
-                    *
+                    *375
                     </div>
                 </div>
 
@@ -182,42 +185,20 @@ export default function Calculus2_Ch10_Sec2() {
                 <div className="Example-4">
                     <h3>Example 4</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                    <h4>Limits of sequences</h4>
                       <p>
-                        
+                        Find the limit of the following sequence or determine that the sequence diverges.
                       </p>
-                      
+                      <MathComponent tex="\bigg\{\frac{cos \hspace{.2cm} n}{n} \bigg\}" /> 
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
-                         
+                        <p>0. </p>
                     </p>
 
-                    *
+                    *376
                     </div>
                 </div>
-
-
-                <div className="Example-5">
-                    <h3>Example 5</h3>
-                    <div className="textBorder">
-                      <h4></h4>
-                      <p>
-                        
-                      </p>
-                      
-                     
-                    <p>
-                        Answer: <br/>
-                         <MathComponent tex="" />    
-                         
-                    </p>
-
-                    *
-                    </div>
-                </div>
-
 
 
 
