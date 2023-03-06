@@ -70,19 +70,19 @@ export default function Calculus2_Ch10_Sec4() {
             <div className="Example-1">
                     <h3>Example 1</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                      <h4>Divergence Test</h4>
                       <p>
-                        
+                        Use the Divergence Test to determine whether the following series diverge or state that the test is inconclusive.
                       </p>
-                      
+                      <MathComponent tex="\sum_{k=0}^{\infty} \frac{k}{2k+1}" /> 
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <p>The limit approaches 1/2 so the series diverges.</p>  
                          
                     </p>
 
-                    *
+                    *380
                     </div>
                 </div>
 
@@ -90,19 +90,19 @@ export default function Calculus2_Ch10_Sec4() {
                 <div className="Example-2">
                     <h3>Example 2</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                      <h4>Integral Test</h4>
                       <p>
-                        
+                        Use the Integral Test to determine whether the following series converge after showing that the conditions of the Integral Test are satisifed.
                       </p>
-                      
+                      <MathComponent tex="\sum_{k=0}^{\infty} \frac{1}{\sqrt{k+8}}" /> 
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <p>Diverges</p>  
                          
                     </p>
 
-                    *
+                    *381
                     </div>
                 </div>
 
@@ -110,19 +110,21 @@ export default function Calculus2_Ch10_Sec4() {
                 <div className="Example-3">
                     <h3>Example 3</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                      <h4>Divergence, Integral, and p-series Tests</h4>
                       <p>
-                        
+                        Use the Divergence Test, the Integral Test, or the p-series test to determine whether the following series converge.
                       </p>
-                      
+                      <MathComponent tex="\sum_{k=1}^{\infty} \frac{k^{3}}{e^{k^{4}}}" />  
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                           <p>
+                            Converges. The series apporaches zero.
+                           </p>
                          
                     </p>
 
-                    *
+                    *382
                     </div>
                 </div>
 
@@ -130,42 +132,23 @@ export default function Calculus2_Ch10_Sec4() {
                 <div className="Example-4">
                     <h3>Example 4</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                    <h4>Divergence, Integral, and p-series Tests</h4>
                       <p>
-                        
+                        Use the Divergence Test, the Integral Test, or the p-series test to determine whether the following series converge.
                       </p>
-                      
+                      <MathComponent tex="\sum_{k=1}^{\infty} k^{1/k}" />  
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                           <p>
+                            Diverges. The series apporaches 1.
+                           </p>
                          
                     </p>
 
-                    *
+                    *383
                     </div>
                 </div>
-
-
-                <div className="Example-5">
-                    <h3>Example 5</h3>
-                    <div className="textBorder">
-                      <h4></h4>
-                      <p>
-                        
-                      </p>
-                      
-                     
-                    <p>
-                        Answer: <br/>
-                         <MathComponent tex="" />    
-                         
-                    </p>
-
-                    *
-                    </div>
-                </div>
-
 
 
 
