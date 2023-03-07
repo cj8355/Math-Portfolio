@@ -44,19 +44,19 @@ export default function Calculus2_Ch10_Sec5() {
             <div className="Example-1">
                     <h3>Example 1</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                      <h4>Comparison tests</h4>
                       <p>
-                        
+                        Use the Comparison Test or the Limit Comparison Test to determine whether the following series converges.
                       </p>
-                      
+                      <MathComponent tex="\sum_{k=1}^{\infty} \frac{1}{k^{2} + 4}" />
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <p>Converges, series approaches zero.</p>   
                          
                     </p>
 
-                    *
+                    *386
                     </div>
                 </div>
 
@@ -64,19 +64,19 @@ export default function Calculus2_Ch10_Sec5() {
                 <div className="Example-2">
                     <h3>Example 2</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                    <h4>Comparison tests</h4>
                       <p>
-                        
+                        Use the Comparison Test or the Limit Comparison Test to determine whether the following series converges.
                       </p>
-                      
+                      <MathComponent tex="\sum_{k=1}^{\infty} \frac{k^{2}-1}{k^{3} + 4}" />
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <p>Diverges, series approaches 1/k.</p>   
                          
                     </p>
 
-                    *
+                    *387
                     </div>
                 </div>
 
@@ -84,19 +84,19 @@ export default function Calculus2_Ch10_Sec5() {
                 <div className="Example-3">
                     <h3>Example 3</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                    <h4>Comparison tests</h4>
                       <p>
-                        
+                        Use the Comparison Test or the Limit Comparison Test to determine whether the following series converges.
                       </p>
-                      
+                      <MathComponent tex="\sum_{k=1}^{\infty} \frac{1}{4^{ln \hspace{.1cm} k}}" />
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <p>Converges, series approaches zero.</p>   
                          
                     </p>
 
-                    *
+                    *388
                     </div>
                 </div>
 
@@ -104,43 +104,22 @@ export default function Calculus2_Ch10_Sec5() {
                 <div className="Example-4">
                     <h3>Example 4</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                      <h4>Choose your test</h4>
                       <p>
-                        
+                        Use the test of your choice to determine whether the following series converges.
                       </p>
-                      
+                      <MathComponent tex="\sum_{k=1}^{\infty} \bigg(1 + \frac{2}{k} \bigg)^{k}" />
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <p>
+                            Diverges, the series approaches 1.</p>  
                          
                     </p>
 
-                    *
+                    *389
                     </div>
                 </div>
-
-
-                <div className="Example-5">
-                    <h3>Example 5</h3>
-                    <div className="textBorder">
-                      <h4></h4>
-                      <p>
-                        
-                      </p>
-                      
-                     
-                    <p>
-                        Answer: <br/>
-                         <MathComponent tex="" />    
-                         
-                    </p>
-
-                    *
-                    </div>
-                </div>
-
-
 
 
             </div>
