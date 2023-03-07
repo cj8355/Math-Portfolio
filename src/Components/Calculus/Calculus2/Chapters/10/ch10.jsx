@@ -20,7 +20,7 @@ export default function Calculus2_Ch10() {
         <p>Intro to Sec 2.3</p>
         <Link to="Sec10.4"><p>Sec 10.4 The Divergence and Integral Tests</p></Link>
         <p>Intro to Sec 2.3</p>
-        <Link to="Sec10.5"><p>Sec 8.5 Partial Fractions</p></Link>
+        <Link to="Sec10.5"><p>Sec 10.5 Comparison Tests</p></Link>
         <p>Intro to Sec 2.3</p>
         <Link to="Sec8.8"><p>Sec 8.8 Numerical Integration</p></Link>
         <p>Intro to Sec 2.3</p>
