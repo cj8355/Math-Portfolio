@@ -75,19 +75,19 @@ export default function Calculus2_Ch10_Sec6() {
             <div className="Example-1">
                     <h3>Example 1</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                      <h4>Alternating Series Text</h4>
                       <p>
-                        
+                        Determine whether the following series converges.
                       </p>
-                      
+                      <MathComponent tex="\sum_{k=0}^{\infty} \frac{(-1)^{k}}{2k+1}" /> 
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <p>Converges, the terms are nonincreasing and the limit apporaches zero.</p>    
                          
                     </p>
 
-                    *
+                    *391
                     </div>
                 </div>
 
@@ -95,19 +95,19 @@ export default function Calculus2_Ch10_Sec6() {
                 <div className="Example-2">
                     <h3>Example 2</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                    <h4>Alternating Series Text</h4>
                       <p>
-                        
+                        Determine whether the following series converges.
                       </p>
-                      
+                      <MathComponent tex="\sum_{k=1}^{\infty} \frac{(-1)^{k}k}{3k+2}" /> 
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <p>Diverges, the limit doesn't approach zero.</p>    
                          
                     </p>
 
-                    *
+                    *392
                     </div>
                 </div>
 
@@ -115,19 +115,19 @@ export default function Calculus2_Ch10_Sec6() {
                 <div className="Example-3">
                     <h3>Example 3</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                    <h4>Alternating Series Text</h4>
                       <p>
-                        
+                        Determine whether the following series converges.
                       </p>
-                      
+                      <MathComponent tex="\sum_{k=0}^{\infty} \frac{(-1)^{k}}{\sqrt{k^{2}+4}}" /> 
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <p>Converges, the terms are nonincreasing and the limit apporaches zero.</p>    
                          
                     </p>
 
-                    *
+                    *393
                     </div>
                 </div>
 
@@ -135,42 +135,21 @@ export default function Calculus2_Ch10_Sec6() {
                 <div className="Example-4">
                     <h3>Example 4</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                      <h4>Absolute and conditional convergence</h4>
                       <p>
-                        
+                        Determine whether the following series converges absolutely, converge conditionally, or diverge.
                       </p>
-                      
+                      <MathComponent tex="\sum_{k=1}^{\infty} \frac{(-1)^{k}}{k^{2/3}}" />
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                        <p>Converges Conditionally, the absolute value of the sum diverges.</p>    
                          
                     </p>
 
-                    *
+                    *394
                     </div>
                 </div>
-
-
-                <div className="Example-5">
-                    <h3>Example 5</h3>
-                    <div className="textBorder">
-                      <h4></h4>
-                      <p>
-                        
-                      </p>
-                      
-                     
-                    <p>
-                        Answer: <br/>
-                         <MathComponent tex="" />    
-                         
-                    </p>
-
-                    *
-                    </div>
-                </div>
-
 
 
 
