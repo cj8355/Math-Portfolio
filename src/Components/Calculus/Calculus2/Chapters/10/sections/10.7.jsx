@@ -40,19 +40,19 @@ export default function Calculus2_Ch10_Sec7() {
             <div className="Example-1">
                     <h3>Example 1</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                      <h4>The Ratio and Root Tests</h4>
                       <p>
-                        
+                        Use the Ratio Test or the Root Test to determine whether the following series converges absolutely or diverges.
                       </p>
-                      
+                      <MathComponent tex="\sum_{k=1}^{\infty} \frac{(-1)^{k}}{k!}" /> 
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <p>Converges Absolutely, the series approaches zero.</p>   
                          
                     </p>
 
-                    *
+                    *397
                     </div>
                 </div>
 
@@ -60,19 +60,19 @@ export default function Calculus2_Ch10_Sec7() {
                 <div className="Example-2">
                     <h3>Example 2</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                    <h4>The Ratio and Root Tests</h4>
                       <p>
-                        
+                        Use the Ratio Test or the Root Test to determine whether the following series converges absolutely or diverges.
                       </p>
-                      
+                      <MathComponent tex="\sum_{k=1}^{\infty} \frac{2^{k}}{k^{99}}" /> 
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <p>Diverges, using the Ration Test, r is greater than 1.</p>   
                          
                     </p>
 
-                    *
+                    *398
                     </div>
                 </div>
 
@@ -80,19 +80,19 @@ export default function Calculus2_Ch10_Sec7() {
                 <div className="Example-3">
                     <h3>Example 3</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                    <h4>The Ratio and Root Tests</h4>
                       <p>
-                        
+                        Use the Ratio Test or the Root Test to determine whether the following series converges absolutely or diverges.
                       </p>
-                      
+                      <MathComponent tex="1 + \bigg( \frac{1}{2} \bigg)^{2} + \bigg( \frac{1}{3} \bigg)^{3} + \bigg( \frac{1}{4} \bigg)^{4} + ..." /> 
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <p>Converges Absolutely, the series approaches zero.</p>   
                          
                     </p>
 
-                    *
+                    *399
                     </div>
                 </div>
 
@@ -100,43 +100,21 @@ export default function Calculus2_Ch10_Sec7() {
                 <div className="Example-4">
                     <h3>Example 4</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                      <h4>Choose your test</h4>
                       <p>
-                        
+                        Use the test of your choice to determine whether the following series converge absolutely, converges conditionally, or diverge.
                       </p>
-                      
+                      <MathComponent tex="\sum_{k=1}^{\infty} \frac{(-1)^{k}}{k^{0.99}}" /> 
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <p>Converges conditionally, the absolute value of the series diverges.</p>    
                          
                     </p>
 
-                    *
+                    *400
                     </div>
                 </div>
-
-
-                <div className="Example-5">
-                    <h3>Example 5</h3>
-                    <div className="textBorder">
-                      <h4></h4>
-                      <p>
-                        
-                      </p>
-                      
-                     
-                    <p>
-                        Answer: <br/>
-                         <MathComponent tex="" />    
-                         
-                    </p>
-
-                    *
-                    </div>
-                </div>
-
-
 
 
             </div>
