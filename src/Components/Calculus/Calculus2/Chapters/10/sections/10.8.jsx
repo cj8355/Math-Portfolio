@@ -29,19 +29,19 @@ export default function Calculus2_Ch10_Sec8() {
             <div className="Example-1">
                     <h3>Example 1</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                      <h4>Applying convergence tests</h4>
                       <p>
-                        
+                        Determine whether the following series converge. Justify your answer.
                       </p>
-                      
+                      <MathComponent tex="\sum_{k=1}^{\infty} \frac{2k^{4} + k}{4k^{4} - 8k}" />
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                           <p>Diverges, series apporaches 1/2.</p>  
                          
                     </p>
 
-                    *
+                    *398
                     </div>
                 </div>
 
@@ -49,19 +49,19 @@ export default function Calculus2_Ch10_Sec8() {
                 <div className="Example-2">
                     <h3>Example 2</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                    <h4>Applying convergence tests</h4>
                       <p>
-                        
+                        Determine whether the following series converge. Justify your answer.
                       </p>
-                      
+                      <MathComponent tex="\sum_{k=1}^{\infty} \frac{(-7)^{k}}{k!}" />
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                           <p>Converges, series apporaches zero.</p>  
                          
                     </p>
 
-                    *
+                    *399
                     </div>
                 </div>
 
@@ -69,19 +69,19 @@ export default function Calculus2_Ch10_Sec8() {
                 <div className="Example-3">
                     <h3>Example 3</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                    <h4>Applying convergence tests</h4>
                       <p>
-                        
+                        Determine whether the following series converge. Justify your answer.
                       </p>
-                      
+                      <MathComponent tex="\sum_{k=1}^{\infty} \frac{k^{5}}{5^{k}}" />
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                           <p>Converges, series apporaches zero.</p>  
                          
                     </p>
 
-                    *
+                    *400
                     </div>
                 </div>
 
@@ -89,43 +89,21 @@ export default function Calculus2_Ch10_Sec8() {
                 <div className="Example-4">
                     <h3>Example 4</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                    <h4>Applying convergence tests</h4>
                       <p>
-                        
+                        Determine whether the following series converge. Justify your answer.
                       </p>
-                      
+                      <MathComponent tex="\sum_{k=1}^{\infty} \frac{10^{k} + 1}{k^{10}}" />
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                           <p>Diverges, series increases as k increases.</p>  
                          
                     </p>
 
-                    *
+                    *401
                     </div>
                 </div>
-
-
-                <div className="Example-5">
-                    <h3>Example 5</h3>
-                    <div className="textBorder">
-                      <h4></h4>
-                      <p>
-                        
-                      </p>
-                      
-                     
-                    <p>
-                        Answer: <br/>
-                         <MathComponent tex="" />    
-                         
-                    </p>
-
-                    *
-                    </div>
-                </div>
-
-
 
 
             </div>
