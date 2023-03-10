@@ -26,7 +26,7 @@ export default function Calculus2_Ch10() {
         <p>Intro to Sec 2.3</p>
         <Link to="Sec10.7"><p>Sec 10.7 The Ratio and Root Tests</p></Link>
         <p>Intro to Sec 2.3</p>
-        <Link to="Sec8.9"><p>Sec 8.9 Improper Integrals</p></Link>
+        <Link to="Sec10.8"><p>Sec 10.8 Choosing a Convergence Test</p></Link>
         <p>Intro to Sec 2.3</p>
         <Link to="Sec8.9"><p>Sec 8.9 Improper Integrals</p></Link>
         <p>Intro to Sec 2.3</p>
