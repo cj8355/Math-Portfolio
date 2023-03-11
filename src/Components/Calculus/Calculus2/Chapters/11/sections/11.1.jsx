@@ -77,19 +77,27 @@ export default function Calculus2_Ch11_Sec1() {
             <div className="Example-1">
                     <h3>Example 1</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                      <h4>Linear and quadratic approximation</h4>
                       <p>
-                        
+                        a. Find the linear approximating polynomial for the following function centered at the given point a.
                       </p>
-                      
+                      <p>
+                        b. Find the quadratic approximating polynomial for the following function centered at a.
+                      </p>
+                      <p>
+                        c. Use the polynomials obtained in parts (a) and (b) to approximate the given quantity.
+                      </p>
+                      <MathComponent tex="f(x) = 8x^{3/2}, \hspace{.2cm} a=1; \hspace{.2cm} \mathrm{approximate} \hspace{.2cm} 8 \cdot 1.1^{3/2}" />
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="\mathrm{a.} \hspace{.2cm} p_{1}(x) = 8 + 12(x-1)" /> 
+                         <MathComponent tex="\mathrm{b.} \hspace{.2cm} p_{2}(x) = 8 + 12(x-1) + 3(x-1)^{2}" />
+                         <p>c. 9.2; 9.23</p>  
                          
                     </p>
 
-                    *
+                    *407
                     </div>
                 </div>
 
@@ -97,19 +105,26 @@ export default function Calculus2_Ch11_Sec1() {
                 <div className="Example-2">
                     <h3>Example 2</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                    <h4>Linear and quadratic approximation</h4>
                       <p>
-                        
+                        a. Find the linear approximating polynomial for the following function centered at the given point a.
                       </p>
-                      
+                      <p>
+                        b. Find the quadratic approximating polynomial for the following function centered at a.
+                      </p>
+                      <p>
+                        c. Use the polynomials obtained in parts (a) and (b) to approximate the given quantity.
+                      </p>
+                      <MathComponent tex="\mathrm{Find \hspace{.2cm} the \hspace{.2cm} Taylor \hspace{.2cm} polynomials \hspace{.2cm} p_{1}, ..., p_{4} \hspace{.2cm} centered \hspace{.2cm} at \hspace{.2cm} a=0 \hspace{.2cm} for \hspace{.2cm} f(x)=cos \hspace{.2cm} 6x.}" />
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="p_{1}(x) = 1, p_{2}(x) = p_{3}(x) = 1-18x^{2}, p_{4}(x) = 1 - 18x^{2} + 54x^{4}" /> 
+                         
                          
                     </p>
 
-                    *
+                    *408
                     </div>
                 </div>
 
@@ -117,59 +132,27 @@ export default function Calculus2_Ch11_Sec1() {
                 <div className="Example-3">
                     <h3>Example 3</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                    <h4>Linear and quadratic approximation</h4>
                       <p>
-                        
+                        a. Find the linear approximating polynomial for the following function centered at the given point a.
                       </p>
-                      
+                      <p>
+                        b. Find the quadratic approximating polynomial for the following function centered at a.
+                      </p>
+                      <p>
+                        c. Use the polynomials obtained in parts (a) and (b) to approximate the given quantity.
+                      </p>
+                      <MathComponent tex="f(x) = 8x^{3/2}, \hspace{.2cm} a=1; \hspace{.2cm} \mathrm{approximate} \hspace{.2cm} 8 \cdot 1.1^{3/2}" />
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="\mathrm{a.} \hspace{.2cm} p_{1}(x) = 8 + 12(x-1)" /> 
+                         <MathComponent tex="\mathrm{b.} \hspace{.2cm} p_{2}(x) = 8 + 12(x-1) + 3(x-1)^{2}" />
+                         <p>c. 9.2; 9.23</p>  
                          
                     </p>
 
-                    *
-                    </div>
-                </div>
-
-
-                <div className="Example-4">
-                    <h3>Example 4</h3>
-                    <div className="textBorder">
-                      <h4></h4>
-                      <p>
-                        
-                      </p>
-                      
-                     
-                    <p>
-                        Answer: <br/>
-                         <MathComponent tex="" />    
-                         
-                    </p>
-
-                    *
-                    </div>
-                </div>
-
-
-                <div className="Example-5">
-                    <h3>Example 5</h3>
-                    <div className="textBorder">
-                      <h4></h4>
-                      <p>
-                        
-                      </p>
-                      
-                     
-                    <p>
-                        Answer: <br/>
-                         <MathComponent tex="" />    
-                         
-                    </p>
-
-                    *
+                    *409
                     </div>
                 </div>
 
