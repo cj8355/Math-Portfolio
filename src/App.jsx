@@ -75,6 +75,8 @@ import Calculus2_Ch10_Sec5 from './Components/Calculus/Calculus2/Chapters/10/sec
 import Calculus2_Ch10_Sec6 from './Components/Calculus/Calculus2/Chapters/10/sections/10.6';
 import Calculus2_Ch10_Sec7 from './Components/Calculus/Calculus2/Chapters/10/sections/10.7';
 import Calculus2_Ch10_Sec8 from './Components/Calculus/Calculus2/Chapters/10/sections/10.8';
+import Calculus2_Ch11 from './Components/Calculus/Calculus2/Chapters/11/ch11';
+import Calculus2_Ch11_Sec1 from './Components/Calculus/Calculus2/Chapters/11/sections/11.1';
 
 function App() {
   return (
@@ -172,6 +174,10 @@ function App() {
         <Route path='/calculus/calculus2/Ch.10/Sec10.6' element={<Calculus2_Ch10_Sec6/>}/>
         <Route path='/calculus/calculus2/Ch.10/Sec10.7' element={<Calculus2_Ch10_Sec7/>}/>
         <Route path='/calculus/calculus2/Ch.10/Sec10.8' element={<Calculus2_Ch10_Sec8/>}/>
+
+
+        <Route path='/calculus/calculus2/Ch.11' element={<Calculus2_Ch11 />}/>
+        <Route path='/calculus/calculus2/Ch.11/Sec11.1' element={<Calculus2_Ch11_Sec1/>}/>
         
       </Routes>
     </div>
