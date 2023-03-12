@@ -87,19 +87,19 @@ export default function Calculus2_Ch11_Sec2() {
             <div className="Example-1">
                     <h3>Example 1</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                      <h4>Radius and interval of convergence</h4>
                       <p>
-                        
+                        Determine the radius and interval of convergence of the following power series.
                       </p>
-                      
+                      <MathComponent tex="\sum_{k=0}^{\infty} (2x)^{k}" />
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="R = \frac{1}{2}; \hspace{.2cm} (- \frac{1}{2}, \frac{1}{2})" />    
                          
                     </p>
 
-                    *
+                    *411
                     </div>
                 </div>
 
@@ -107,19 +107,19 @@ export default function Calculus2_Ch11_Sec2() {
                 <div className="Example-2">
                     <h3>Example 2</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                    <h4>Radius and interval of convergence</h4>
                       <p>
-                        
+                        Determine the radius and interval of convergence of the following power series.
                       </p>
-                      
+                      <MathComponent tex="\sum_{k=0}^{\infty} \bigg( \frac{x}{3} \bigg)^{k}" />
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="R = 3; \hspace{.2cm} (- 3, 3)" />    
                          
                     </p>
 
-                    *
+                    *412
                     </div>
                 </div>
 
@@ -127,62 +127,21 @@ export default function Calculus2_Ch11_Sec2() {
                 <div className="Example-3">
                     <h3>Example 3</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                    <h4>Radius and interval of convergence</h4>
                       <p>
-                        
+                        Determine the radius and interval of convergence of the following power series.
                       </p>
-                      
+                      <MathComponent tex="- \frac{x^{2}}{1!} + \frac{x^{4}}{2!} - \frac{x^{6}}{3!} + \frac{x^{8}}{4!} - ..." />
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="R = \infty; \hspace{.2cm} (- \infty, \infty)" />    
                          
                     </p>
 
-                    *
+                    *413
                     </div>
                 </div>
-
-
-                <div className="Example-4">
-                    <h3>Example 4</h3>
-                    <div className="textBorder">
-                      <h4></h4>
-                      <p>
-                        
-                      </p>
-                      
-                     
-                    <p>
-                        Answer: <br/>
-                         <MathComponent tex="" />    
-                         
-                    </p>
-
-                    *
-                    </div>
-                </div>
-
-
-                <div className="Example-5">
-                    <h3>Example 5</h3>
-                    <div className="textBorder">
-                      <h4></h4>
-                      <p>
-                        
-                      </p>
-                      
-                     
-                    <p>
-                        Answer: <br/>
-                         <MathComponent tex="" />    
-                         
-                    </p>
-
-                    *
-                    </div>
-                </div>
-
 
 
 
