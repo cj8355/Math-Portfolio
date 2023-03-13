@@ -69,19 +69,28 @@ export default function Calculus2_Ch11_Sec3() {
             <div className="Example-1">
                     <h3>Example 1</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                      <h4>Taylor series and interval of convergence</h4>
                       <p>
-                        
+                        a. Use the definition of a Taylor/Maclaurin series to find the first four nonzero terms of the Taylor series
+                        for the given function centered at a.
                       </p>
-                      
+                      <p>
+                        b. Write the power series using summation notation.
+                      </p>
+                      <p>
+                        Determine the interval of convergence of the series.
+                      </p>
+                      <MathComponent tex="f(x) = \frac{1}{x^{2}}, a = 1" />
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />   
+                         <MathComponent tex="a. \hspace{.5cm} 1 - 2(x-1)+3(x-1)^{2}-4(x-1)^{2}" />   
+                         <MathComponent tex="b. \hspace{.5cm} \sum_{k=0}^{\infty} (-1)^{k}(k+1)(x-1)^{k} " /> 
+                         <MathComponent tex="c. \hspace{.5cm} (0,2)" /> 
                          
                     </p>
 
-                    *
+                    *415
                     </div>
                 </div>
 
@@ -89,19 +98,28 @@ export default function Calculus2_Ch11_Sec3() {
                 <div className="Example-2">
                     <h3>Example 2</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                    <h4>Taylor series and interval of convergence</h4>
                       <p>
-                        
+                        a. Use the definition of a Taylor/Maclaurin series to find the first four nonzero terms of the Taylor series
+                        for the given function centered at a.
                       </p>
-                      
+                      <p>
+                        b. Write the power series using summation notation.
+                      </p>
+                      <p>
+                        Determine the interval of convergence of the series.
+                      </p>
+                      <MathComponent tex="f(x) = e^{-x}, a = 0" />
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="a. \hspace{.5cm} 1 - x + \frac{x^{2}}{2!} - \frac{x^{3}}{3!}" />   
+                         <MathComponent tex="b. \hspace{.5cm} \sum_{k=0}^{\infty} \frac{(-1)^{k}x^{k}}{k!} " /> 
+                         <MathComponent tex="c. \hspace{.5cm} (- \infty, \infty)" /> 
                          
                     </p>
 
-                    *
+                    *416
                     </div>
                 </div>
 
@@ -109,59 +127,28 @@ export default function Calculus2_Ch11_Sec3() {
                 <div className="Example-3">
                     <h3>Example 3</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                    <h4>Taylor series and interval of convergence</h4>
                       <p>
-                        
+                        a. Use the definition of a Taylor/Maclaurin series to find the first four nonzero terms of the Taylor series
+                        for the given function centered at a.
                       </p>
-                      
+                      <p>
+                        b. Write the power series using summation notation.
+                      </p>
+                      <p>
+                        Determine the interval of convergence of the series.
+                      </p>
+                      <MathComponent tex="f(x) = 3^{x}, a = 0" />
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="a. \hspace{.5cm} 1 + (ln3)x + \frac{ln^{2}3}{2}x^{2} + \frac{ln^{3}3}{6}x^{3}" />   
+                         <MathComponent tex="b. \hspace{.5cm} \sum_{k=0}^{\infty} \frac{ln^{k} 3}{k!} x^{k}" /> 
+                         <MathComponent tex="c. \hspace{.5cm} (- \infty, \infty)" /> 
                          
                     </p>
 
-                    *
-                    </div>
-                </div>
-
-
-                <div className="Example-4">
-                    <h3>Example 4</h3>
-                    <div className="textBorder">
-                      <h4></h4>
-                      <p>
-                        
-                      </p>
-                      
-                     
-                    <p>
-                        Answer: <br/>
-                         <MathComponent tex="" />    
-                         
-                    </p>
-
-                    *
-                    </div>
-                </div>
-
-
-                <div className="Example-5">
-                    <h3>Example 5</h3>
-                    <div className="textBorder">
-                      <h4></h4>
-                      <p>
-                        
-                      </p>
-                      
-                     
-                    <p>
-                        Answer: <br/>
-                         <MathComponent tex="" />    
-                         
-                    </p>
-
-                    *
+                    *417
                     </div>
                 </div>
 
