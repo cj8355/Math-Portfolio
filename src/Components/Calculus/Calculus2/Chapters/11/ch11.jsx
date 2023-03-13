@@ -16,7 +16,7 @@ export default function Calculus2_Ch11() {
         <p>Intro to Sec 6.1</p>
         <Link to="Sec11.2"><p>Sec 11.2 Properties of Power Series</p></Link>
         <p>Intro to Sec 4.2</p>
-        <Link to="Sec11.3"><p>Sec 10.3 Infinite Series</p></Link>
+        <Link to="Sec11.3"><p>Sec 11.3 Taylor Series</p></Link>
         <p>Intro to Sec 2.3</p>
         <Link to="Sec11.4"><p>Sec 10.4 The Divergence and Integral Tests</p></Link>
         <p>Intro to Sec 2.3</p>
