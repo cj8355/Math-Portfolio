@@ -67,19 +67,21 @@ export default function Calculus3_Ch12_Sec1() {
             <div className="Example-1">
                     <h3>Example 1</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                      <h4>Working with parametric equations</h4>
                       <p>
-                        
+                        Consider the following parametric equation.
                       </p>
-                      
-                     
+                      <p>a. Eliminate the parameter to obtain an equation in x and y.</p>
+                      <p>b. Describe the curve and indicate the positive orientation.</p>
+                      <MathComponent tex="x = 3 + t. y=1-r; \hspace{.2cm} 0 \leq t \leq 1" />
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <p>a. y = -x + 4</p>
+                         <p>b. A line segment starting at (3,1) and ending at (4,0)</p>   
                          
                     </p>
 
-                    *
+                    *419
                     </div>
                 </div>
 
@@ -87,19 +89,21 @@ export default function Calculus3_Ch12_Sec1() {
                 <div className="Example-2">
                     <h3>Example 2</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                    <h4>Working with parametric equations</h4>
                       <p>
-                        
+                        Consider the following parametric equation.
                       </p>
-                      
-                     
+                      <p>a. Eliminate the parameter to obtain an equation in x and y.</p>
+                      <p>b. Describe the curve and indicate the positive orientation.</p>
+                      <MathComponent tex="x = 3cos \hspace{.1cm} t. y=3 \hspace{.2cm} sin \hspace{.1cm} t; \hspace{.2cm} \pi \leq t \leq 2 \pi" />
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                        <MathComponent tex="a. \hspace{.1cm} x^{2} + y^{2} = 9" />
+                         <p>b. Lower half of a circle of radius 3 centered at (0,0); starts at (-3,0) and ends at (3,0)</p>   
                          
                     </p>
 
-                    *
+                    *420
                     </div>
                 </div>
 
@@ -107,19 +111,21 @@ export default function Calculus3_Ch12_Sec1() {
                 <div className="Example-3">
                     <h3>Example 3</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                    <h4>Working with parametric equations</h4>
                       <p>
-                        
+                        Consider the following parametric equation.
                       </p>
-                      
-                     
+                      <p>a. Eliminate the parameter to obtain an equation in x and y.</p>
+                      <p>b. Describe the curve and indicate the positive orientation.</p>
+                      <MathComponent tex="x = r - 1. y=r^{2}; \hspace{.2cm} -4 \leq r \leq 4" />
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                        <MathComponent tex="a. \hspace{.1cm} y = (x+1)^{3}" />
+                         <p>b. A cubic curve rising to the right as r increases.</p>   
                          
                     </p>
 
-                    *
+                    *421
                     </div>
                 </div>
 
@@ -127,39 +133,19 @@ export default function Calculus3_Ch12_Sec1() {
                 <div className="Example-4">
                     <h3>Example 4</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                      <h4>Curves to parametric equations</h4>
                       <p>
-                        
+                        Find parametric equations for the following curves. Include an interval for the parameter values.
                       </p>
-                      
+                      <p>A circle centered at the origin with radius 4, generated counterclockwise.</p>
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="y=x^{2}" />    
                          
                     </p>
 
-                    *
-                    </div>
-                </div>
-
-
-                <div className="Example-5">
-                    <h3>Example 5</h3>
-                    <div className="textBorder">
-                      <h4></h4>
-                      <p>
-                        
-                      </p>
-                      
-                     
-                    <p>
-                        Answer: <br/>
-                         <MathComponent tex="" />    
-                         
-                    </p>
-
-                    *
+                    *422
                     </div>
                 </div>
 
