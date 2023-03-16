@@ -14,7 +14,7 @@ export default function Calculus3_Ch12() {
             
         <Link to="Sec12.1"><p>Sec 12.1 Parametric Equations</p></Link>
         <p>Intro to Sec 6.1</p>
-        <Link to="Sec12.2"><p>Sec 12.2 Properties of Power Series</p></Link>
+        <Link to="Sec12.2"><p>Sec 12.2 Polar Coordinates</p></Link>
         <p>Intro to Sec 4.2</p>
         <Link to="Sec12.3"><p>Sec 12.3 Taylor Series</p></Link>
         <p>Intro to Sec 2.3</p>
