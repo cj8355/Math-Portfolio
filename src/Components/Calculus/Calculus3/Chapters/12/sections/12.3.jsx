@@ -1,6 +1,9 @@
 import { Link } from "react-router-dom";
 import "./12.3.css";
 import { MathComponent } from "mathjax-react";
+import graph2 from "./images/graph2.png";
+import graph3 from "./images/graph3.png";
+
 
 export default function Calculus3_Ch12_Sec3() {
     
@@ -57,19 +60,19 @@ export default function Calculus3_Ch12_Sec3() {
             <div className="Example-1">
                     <h3>Example 1</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                      <h4>Slopes of tangent lines</h4>
                       <p>
-                        
+                        Find the slope of the line tangent to the following polar curve at the given points.
                       </p>
-                      <MathComponent tex="" /> 
+                      <MathComponent tex="r = 1 - sin \hspace{.2cm} \theta; \hspace{.2cm} \bigg(\frac{1}{2}, \frac{\pi}{6} \bigg)" /> 
                      
                     <p>
                         Answer: <br/>
-                        <MathComponent tex="" />    
+                        0  
                          
                     </p>
 
-                    *
+                    *435
                     </div>
                 </div>
 
@@ -77,19 +80,19 @@ export default function Calculus3_Ch12_Sec3() {
                 <div className="Example-2">
                     <h3>Example 2</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                    <h4>Slopes of tangent lines</h4>
                       <p>
-                        
+                        Find the slope of the line tangent to the following polar curve at the given points.
                       </p>
-                      
+                      <MathComponent tex="r = 6 + 3cos \hspace{.2cm} \theta; \hspace{.2cm} (3,\pi) \hspace{.2cm} \mathrm{and} \hspace{.2cm} (9,0)" /> 
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                        Undefined, undefined
                          
                     </p>
 
-                    *
+                    *436
                     </div>
                 </div>
 
@@ -97,19 +100,20 @@ export default function Calculus3_Ch12_Sec3() {
                 <div className="Example-3">
                     <h3>Example 3</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                      <h4>Areas of regions</h4>
                       <p>
-                        
+                        Make a sketch of the region and its bounding curves. Find the area of the region.
                       </p>
-                      
+                      <MathComponent tex="\mathrm{The \hspace{.2cm} region \hspace{.2cm} inside \hspace{.2cm} the \hspace{.2cm} curve \hspace{.2cm} r = \sqrt{cos \hspace{.1cm} \theta}}" />
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                        <img src={graph2} alt="Graph of function" ></img>
+                         <p>Area = 1</p>    
                          
                     </p>
 
-                    *
+                    *437
                     </div>
                 </div>
 
@@ -117,42 +121,22 @@ export default function Calculus3_Ch12_Sec3() {
                 <div className="Example-4">
                     <h3>Example 4</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                    <h4>Areas of regions</h4>
                       <p>
-                        
+                        Make a sketch of the region and its bounding curves. Find the area of the region.
                       </p>
-                      
+                      <MathComponent tex="\mathrm{The \hspace{.2cm} region \hspace{.2cm} inside \hspace{.2cm} the \hspace{.2cm} limacon \hspace{.2cm} r = 2 + cos \hspace{.1cm} \theta}" />
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                        <img src={graph3} alt="Graph of function" ></img>
+                        <MathComponent tex="\mathrm{Area = \frac{9\pi}{2}}" />  
                          
                     </p>
 
-                    *
+                    *438
                     </div>
                 </div>
-
-
-                <div className="Example-5">
-                    <h3>Example 5</h3>
-                    <div className="textBorder">
-                      <h4></h4>
-                      <p>
-                        
-                      </p>
-                      
-                     
-                    <p>
-                        Answer: <br/>
-                         <MathComponent tex="" />    
-                         
-                    </p>
-
-                    *
-                    </div>
-                </div>
-
 
 
 
