@@ -1,6 +1,9 @@
 import { Link } from "react-router-dom";
 import "./12.4.css";
 import { MathComponent } from "mathjax-react";
+import graph4 from "./images/graph4.png";
+import graph5 from "./images/graph5.png";
+import graph6 from "./images/graph6.png";
 
 export default function Calculus3_Ch12_Sec4() {
     
@@ -94,19 +97,23 @@ export default function Calculus3_Ch12_Sec4() {
             <div className="Example-1">
                     <h3>Example 1</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                      <h4>Graphing conic sections</h4>
                       <p>
-                        
+                        Determine whether the following equations describe a parabola, an ellipse, or a hyperbola, and then
+                        sketch a graph of the curve. For each parabola, specify the location of the focus and the equation of the directis;
+                        for each ellipse, label the coordinates of the vertices and foci, and find the lengths of the major and minor axis;
+                        for each hyperbola, label the coordinates of the vertices and foci, and find the equations of the asymptotes.
                       </p>
-                      
+                      <MathComponent tex="x^{2} = 12y" /> 
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                        Parabola<br/>
+                        <img src={graph4} alt="Graph of function" ></img>
                          
                     </p>
 
-                    *
+                    *444
                     </div>
                 </div>
 
@@ -114,19 +121,24 @@ export default function Calculus3_Ch12_Sec4() {
                 <div className="Example-2">
                     <h3>Example 2</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                    <h4>Graphing conic sections</h4>
                       <p>
-                        
+                        Determine whether the following equations describe a parabola, an ellipse, or a hyperbola, and then
+                        sketch a graph of the curve. For each parabola, specify the location of the focus and the equation of the directis;
+                        for each ellipse, label the coordinates of the vertices and foci, and find the lengths of the major and minor axis;
+                        for each hyperbola, label the coordinates of the vertices and foci, and find the equations of the asymptotes.
                       </p>
-                      
+                      <MathComponent tex="\frac{x^{2}}{4} + y^{2} = 1" /> 
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
-                         
+                        Ellipse<br/>
+                        <img src={graph5} alt="Graph of function" ></img>
+                        <MathComponent tex="\mathrm{Vertices: \hspace{.2cm} (\pm 2,0); \hspace{.2cm} foci: \hspace{.2cm} (\pm \sqrt{3},0)}" />
+                        <p>major axis has length 4; minor axis has length 2.</p>
                     </p>
 
-                    *
+                    *445
                     </div>
                 </div>
 
@@ -134,19 +146,24 @@ export default function Calculus3_Ch12_Sec4() {
                 <div className="Example-3">
                     <h3>Example 3</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                    <h4>Graphing conic sections</h4>
                       <p>
-                        
+                        Determine whether the following equations describe a parabola, an ellipse, or a hyperbola, and then
+                        sketch a graph of the curve. For each parabola, specify the location of the focus and the equation of the directis;
+                        for each ellipse, label the coordinates of the vertices and foci, and find the lengths of the major and minor axis;
+                        for each hyperbola, label the coordinates of the vertices and foci, and find the equations of the asymptotes.
                       </p>
-                      
+                      <MathComponent tex="\frac{x^{2}}{4} - y^{2} = 1" /> 
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
-                         
+                        Hyperbola <br/>
+                        <img src={graph6} alt="Graph of function" ></img>
+                        <MathComponent tex="\mathrm{Vertices: \hspace{.2cm} (\pm 2,0); \hspace{.2cm} foci: \hspace{.2cm} (\pm \sqrt{5},0)}; \hspace{.2cm} asymptotes: \hspace{.2cm} y = \pm \frac{1}{2} x" />
+                        
                     </p>
 
-                    *
+                    *446
                     </div>
                 </div>
 
@@ -154,42 +171,21 @@ export default function Calculus3_Ch12_Sec4() {
                 <div className="Example-4">
                     <h3>Example 4</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                      <h4>Equations of parabolas</h4>
                       <p>
-                        
+                        Find an equation of the following parabolas. Unless otherwise specified, assume the vertex is at the origin.
                       </p>
-                      
+                      <p>A parabola that opens to the right with directix x = -4</p>
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="y^{2} = 16x" />    
                          
                     </p>
 
-                    *
+                    *447
                     </div>
                 </div>
-
-
-                <div className="Example-5">
-                    <h3>Example 5</h3>
-                    <div className="textBorder">
-                      <h4></h4>
-                      <p>
-                        
-                      </p>
-                      
-                     
-                    <p>
-                        Answer: <br/>
-                         <MathComponent tex="" />    
-                         
-                    </p>
-
-                    *
-                    </div>
-                </div>
-
 
 
 
