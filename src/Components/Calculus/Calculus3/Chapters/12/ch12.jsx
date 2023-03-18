@@ -18,7 +18,7 @@ export default function Calculus3_Ch12() {
         <p>Intro to Sec 4.2</p>
         <Link to="Sec12.3"><p>Sec 12.3 Calculus in Polar Coordinates</p></Link>
         <p>Intro to Sec 2.3</p>
-        <Link to="Sec12.4"><p>Sec 12.4 Working with Taylor Series</p></Link>
+        <Link to="Sec12.4"><p>Sec 12.4 Conic Sections</p></Link>
         <p>Intro to Sec 2.3</p>
         
       
