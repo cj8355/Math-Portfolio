@@ -1,16 +1,16 @@
 import { Link } from "react-router-dom";
-import "./6.1.css";
+import "./13.1.css";
 import { MathComponent } from "mathjax-react";
 
-export default function Calculus2_Ch6_Sec1() {
+export default function Calculus3_Ch13_Sec1() {
     
     
     return (
         <div className='container'> 
-        <h1>Ch. 6 Sec. Integration Strategies</h1>
+        <h1>Ch. 13 Sec. 1 Vectors in the Plane</h1>
         <div className="sectionText">
 
-      <h2>Vectors, Equal Vectors, Scalars, Zero Vector</h2>
+        <h2>Vectors, Equal Vectors, Scalars, Zero Vector</h2>
       <p className="textBorder">
        
         <p>
@@ -37,7 +37,7 @@ export default function Calculus2_Ch6_Sec1() {
        <p>A vector v with its tail at the origin and head at the point</p>
         <MathComponent tex="(v_{1},v_{2})" />
         <p>is called a position vector (or is said to be in standard position) and is written </p>
-        <MathComponent tex="(v_{1},v_{2})." />
+        <MathComponent tex="\langle v_{1},v_{2}\rangle." />
         <MathComponent tex="\mathrm{The \hspace{.2cm} real \hspace{.2cm} numbers \hspace{.2cm} v_{1} \hspace{.2cm} and \hspace{.2cm} v_{2} \hspace{.2cm} are \hspace{.2cm} the \hspace{.2cm} x- \hspace{.2cm} and \hspace{.2cm} y-components \hspace{.2cm} of \hspace{.2cm} v, \hspace{.2cm} respectively.}" />
         <MathComponent tex="\mathrm{The \hspace{.2cm} position \hspace{.2cm} vectors \hspace{.2cm} u = \langle u_{1}, u_{2} \rangle \hspace{.2cm} and \hspace{.2cm} v = \langle v_{1}, v_{2} \rangle \hspace{.2cm} are \hspace{.2cm} equal \hspace{.2cm} if \hspace{.2cm} and \hspace{.2cm} only \hspace{.2cm} if \hspace{.2cm} u_{1} = v_{1} \hspace{.2cm} and \hspace{.2cm} u_{2} = v_{2}.}" />
         *447
@@ -47,9 +47,10 @@ export default function Calculus2_Ch6_Sec1() {
       <h2>Magnitude of a Vector</h2>
       <p className="textBorder">
        
-        <MathComponent tex="\mathrm{Given \hspace{.2cm} the \hspace{.2cm} points \hspace{.2cm} P(x_{1}, y_{1}) \hspace{.2cm} and \hspace{.2cm} Q(x_{2},y_{2}), \hspace{.2cm} the \hspace{.2cm} magnitude, \hspace{.2cm} or \hspace{.2cm} length, \hspace{.2cm} of \hspace{.2cm} \overrightarrow{PQ} = \langle x_{2} - x_{1}, y_{2} - y_{1} \rangle, \hspace{.2cm} denoted \hspace{.2cm} \vert \overrightqrrow{PQ} \vert,}" />
+        <MathComponent tex="\mathrm{Given \hspace{.2cm} the \hspace{.2cm} points \hspace{.2cm} P(x_{1}, y_{1}) \hspace{.2cm} and \hspace{.2cm} Q(x_{2},y_{2}), \hspace{.2cm} the \hspace{.2cm} magnitude, \hspace{.2cm} or \hspace{.2cm} length, \hspace{.2cm} of \hspace{.2cm} }" />
+        <MathComponent tex="\mathrm{\overrightarrow{PQ} = \langle x_{2} - x_{1}, y_{2} - y_{1} \rangle, \hspace{.2cm} denoted \hspace{.2cm} \vert \overrightarrow{PQ} \vert,}" /> 
         <p>is the distance between P and Q:</p>
-        <MathComponent tex="\vert \overrightqrrow{PQ} \vert = \sqrt{(x_{2} - x_{1})^{2} + (y_{2} - y_{1})^{2}}." />
+        <MathComponent tex="\vert \overrightarrow{PQ} \vert = \sqrt{(x_{2} - x_{1})^{2} + (y_{2} - y_{1})^{2}}." />
         <MathComponent tex="\mathrm{The \hspace{.2cm} magnitude \hspace{.2cm} of \hspace{.2cm} the \hspace{.2cm} position \hspace{.2cm} vector \hspace{.2cm} v = \langle v_{1}, v_{2} \rangle \hspace{.2cm} is \hspace{.2cm} \vert v \vert = \sqrt{v_{1}^{2} + v_{2}^{2}}.}" />
         *448
       </p>
@@ -104,7 +105,7 @@ export default function Calculus2_Ch6_Sec1() {
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                            
                          
                     </p>
 

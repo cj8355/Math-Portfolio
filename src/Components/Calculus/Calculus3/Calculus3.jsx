@@ -8,7 +8,7 @@ export default function Calculus3() {
         Calculus 3
         <Link to="Ch.12"><p>Ch. 12 Parametric and Polar Curves</p></Link>
         <p>Intro to ch 5</p>
-        <Link to="Ch.13"><p>Ch. 13 Logarithmic, Exponential, and Hyperbolic Functions</p></Link>
+        <Link to="Ch.13"><p>Ch. 13 Vectors and the Geometry of Space</p></Link>
         <p>Intro to ch 5</p>
         <Link to="Ch.8"><p>Ch. 8 Integration Techniques</p></Link>
         <p>Intro to ch 5</p>
