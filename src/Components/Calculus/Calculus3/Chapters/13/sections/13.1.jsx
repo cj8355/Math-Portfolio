@@ -97,19 +97,19 @@ export default function Calculus3_Ch13_Sec1() {
             <div className="Example-1">
                     <h3>Example 1</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                      <h4>Vector Operations</h4>
                       <p>
-                        
+                        Let u = (4, -2), v = (-4, 6), and w = (0,8). Express the following vector in the form (a,b).
                       </p>
-                      
+                      <p>w - u</p>
                      
                     <p>
                         Answer: <br/>
-                            
+                            (-4,10)
                          
                     </p>
 
-                    *
+                    *451
                     </div>
                 </div>
 
@@ -117,19 +117,19 @@ export default function Calculus3_Ch13_Sec1() {
                 <div className="Example-2">
                     <h3>Example 2</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                    <h4>Vector Operations</h4>
                       <p>
-                        
+                        Let u = (3, -4), v = (1, 1), and w = (-1,0).
                       </p>
-                      
+                      <p>Find |-2v|</p>
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                        <MathComponent tex="2 \sqrt{2}" />
                          
                     </p>
 
-                    *
+                    *452
                     </div>
                 </div>
 
@@ -137,59 +137,19 @@ export default function Calculus3_Ch13_Sec1() {
                 <div className="Example-3">
                     <h3>Example 3</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                    <h4>Vector Operations</h4>
                       <p>
-                        
+                        Let u = (3, -4), v = (1, 1), and w = (-1,0).
                       </p>
-                      
+                      <p>Which has the greater magnitude, u - v or w - u?</p>
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                        <p>w - u</p>
                          
                     </p>
 
-                    *
-                    </div>
-                </div>
-
-
-                <div className="Example-4">
-                    <h3>Example 4</h3>
-                    <div className="textBorder">
-                      <h4></h4>
-                      <p>
-                        
-                      </p>
-                      
-                     
-                    <p>
-                        Answer: <br/>
-                         <MathComponent tex="" />    
-                         
-                    </p>
-
-                    *
-                    </div>
-                </div>
-
-
-                <div className="Example-5">
-                    <h3>Example 5</h3>
-                    <div className="textBorder">
-                      <h4></h4>
-                      <p>
-                        
-                      </p>
-                      
-                     
-                    <p>
-                        Answer: <br/>
-                         <MathComponent tex="" />    
-                         
-                    </p>
-
-                    *
+                    *453
                     </div>
                 </div>
 
