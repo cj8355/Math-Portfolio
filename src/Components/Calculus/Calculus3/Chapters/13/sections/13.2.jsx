@@ -63,19 +63,19 @@ export default function Calculus3_Ch13_Sec2() {
             <div className="Example-1">
                     <h3>Example 1</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                      <h4>Identifying sets</h4>
                       <p>
-                        
+                        Give a geometric description of the following sets of points.
                       </p>
-                      
+                      <MathComponent tex="(x-1)^{2} + y^{2} + z^{2} - 9 = 0" />
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <p>A sphere centered at (1,0,0) with radius 3</p>   
                          
                     </p>
 
-                    *
+                    *458
                     </div>
                 </div>
 
@@ -83,19 +83,19 @@ export default function Calculus3_Ch13_Sec2() {
                 <div className="Example-2">
                     <h3>Example 2</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                    <h4>Identifying sets</h4>
                       <p>
-                        
+                        Give a geometric description of the following sets of points.
                       </p>
-                      
+                      <MathComponent tex="x^{2} + y^{2} - 14y + z^{2} \geq -13" />
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <p>All points on or outside the sphere with center (0,7,0) with radius 6</p>   
                          
                     </p>
 
-                    *
+                    *459
                     </div>
                 </div>
 
@@ -103,19 +103,21 @@ export default function Calculus3_Ch13_Sec2() {
                 <div className="Example-3">
                     <h3>Example 3</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                      <h4>Vector operations</h4>
                       <p>
-                        
+                        For the given vectors u and v, evaluate the following expressions.
                       </p>
-                      
-                     
+                      <p>a. 3u + 2v b. 4u - v c. |u + 3v|</p>
+                      <MathComponent tex="u = \langle 4,-3,0 \rangle, \hspace{.2cm} v = \langle 0,1,1 \rangle" /> 
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="a. \hspace{.2cm} \langle 12,-7,2 \rangle" /> 
+                         <MathComponent tex="b. \hspace{.2cm} \langle 16,-13,-1 \rangle" /> 
+                         <MathComponent tex="c. \hspace{.2cm} 5" />    
                          
                     </p>
 
-                    *
+                    *460
                     </div>
                 </div>
 
@@ -123,44 +125,26 @@ export default function Calculus3_Ch13_Sec2() {
                 <div className="Example-4">
                     <h3>Example 4</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                    <h4>Vector operations</h4>
                       <p>
-                        
+                        For the given vectors u and v, evaluate the following expressions.
                       </p>
-                      
-                     
+                      <p>a. 3u + 2v b. 4u - v c. |u + 3v|</p>
+                      <MathComponent tex="u = \langle -2,1,-2 \rangle, \hspace{.2cm} v = \langle 1,1,1 \rangle" /> 
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="a. \hspace{.2cm} \langle -4,5,-4 \rangle" /> 
+                         <MathComponent tex="b. \hspace{.2cm} \langle -9,3,-9 \rangle" /> 
+                         <MathComponent tex="c. \hspace{.2cm} 3 \sqrt{2}" />    
                          
                     </p>
 
-                    *
+                    *461
                     </div>
                 </div>
 
 
-                <div className="Example-5">
-                    <h3>Example 5</h3>
-                    <div className="textBorder">
-                      <h4></h4>
-                      <p>
-                        
-                      </p>
-                      
-                     
-                    <p>
-                        Answer: <br/>
-                         <MathComponent tex="" />    
-                         
-                    </p>
-
-                    *
-                    </div>
-                </div>
-
-
-
+            
 
             </div>
             </div>
