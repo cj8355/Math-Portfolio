@@ -18,7 +18,7 @@ export default function Calculus3_Ch13() {
         <p>Intro to Sec 4.2</p>
         <Link to="Sec13.3"><p>Sec 13.3 Dot Products</p></Link>
         <p>Intro to Sec 2.3</p>
-        <Link to="Sec13.4"><p>Sec 13.4 Conic Sections</p></Link>
+        <Link to="Sec13.4"><p>Sec 13.4 Cross Products</p></Link>
         <p>Intro to Sec 2.3</p>
         
       
