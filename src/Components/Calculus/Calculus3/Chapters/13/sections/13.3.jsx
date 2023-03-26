@@ -86,19 +86,19 @@ export default function Calculus3_Ch13_Sec3() {
             <div className="Example-1">
                     <h3>Example 1</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                      <h4>Dot products and angles</h4>
                       <p>
-                        
+                        Compute the dot product of the vectors u and v, and find the angle between the vectors.
                       </p>
-                      
+                      <p>u = i + j and v = i - j</p>
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="0, \hspace{.2cm} \frac{\pi}{2}" />    
                          
                     </p>
 
-                    *
+                    *468
                     </div>
                 </div>
 
@@ -106,19 +106,19 @@ export default function Calculus3_Ch13_Sec3() {
                 <div className="Example-2">
                     <h3>Example 2</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                    <h4>Dot products and angles</h4>
                       <p>
-                        
+                        Compute the dot product of the vectors u and v, and find the angle between the vectors.
                       </p>
-                      
+                      <p>u = 4i + 3j and v = 4i - 6j</p>
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="-2, \hspace{.2cm} 93.2^{\circ}" />    
                          
                     </p>
 
-                    *
+                    *469
                     </div>
                 </div>
 
@@ -126,19 +126,19 @@ export default function Calculus3_Ch13_Sec3() {
                 <div className="Example-3">
                     <h3>Example 3</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                    <h4>Dot products and angles</h4>
                       <p>
-                        
+                        Compute the dot product of the vectors u and v, and find the angle between the vectors.
                       </p>
-                      
+                      <MathComponent tex="u = \langle -10,0,4 \rangle \hspace{.2cm} \mathrm{and} \hspace{.2cm} v = \langle 1,2,3 \rangle" />
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="2, \hspace{.2cm} 87.2^{\circ}" />    
                          
                     </p>
 
-                    *
+                    *470
                     </div>
                 </div>
 
@@ -146,39 +146,17 @@ export default function Calculus3_Ch13_Sec3() {
                 <div className="Example-4">
                     <h3>Example 4</h3>
                     <div className="textBorder">
-                      <h4></h4>
-                      <p>
-                        
-                      </p>
-                      
+                      <h4>Calculating orthogonal projections</h4>
+                      <MathComponent tex="\mathrm{For \hspace{.2cm} the \hspace{.2cm} given \hspace{.2cm} vectors \hspace{.2cm} u \hspace{.2cm} and \hspace{.2cm} v, \hspace{.2cm} calculate \hspace{.2cm} proj_{v}u \hspace{.2cm} and \hspace{.2cm} scal_{v}u .}" /> 
+                      <MathComponent tex="u = \langle -1,4 \rangle \hspace{.2cm} \mathrm{and} \hspace{.2cm} v = \langle -4,2 \rangle" />
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="\frac{6}{5} \langle -2,1 \rangle; \hspace{.2cm} \frac{6}{\sqrt{5}}" />    
                          
                     </p>
 
-                    *
-                    </div>
-                </div>
-
-
-                <div className="Example-5">
-                    <h3>Example 5</h3>
-                    <div className="textBorder">
-                      <h4></h4>
-                      <p>
-                        
-                      </p>
-                      
-                     
-                    <p>
-                        Answer: <br/>
-                         <MathComponent tex="" />    
-                         
-                    </p>
-
-                    *
+                    *471
                     </div>
                 </div>
 
