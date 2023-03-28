@@ -89,19 +89,19 @@ export default function Calculus3_Ch13_Sec4() {
             <div className="Example-1">
                     <h3>Example 1</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                      <h4>Computing cross products</h4>
                       <p>
-                        
+                        Find the cross products u x v and v x u for the following vectors u and v.
                       </p>
-                      
+                      <MathComponent tex="u = \langle 3,5,0 \rangle, \hspace{.2cm} v = \langle 0,3,-6 \rangle" /> 
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="\mathrm{u \hspace{.1cm} x \hspace{.1cm} v = (-30,18,9), \hspace{.2cm} v \hspace{.1cm} x \hspace{.1cm} u = (30,-18,-9)}" />    
                          
                     </p>
 
-                    *
+                    *477
                     </div>
                 </div>
 
@@ -109,19 +109,20 @@ export default function Calculus3_Ch13_Sec4() {
                 <div className="Example-2">
                     <h3>Example 2</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                    <h4>Computing cross products</h4>
                       <p>
-                        
+                        Find the cross products u x v and v x u for the following vectors u and v.
                       </p>
-                      
+                      <MathComponent tex="u = 3i-j-2k, \hspace{.2cm} v = i+3j-2k" /> 
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                        <MathComponent tex="u = \langle 3,-1,-2 \rangle, \hspace{.2cm} v = \langle 1,3,-2 \rangle" />
+                         <MathComponent tex="\mathrm{u \hspace{.1cm} x \hspace{.1cm} v = (8,4,10), \hspace{.2cm} v \hspace{.1cm} x \hspace{.1cm} u = (-8,-4,-10)}" />    
                          
                     </p>
 
-                    *
+                    *478
                     </div>
                 </div>
 
@@ -129,19 +130,19 @@ export default function Calculus3_Ch13_Sec4() {
                 <div className="Example-3">
                     <h3>Example 3</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                      <h4>Area of a parallelogram</h4>
                       <p>
-                        
+                        Find the area of the parallelogram that has two adjacent sides u and v.
                       </p>
-                      
+                      <p>u = 3i - j, v = 3j + 2k</p>
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="11" />    
                          
                     </p>
 
-                    *
+                    *479
                     </div>
                 </div>
 
@@ -149,43 +150,24 @@ export default function Calculus3_Ch13_Sec4() {
                 <div className="Example-4">
                     <h3>Example 4</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                    <h4>Area of a parallelogram</h4>
                       <p>
-                        
+                        Find the area of the parallelogram that has two adjacent sides u and v.
                       </p>
-                      
+                      <p>u = 2i - j -2k, v = 3i + 2j - k</p>
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="3 \sqrt{10}" />    
                          
                     </p>
 
-                    *
+                    *480
                     </div>
                 </div>
 
 
-                <div className="Example-5">
-                    <h3>Example 5</h3>
-                    <div className="textBorder">
-                      <h4></h4>
-                      <p>
-                        
-                      </p>
-                      
-                     
-                    <p>
-                        Answer: <br/>
-                         <MathComponent tex="" />    
-                         
-                    </p>
-
-                    *
-                    </div>
-                </div>
-
-
+               
 
 
             </div>
