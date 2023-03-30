@@ -73,19 +73,19 @@ export default function Calculus3_Ch13_Sec5() {
             <div className="Example-1">
                     <h3>Example 1</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                      <h4>Equations of lines</h4>
                       <p>
-                        
+                        Find both the parametric and the vector equations of the following lines.
                       </p>
-                      
+                      <MathComponent tex="\mathrm{The \hspace{.2cm} line \hspace{.2cm} through \hspace{.2cm} (0,0,1) \hspace{.2cm} in \hspace{.2cm} the \hspace{.2cm} direction \hspace{.2cm} of \hspace{.2cm} the \hspace{.2cm} vector \hspace{.2cm} v = \langle 4,7,0 \rangle}" />
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="\mathrm{x = 4t, \hspace{.2cm} y = 7t, \hspace{.2cm} z = 1; \hspace{.2cm} r = \langle 0,0,1 \rangle + t \langle 4,7,0 \rangle}" />    
                          
                     </p>
 
-                    *
+                    *486
                     </div>
                 </div>
 
@@ -93,19 +93,19 @@ export default function Calculus3_Ch13_Sec5() {
                 <div className="Example-2">
                     <h3>Example 2</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                    <h4>Equations of lines</h4>
                       <p>
-                        
+                        Find both the parametric and the vector equations of the following lines.
                       </p>
-                      
+                      <MathComponent tex="\mathrm{The \hspace{.2cm} line \hspace{.2cm} through \hspace{.2cm} (0,0,0) \hspace{.2cm} and \hspace{.2cm} (1,2,3)}" />
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="\mathrm{x = t, \hspace{.2cm} y = 2t, \hspace{.2cm} z = 3t; \hspace{.2cm} r = t \langle 1,2,3 \rangle}" />    
                          
                     </p>
 
-                    *
+                    *487
                     </div>
                 </div>
 
@@ -113,19 +113,19 @@ export default function Calculus3_Ch13_Sec5() {
                 <div className="Example-3">
                     <h3>Example 3</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                      <h4>Equations of planes</h4>
                       <p>
-                        
+                        Find an equation of the following planes
                       </p>
-                      
+                      <MathComponent tex="\mathrm{The \hspace{.2cm} plane \hspace{.2cm} passing \hspace{.2cm} through \hspace{.2cm} the \hspace{.2cm} point \hspace{.2cm} P_{0}(0,2,-2) \hspace{.2cm} with \hspace{.2cm} a \hspace{.2cm} normal \hspace{.2cm} vector \hspace{.2cm} n = \langle 1,1,-1 \rangle}" />
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="x+y-z=4" />    
                          
                     </p>
 
-                    *
+                    *488
                     </div>
                 </div>
 
@@ -133,44 +133,24 @@ export default function Calculus3_Ch13_Sec5() {
                 <div className="Example-4">
                     <h3>Example 4</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                    <h4>Equations of planes</h4>
                       <p>
-                        
+                        Find an equation of the following planes
                       </p>
-                      
+                      <MathComponent tex="\mathrm{The \hspace{.2cm} plane \hspace{.2cm} passing \hspace{.2cm} through \hspace{.2cm} the \hspace{.2cm} point \hspace{.2cm} (1,0,3), \hspace{.2cm} (0,4,2), \hspace{.2cm} and \hspace{.2cm} (1,1,1)}" />
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="7x+2y+z=10" />    
                          
                     </p>
 
-                    *
+                    *489
                     </div>
                 </div>
 
 
-                <div className="Example-5">
-                    <h3>Example 5</h3>
-                    <div className="textBorder">
-                      <h4></h4>
-                      <p>
-                        
-                      </p>
-                      
-                     
-                    <p>
-                        Answer: <br/>
-                         <MathComponent tex="" />    
-                         
-                    </p>
-
-                    *
-                    </div>
-                </div>
-
-
-
+            
 
             </div>
             </div>
