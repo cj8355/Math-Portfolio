@@ -22,6 +22,8 @@ export default function Calculus3_Ch13() {
         <p>Intro to Sec 2.3</p>
         <Link to="Sec13.5"><p>Sec 13.5 Lines and Planes in Space</p></Link>
         <p>Intro to Sec 2.3</p>
+        <Link to="Sec13.6"><p>Sec 13.6 Cylinders and Quadric Surfaces</p></Link>
+        <p>Intro to Sec 2.3</p>
         
       
         </div>
