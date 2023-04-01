@@ -42,19 +42,22 @@ export default function Calculus3_Ch13_Sec6() {
             <div className="Example-1">
                     <h3>Example 1</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                      <h4>Identifying quadric surfaces</h4>
                       <p>
-                        
+                        Identify the following quadric surfaces by name. Find and describe the xy-, xz-, and yz- traces, when they exist.
                       </p>
                       
-                     
+                      <MathComponent tex="25x^{2} + 25y^{2} + z^{2} = 25" /> 
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                        <p>Ellipsoid</p>
+                         <MathComponent tex="\mathrm{xy-trace: \hspace{.2cm} x^{2}+y^{2} = 1 \hspace{.2cm} (circle)}" /> 
+                         <MathComponent tex="\mathrm{xz-trace: \hspace{.2cm} x^{2}+ \frac{z^{2}}{25} = 1 \hspace{.2cm} (ellipse)}" />
+                         <MathComponent tex="\mathrm{yz-trace: \hspace{.2cm} y^{2}+ \frac{z^{2}}{25} = 1 \hspace{.2cm} (ellipse)}" />   
                          
                     </p>
 
-                    *
+                    *492
                     </div>
                 </div>
 
@@ -62,19 +65,22 @@ export default function Calculus3_Ch13_Sec6() {
                 <div className="Example-2">
                     <h3>Example 2</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                    <h4>Identifying quadric surfaces</h4>
                       <p>
-                        
+                        Identify the following quadric surfaces by name. Find and describe the xy-, xz-, and yz- traces, when they exist.
                       </p>
                       
-                     
+                      <MathComponent tex="25x^{2} + 25y^{2} - z = 0" /> 
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                        <p>Paraboloid</p>
+                         <MathComponent tex="\mathrm{xy-trace: \hspace{.2cm} (0,0,0) \hspace{.2cm} (a \hspace{.2cm} single \hspace{.2cm} point)}" /> 
+                         <MathComponent tex="\mathrm{xz-trace: \hspace{.2cm} z = 25x^{2} \hspace{.2cm} (parabola)}" />
+                         <MathComponent tex="\mathrm{yz-trace: \hspace{.2cm} z = 25y^{2} \hspace{.2cm} (parabola)}" />   
                          
                     </p>
 
-                    *
+                    *493
                     </div>
                 </div>
 
@@ -82,19 +88,20 @@ export default function Calculus3_Ch13_Sec6() {
                 <div className="Example-3">
                     <h3>Example 3</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                      <h4>Identifying surfaces</h4>
                       <p>
-                        
+                        Identify the following surfaces by name.
                       </p>
-                      
+                      <MathComponent tex="\mathrm{y = 4z^{2} - x^{2}}" /> 
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <p>Hyperbolic paraboloid</p> 
+
                          
                     </p>
 
-                    *
+                    *494
                     </div>
                 </div>
 
@@ -102,39 +109,20 @@ export default function Calculus3_Ch13_Sec6() {
                 <div className="Example-4">
                     <h3>Example 4</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                    <h4>Identifying surfaces</h4>
                       <p>
-                        
+                        Identify the following surfaces by name.
                       </p>
-                      
+                      <MathComponent tex="\mathrm{y = \frac{x^{2}}{6} + \frac{z^{2}}{16}}" /> 
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <p>Elliptic paraboloid</p>  
+
                          
                     </p>
 
-                    *
-                    </div>
-                </div>
-
-
-                <div className="Example-5">
-                    <h3>Example 5</h3>
-                    <div className="textBorder">
-                      <h4></h4>
-                      <p>
-                        
-                      </p>
-                      
-                     
-                    <p>
-                        Answer: <br/>
-                         <MathComponent tex="" />    
-                         
-                    </p>
-
-                    *
+                    *495
                     </div>
                 </div>
 
