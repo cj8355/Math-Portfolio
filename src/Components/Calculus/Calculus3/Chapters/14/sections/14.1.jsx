@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
 import "./14.1.css";
 import { MathComponent } from "mathjax-react";
+import graph1 from "./images/graph1.png";
+import graph2 from "./images/graph2.png";
 
 export default function Calculus3_Ch14_Sec1() {
     
@@ -44,19 +46,21 @@ export default function Calculus3_Ch14_Sec1() {
             <div className="Example-1">
                     <h3>Example 1</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                      <h4>Lines and line segments</h4>
                       <p>
-                        
+                        Find a function r(t) that describes the given line or line segment.
                       </p>
-                      
+                      <p>
+                        The line through P(2, 3, 7) and Q(4, 6, 3)
+                      </p>
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="\mathrm{r(t) = \langle 2 + 2t, 3 +3t, 7 - 4t \rangle}" />    
                          
                     </p>
 
-                    *
+                    *498
                     </div>
                 </div>
 
@@ -64,19 +68,21 @@ export default function Calculus3_Ch14_Sec1() {
                 <div className="Example-2">
                     <h3>Example 2</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                    <h4>Lines and line segments</h4>
                       <p>
-                        
+                        Find a function r(t) that describes the given line or line segment.
                       </p>
-                      
+                      <p>
+                        The line segment from P(1, 2, 1) to Q(0, 2, 3)
+                      </p>
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="\mathrm{r(t) = \langle 1 - t, 1 + 2t \rangle , \hspace{.2cm} for \hspace{.2cm} 0 \leq t \leq 1}" />    
                          
                     </p>
 
-                    *
+                    *499
                     </div>
                 </div>
 
@@ -84,19 +90,19 @@ export default function Calculus3_Ch14_Sec1() {
                 <div className="Example-3">
                     <h3>Example 3</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                      <h4>Graphing curves</h4>
                       <p>
-                        
+                        Graphs the curves described by the following functions, indicating the positive oreientation.
                       </p>
-                      
+                      <MathComponent tex="\mathrm{r(t) = \langle 2 \hspace{.2cm} cos \hspace{.2cm} t, \hspace{.2cm} 2 \hspace{.2cm} sin \hspace{.2cm} t \rangle , \hspace{.2cm} for \hspace{.2cm} o \leq t \leq 2 \pi}" />
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                        <img src={graph1} alt="Graph of function" ></img>    
                          
                     </p>
 
-                    *
+                    *500
                     </div>
                 </div>
 
@@ -104,43 +110,24 @@ export default function Calculus3_Ch14_Sec1() {
                 <div className="Example-4">
                     <h3>Example 4</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                    <h4>Graphing curves</h4>
                       <p>
-                        
+                        Graphs the curves described by the following functions, indicating the positive oreientation.
                       </p>
-                      
+                      <MathComponent tex="\mathrm{r(t) = \langle cos \hspace{.2cm} t, \hspace{.2cm} 0, \hspace{.2cm} sin \hspace{.2cm} t \rangle , \hspace{.2cm} for \hspace{.2cm} o \leq t \leq 2 \pi}" />
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                        <img src={graph2} alt="Graph of function" ></img>    
                          
                     </p>
 
-                    *
+                    *501
                     </div>
                 </div>
 
 
-                <div className="Example-5">
-                    <h3>Example 5</h3>
-                    <div className="textBorder">
-                      <h4></h4>
-                      <p>
-                        
-                      </p>
-                      
-                     
-                    <p>
-                        Answer: <br/>
-                         <MathComponent tex="" />    
-                         
-                    </p>
-
-                    *
-                    </div>
-                </div>
-
-
+            
 
 
             </div>
