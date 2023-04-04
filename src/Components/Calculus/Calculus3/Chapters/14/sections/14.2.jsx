@@ -88,19 +88,19 @@ export default function Calculus3_Ch14_Sec2() {
             <div className="Example-1">
                     <h3>Example 1</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                      <h4>Derivatives of vector-valued functions</h4>
                       <p>
-                        
+                        Differentiate the following function.
                       </p>
-                      
+                      <MathComponent tex="\mathrm{r(t) = \langle cos \hspace{.2cm} t, \hspace{.2cm} t^{2}, \hspace{.2cm} sin \hspace{.2cm} t \rangle}" />
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="\mathrm{\langle - \hspace{.2cm} sin \hspace{.2cm} t, \hspace{.2cm} 2t, \hspace{.2cm} cos \hspace{.2cm} t \rangle}" />    
                          
                     </p>
 
-                    *
+                    *507
                     </div>
                 </div>
 
@@ -108,19 +108,20 @@ export default function Calculus3_Ch14_Sec2() {
                 <div className="Example-2">
                     <h3>Example 2</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                    <h4>Derivatives of vector-valued functions</h4>
                       <p>
-                        
+                        Differentiate the following function.
                       </p>
-                      
+                      <MathComponent tex="\mathrm{r(t) = e^{t}i + 2e^{-t}j - 4e^{2t}k}" />
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="\mathrm{ e^{t}i - 2e^{-t}j - 8e^{2t}k}" />    
                          
                     </p>
 
-                    *
+
+                    *508
                     </div>
                 </div>
 
@@ -128,19 +129,19 @@ export default function Calculus3_Ch14_Sec2() {
                 <div className="Example-3">
                     <h3>Example 3</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                      <h4>Tangent Vectors</h4>
                       <p>
-                        
+                        Find a tangent vector at the given value of t for the following parameterized curve.
                       </p>
-                      
+                      <MathComponent tex="\mathrm{r(t) = \langle t, 3t^{2}, t^{3} \rangle, \hspace{.2cm} t = 1}" /> 
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="\langle 1,6,3 \rangle" />    
                          
                     </p>
 
-                    *
+                    *509
                     </div>
                 </div>
 
@@ -148,42 +149,21 @@ export default function Calculus3_Ch14_Sec2() {
                 <div className="Example-4">
                     <h3>Example 4</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                    <h4>Tangent Vectors</h4>
                       <p>
-                        
+                        Find a tangent vector at the given value of t for the following parameterized curve.
                       </p>
-                      
+                      <MathComponent tex="\mathrm{r(t) = 2t^{4}i + 6t^{3/2}j + \frac{10}{t}k, \hspace{.2cm} t=1}" /> 
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="\mathrm{8i + 9j - 10k}" />    
                          
                     </p>
 
-                    *
+                    *510
                     </div>
                 </div>
-
-
-                <div className="Example-5">
-                    <h3>Example 5</h3>
-                    <div className="textBorder">
-                      <h4></h4>
-                      <p>
-                        
-                      </p>
-                      
-                     
-                    <p>
-                        Answer: <br/>
-                         <MathComponent tex="" />    
-                         
-                    </p>
-
-                    *
-                    </div>
-                </div>
-
 
 
 
