@@ -14,7 +14,7 @@ export default function Calculus3_Ch14() {
             
         <Link to="Sec14.1"><p>Sec 14.1 Vector-Valued Functions</p></Link>
         <p>Intro to Sec 6.1</p>
-        <Link to="Sec14.2"><p>Sec 14.2 Vectors in Three Dimensions</p></Link>
+        <Link to="Sec14.2"><p>Sec 14.2 Calculus of Vector-Valued Functions</p></Link>
         <p>Intro to Sec 4.2</p>
         <Link to="Sec14.3"><p>Sec 14.3 Dot Products</p></Link>
         <p>Intro to Sec 2.3</p>
