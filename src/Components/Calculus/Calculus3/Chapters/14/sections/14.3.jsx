@@ -69,19 +69,22 @@ export default function Calculus3_Ch14_Sec3() {
             <div className="Example-1">
                     <h3>Example 1</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                      <h4>Velocity and acceleration from position</h4>
                       <p>
-                        
+                        Consider the following position function.
                       </p>
-                      
+                      <p>a. Find the velocity and speed of the object.</p>
+                      <p>b. Find the acceleration of the object</p>
+                      <MathComponent tex="\mathrm{r(t) = \langle 3t^{2} + 1, 4t^{2} + 3 \rangle , \hspace{.2cm} for \hspace{.2cm} t \geq 0}" />
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="\mathrm{a. \langle 6t, 8t \rangle, \hspace{.2cm} 10t}" /> 
+                         <MathComponent tex="\mathrm{b. \langle 6, 8 \rangle}" />   
                          
                     </p>
 
-                    *
+                    *515
                     </div>
                 </div>
 
@@ -89,19 +92,22 @@ export default function Calculus3_Ch14_Sec3() {
                 <div className="Example-2">
                     <h3>Example 2</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                    <h4>Velocity and acceleration from position</h4>
                       <p>
-                        
+                        Consider the following position function.
                       </p>
-                      
+                      <p>a. Find the velocity and speed of the object.</p>
+                      <p>b. Find the acceleration of the object</p>
+                      <MathComponent tex="\mathrm{r(t) = \langle 8 sin t, 8 cos t \rangle , \hspace{.2cm} for \hspace{.2cm} 0 \leq t \leq 2 \pi}" />
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="\mathrm{a. v(t) = \langle 8 cos t, -8 sin t \rangle, \hspace{.2cm} \vert v(t) \vert = 8}" /> 
+                         <MathComponent tex="\mathrm{b. a(t) =  \langle -8 sin t, -8 cos t \rangle}" />   
                          
                     </p>
 
-                    *
+                    *516
                     </div>
                 </div>
 
@@ -109,62 +115,24 @@ export default function Calculus3_Ch14_Sec3() {
                 <div className="Example-3">
                     <h3>Example 3</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                    <h4>Velocity and acceleration from position</h4>
                       <p>
-                        
+                        Consider the following position function.
                       </p>
-                      
+                      <p>a. Find the velocity and speed of the object.</p>
+                      <p>b. Find the acceleration of the object</p>
+                      <MathComponent tex="\mathrm{r(t) = \langle 1, t^{2}, e^{-t} \rangle , \hspace{.2cm} for \hspace{.2cm} t \geq 0}" />
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="\mathrm{a. v(t) = \langle 0, 2t, -e^{-t} \rangle, \hspace{.2cm} \vert v(t) \vert = \sqrt{4t^{2} + e^{-2t}}}" /> 
+                         <MathComponent tex="\mathrm{b. a(t) =  \langle 0, 2, e^{-t} \rangle}" />   
                          
                     </p>
 
-                    *
+                    *517
                     </div>
                 </div>
-
-
-                <div className="Example-4">
-                    <h3>Example 4</h3>
-                    <div className="textBorder">
-                      <h4></h4>
-                      <p>
-                        
-                      </p>
-                      
-                     
-                    <p>
-                        Answer: <br/>
-                         <MathComponent tex="" />    
-                         
-                    </p>
-
-                    *
-                    </div>
-                </div>
-
-
-                <div className="Example-5">
-                    <h3>Example 5</h3>
-                    <div className="textBorder">
-                      <h4></h4>
-                      <p>
-                        
-                      </p>
-                      
-                     
-                    <p>
-                        Answer: <br/>
-                         <MathComponent tex="" />    
-                         
-                    </p>
-
-                    *
-                    </div>
-                </div>
-
 
 
 
