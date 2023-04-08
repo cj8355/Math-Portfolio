@@ -18,7 +18,7 @@ export default function Calculus3_Ch14() {
         <p>Intro to Sec 4.2</p>
         <Link to="Sec14.3"><p>Sec 14.3 Motion in Space</p></Link>
         <p>Intro to Sec 2.3</p>
-        <Link to="Sec14.4"><p>Sec 14.4 Cross Products</p></Link>
+        <Link to="Sec14.4"><p>Sec 14.4 Length of Curves</p></Link>
         <p>Intro to Sec 2.3</p>
         <Link to="Sec14.5"><p>Sec 14.5 Lines and Planes in Space</p></Link>
         <p>Intro to Sec 2.3</p>
