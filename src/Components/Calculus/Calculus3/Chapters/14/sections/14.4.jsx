@@ -45,19 +45,19 @@ export default function Calculus3_Ch14_Sec4() {
             <div className="Example-1">
                     <h3>Example 1</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                      <h4>Arc length calculations</h4>
                       <p>
-                        
+                        Find the length of the following two- and three-dimensional curves.
                       </p>
-                      
+                      <MathComponent tex="\mathrm{r(t) = \langle 3t^{2} - 1, 4t^{2} + 5 \rangle , \hspace{.2cm} for \hspace{.2cm} 0 \leq t \leq 1}" /> 
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="5" />    
                          
                     </p>
 
-                    *
+                    *517
                     </div>
                 </div>
 
@@ -65,19 +65,19 @@ export default function Calculus3_Ch14_Sec4() {
                 <div className="Example-2">
                     <h3>Example 2</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                    <h4>Arc length calculations</h4>
                       <p>
-                        
+                        Find the length of the following two- and three-dimensional curves.
                       </p>
-                      
+                      <MathComponent tex="\mathrm{r(t) = \langle 3 \hspace{.1cm} cos \hspace{.1cm} t, 3 \hspace{.1cm} sin \hspace{.1cm} t \rangle , \hspace{.2cm} for \hspace{.2cm} 0 \leq t \leq \pi}" /> 
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="3 \pi" />    
                          
                     </p>
 
-                    *
+                    *518
                     </div>
                 </div>
 
@@ -85,63 +85,24 @@ export default function Calculus3_Ch14_Sec4() {
                 <div className="Example-3">
                     <h3>Example 3</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                    <h4>Arc length calculations</h4>
                       <p>
-                        
+                        Find the length of the following two- and three-dimensional curves.
                       </p>
-                      
+                      <MathComponent tex="\mathrm{r(t) = \langle e^{2t}, 2 e^{2t} + 5, 2e^{2t} - 20 \rangle , \hspace{.2cm} for \hspace{.2cm} 0 \leq t \leq ln 2}" /> 
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="9" />    
                          
                     </p>
 
-                    *
+                    *519
                     </div>
                 </div>
 
 
-                <div className="Example-4">
-                    <h3>Example 4</h3>
-                    <div className="textBorder">
-                      <h4></h4>
-                      <p>
-                        
-                      </p>
-                      
-                     
-                    <p>
-                        Answer: <br/>
-                         <MathComponent tex="" />    
-                         
-                    </p>
-
-                    *
-                    </div>
-                </div>
-
-
-                <div className="Example-5">
-                    <h3>Example 5</h3>
-                    <div className="textBorder">
-                      <h4></h4>
-                      <p>
-                        
-                      </p>
-                      
-                     
-                    <p>
-                        Answer: <br/>
-                         <MathComponent tex="" />    
-                         
-                    </p>
-
-                    *
-                    </div>
-                </div>
-
-
+                
 
 
             </div>
