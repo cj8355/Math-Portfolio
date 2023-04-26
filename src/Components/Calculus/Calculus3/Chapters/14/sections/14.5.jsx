@@ -70,14 +70,49 @@ export default function Calculus3_Ch14_Sec5() {
       </p>
 
 
-      <h2></h2>
+      <h2>Tangential and Normal Components of the Acceleration</h2>
       <p className="textBorder">
        <p>
-       
+       The acceleration vector of an object moving in space along a smooth curve has the following representation in terms
+       of its tangential component
        </p>
-        <MathComponent tex="" />
+        <MathComponent tex="\mathrm{a_{T} \hspace{.2cm} (in \hspace{.2cm} the \hspace{.2cm} direction \hspace{.2cm} of \hspace{.2cm} T) \hspace{.2cm} and \hspace{.2cm} its \hspace{.2cm} normal \hspace{.2cm} component \hspace{.2cm} a_{N} \hspace{.2cm} (in \hspace{.2cm} the \hspace{.2cm} direction \hspace{.2cm} of \hspace{.2cm} N):}" />
+        <MathComponent tex="\mathrm{a = a_{N}N + a_{T} T.}" />
+        <MathComponent tex="\mathrm{where \hspace{.2cm} a_{N} = k \vert v \vert ^{2} = \frac{\vert v \hspace{.1cm} x \hspace{.1cm} a \vert}{\vert v \vert} \hspace{.2cm} and \hspace{.2cm} a_{T} = \frac{d^{2}s}{dt^{2}}.}" />
+        *525
+      </p>
+
+
+      <h2>Unit Binormal Vector and Torsion</h2>
+      <p className="textBorder">
+       <p>
+       Let C be a smooth parameterized curve with unit tangent and principal unit normal vectors T and N, respectively. Then
+       at each point of the curve at which the curvature is nonzero, the unit binormal vector is
+       </p>
+        <MathComponent tex="\mathrm{B = T \hspace{.1cm} x \hspace{.1cm} N}," />
+        <p>and the torsion is</p>
+        <MathComponent tex="\mathrm{ \tau = - \frac{dB}{ds} \cdot N}." />
+        *526
+      </p>
+
+
+      <h2>Formulas for Curves in Space</h2>
+      <p className="textBorder">
+       <div>
+       <MathComponent tex="\mathrm{Position \hspace{.2cm} function: \hspace{.2cm} r(t) = \langle x(t), y(t), z(t) \rangle}" />
+       <MathComponent tex="\mathrm{Velocity: \hspace{.2cm} v = r'}" />
+       <MathComponent tex="\mathrm{Acceleration: \hspace{.2cm} a = v'}" />
+       <MathComponent tex="\mathrm{Unit \hspace{.2cm} tangent \hspace{.2cm} vector: \hspace{.2cm} T = \frac{v}{\vert v \vert}}" />
+       <MathComponent tex="\mathrm{Principal \hspace{.2cm} unit \hspace{.2cm} normal \hspace{.2cm} vector: \hspace{.2cm} N = \frac{dT/dt}{\vert dT/dt \vert} \hspace{.2cm} (provided \hspace{.2cm} dT/dt \neq 0)}" />
+       <MathComponent tex="\mathrm{Curvature: \kappa = \bigg \vert \frac{dT}{ds} \bigg \vert = \frac{1}{\vert v \vert} \bigg \vert \frac{dT}{dt} \bigg \vert = \frac{\vert v \hspace{.2cm} x \hspace{.2cm} a \vert}{\vert v \vert ^{3}}}" />
+       <MathComponent tex="\mathrm{Components \hspace{.2cm} of \hspace{.2cm} acceleration: \hspace{.2cm} a = a_{N}N + a_{T}T, \hspace{.2cm} where \hspace{.2cm} a_{N} = \kappa \vert v \vert ^{2} = \frac{\vert v x a \vert}{\vert v \vert}}" />
+       <MathComponent tex="\mathrm{and \hspace{.2cm} a_{T} = \frac{d^{2}s}{dt^{2}} = \frac{v \cdot a}{\vert v \vert}}" />
+       <MathComponent tex="\mathrm{Unit \hspace{.2cm} binormal \hspace{.2cm} vector: \hspace{.2cm} B = T \hspace{.1cm} x \hspace{.1cm} N = \frac{v \hspace{.1cm} x \hspace{.1cm} a}{\vert v \hspace{.1cm} x \hspace{.1cm} a \vert}}" />
+       <MathComponent tex="\mathrm{Torsion: \hspace{.2cm} \tau = - \frac{dB}{ds} \cdot N = \frac{(v \hspace{.1cm} x \hspace{.1cm} a) \cdot a'}{\vert v \hspace{.1cm} x \hspace{.1cm} a \vert ^{2}} = \frac{(r' \hspace{.1cm} x \hspace{.1cm} r'') \cdot r'''}{\vert r' \hspace{.1cm} x \hspace{.1cm} r'' \vert ^{2}}}" />
+       </div>
+       
         
-        *
+        *527
       </p>
 
 
