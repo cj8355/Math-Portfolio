@@ -128,19 +128,19 @@ export default function Calculus3_Ch14_Sec5() {
             <div className="Example-1">
                     <h3>Example 1</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                      <h4>Curvature</h4>
                       <p>
-                        
+                      Find the unit tangent vector T and the curvature k for the following parameterized curves.
                       </p>
-                      
+                      <MathComponent tex="\mathrm{r(t) = \langle 2t + 1, 4t - 5, 6t + 12 \rangle}" /> 
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="\mathrm{T = \frac{ \langle 1,2,3 \rangle}{\sqrt{14}}, \hspace{.2cm} \kappa = 0}" />    
                          
                     </p>
 
-                    *
+                    *528
                     </div>
                 </div>
 
@@ -148,19 +148,19 @@ export default function Calculus3_Ch14_Sec5() {
                 <div className="Example-2">
                     <h3>Example 2</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                    <h4>Curvature</h4>
                       <p>
-                        
+                      Find the unit tangent vector T and the curvature k for the following parameterized curves.
                       </p>
-                      
+                      <MathComponent tex="\mathrm{r(t) = \langle t, 2t^{2} \rangle}" /> 
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="\mathrm{T = \frac{ \langle 1,4t \rangle}{\sqrt{1 + 16t^{2}}}, \hspace{.2cm} \kappa = \frac{4}{(1+16t^{2})^{3/2}}}" />    
                          
                     </p>
 
-                    *
+                    *529
                     </div>
                 </div>
 
@@ -168,19 +168,20 @@ export default function Calculus3_Ch14_Sec5() {
                 <div className="Example-3">
                     <h3>Example 3</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                      <h4>Alternative curvature formula</h4>
                       <p>
-                        
+                        Use the alternative curvature formula 
                       </p>
-                      
-                     
+                      <MathComponent tex="\kappa = \frac{\vert v \hspace{.1cm} x \hspace{.1cm} a \vert}{\vert v \vert ^{3}}" /> 
+                      <p>to find the curvature of the following parameterized curves.</p>
+                      <MathComponent tex="\mathrm{r(t) = \langle -3 \hspace{.1cm} cos \hspace{.1cm} t, 3 \hspace{.1cm} sin \hspace{.1cm} t, 0 \rangle}" />
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="\frac{1}{3}" />    
                          
                     </p>
 
-                    *
+                    *530
                     </div>
                 </div>
 
@@ -188,41 +189,23 @@ export default function Calculus3_Ch14_Sec5() {
                 <div className="Example-4">
                     <h3>Example 4</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                    <h4>Alternative curvature formula</h4>
                       <p>
-                        
+                        Use the alternative curvature formula 
                       </p>
-                      
-                     
+                      <MathComponent tex="\kappa = \frac{\vert v \hspace{.1cm} x \hspace{.1cm} a \vert}{\vert v \vert ^{3}}" /> 
+                      <p>to find the curvature of the following parameterized curves.</p>
+                      <MathComponent tex="\mathrm{r(t) = \langle 4 \hspace{.1cm} cos \hspace{.1cm} t, \hspace{.1cm} sin \hspace{.1cm} t, 2 \hspace{.1cm} cos \hspace{.1cm} t \rangle}" />
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="\frac{2 \sqrt{5}}{(20 \hspace{.1cm} sin ^{2} t + cos ^{2} t)^{3/2}}" />    
                          
                     </p>
 
-                    *
+                    *531
                     </div>
                 </div>
 
-
-                <div className="Example-5">
-                    <h3>Example 5</h3>
-                    <div className="textBorder">
-                      <h4></h4>
-                      <p>
-                        
-                      </p>
-                      
-                     
-                    <p>
-                        Answer: <br/>
-                         <MathComponent tex="" />    
-                         
-                    </p>
-
-                    *
-                    </div>
-                </div>
 
 
 
