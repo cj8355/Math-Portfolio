@@ -12,7 +12,7 @@ export default function Calculus3() {
         <p>Intro to ch 5</p>
         <Link to="Ch.14"><p>Ch. 14 Vector-Valued Functions</p></Link>
         <p>Intro to ch 5</p>
-        <Link to="Ch.15"><p>Ch. 10 Sequences and Infinite Series</p></Link>
+        <Link to="Ch.15"><p>Ch. 15 Functions of Several Variables</p></Link>
         <p>Intro to ch 5</p>
         <Link to="Ch.16"><p>Ch. 11 Power Series</p></Link>
         <p>Intro to ch 5</p>
