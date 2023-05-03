@@ -1,6 +1,9 @@
 import { Link } from "react-router-dom";
 import "./15.1.css";
 import { MathComponent } from "mathjax-react";
+import graph1 from "./images/graph1.png";
+import graph2 from "./images/graph2.png";
+import graph3 from "./images/graph3.png";
 
 export default function Calculus3_Ch15_Sec1() {
     
@@ -48,19 +51,19 @@ export default function Calculus3_Ch15_Sec1() {
             <div className="Example-1">
                     <h3>Example 1</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                      <h4>Domains</h4>
                       <p>
-                        
+                        Find the domains of the following function.
                       </p>
-                      
+                      <MathComponent tex="\mathrm{f(x,y) = 2xy - 3x + 4y}" /> 
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="\mathrm{D = \mathbb{R}^{2}}" />    
                          
                     </p>
 
-                    *
+                    *534
                     </div>
                 </div>
 
@@ -68,19 +71,19 @@ export default function Calculus3_Ch15_Sec1() {
                 <div className="Example-2">
                     <h3>Example 2</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                    <h4>Domains</h4>
                       <p>
-                        
+                        Find the domains of the following function.
                       </p>
-                      
+                      <MathComponent tex="\mathrm{f(x,y) = sin \frac{x}{y}}" /> 
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="\mathrm{D = \{(x,y): y \neq 0 \} }" />    
                          
                     </p>
 
-                    *
+                    *535
                     </div>
                 </div>
 
@@ -88,19 +91,23 @@ export default function Calculus3_Ch15_Sec1() {
                 <div className="Example-3">
                     <h3>Example 3</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                      <h4>Graphs of familiar functions</h4>
                       <p>
-                        
+                        Use what you learned about surfaces in Sections 13.5 and 13.6 to sketch a graph of the following functions.
+                        In each case, identify the surface and state the domain and range of the function.
                       </p>
-                      
+                      <MathComponent tex="f(x,y) = 6 - x - 2y" /> 
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                        <p>Plane</p>
+                        <MathComponent tex="\mathrm{D = \mathbb{R}^{2}, \hspace{.2cm} R = \mathbb{R}}" /> <br/>
+                        <img src={graph1} alt="Graph of function" className="imageWidth"></img>  <br/>
+                        
                          
                     </p>
 
-                    *
+                    *536
                     </div>
                 </div>
 
@@ -108,42 +115,26 @@ export default function Calculus3_Ch15_Sec1() {
                 <div className="Example-4">
                     <h3>Example 4</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                    <h4>Graphs of familiar functions</h4>
                       <p>
-                        
+                        Use what you learned about surfaces in Sections 13.5 and 13.6 to sketch a graph of the following functions.
+                        In each case, identify the surface and state the domain and range of the function.
                       </p>
-                      
+                      <MathComponent tex="G(x,y) = - \sqrt{1 + x^{2} + y^{2}}" /> 
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                        <p>Lower part of a hyperboloid of two sheets</p>
+                        <MathComponent tex="\mathrm{D = \mathbb{R}^{2}, \hspace{.2cm} R = (- \infty, -1)}" /><br/>
+                        <img src={graph2} alt="Graph of function" className="imageWidth"></img>  <br/>
+                        <img src={graph3} alt="Graph of function" className="imageWidth"></img>  <br/>
+                         
                          
                     </p>
 
-                    *
+                    *537
                     </div>
                 </div>
-
-
-                <div className="Example-5">
-                    <h3>Example 5</h3>
-                    <div className="textBorder">
-                      <h4></h4>
-                      <p>
-                        
-                      </p>
-                      
-                     
-                    <p>
-                        Answer: <br/>
-                         <MathComponent tex="" />    
-                         
-                    </p>
-
-                    *
-                    </div>
-                </div>
-
 
 
 
