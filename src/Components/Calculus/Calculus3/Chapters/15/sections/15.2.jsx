@@ -75,27 +75,34 @@ export default function Calculus3_Ch15_Sec2() {
       </p>
 
 
-      <h2></h2>
+      <h2>Two-Path Test for Nonexistence of Limits</h2>
       <p className="textBorder">
-       
-        <MathComponent tex="" />.
-        *
+       <p>
+        If f(x,y) approaches two different values as (x,y) approaches (a,b) along two different paths in the domain of f, then
+       </p>
+        <MathComponent tex="\mathrm{\lim_{(x,y) \to (a,b)} f(x,y) \hspace{.2cm} does \hspace{.2cm} not \hspace{.2cm} exist.}" />
+        *543
       </p>
 
 
-      <h2></h2>
+      <h2>Continuity</h2>
       <p className="textBorder">
-       
-        <MathComponent tex="" />.
-        *
+       <p>The function f is continuous at the point (a,b) provided</p>
+       <p>1. f is defined at (a,b),</p>
+        <MathComponent tex="\mathrm{2. \hspace{.2cm} \lim_{(x,y) \to (a,b)} f(x,y) \hspace{.2cm} exists, \hspace{.2cm} and}" />
+        <MathComponent tex="\mathrm{3. \hspace{.2cm} \lim_{(x,y) \to (a,b)} f(x,y) = f(a,b).}" />
+        *544
       </p>
 
 
-      <h2></h2>
+      <h2>Continuity of Composite Functions</h2>
       <p className="textBorder">
-       
-        <MathComponent tex="" />.
-        *
+       <p>
+        If u = g(x, y) is continuous at (a, b) and z = f(u) is continuous at g(a, b), then the composite function
+        z = f(g(x, y)) is continuous at (a, b).
+       </p>
+        
+        *545
       </p>
       
 
