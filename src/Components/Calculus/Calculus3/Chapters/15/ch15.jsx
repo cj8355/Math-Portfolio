@@ -14,7 +14,7 @@ export default function Calculus3_Ch15() {
             
         <Link to="Sec15.1"><p>Sec 15.1 Graphs and Level Curves</p></Link>
         <p>Intro to Sec 6.1</p>
-        <Link to="Sec15.2"><p>Sec 14.2 Calculus of Vector-Valued Functions</p></Link>
+        <Link to="Sec15.2"><p>Sec 15.2 Limits and Continuity</p></Link>
         <p>Intro to Sec 4.2</p>
         <Link to="Sec15.3"><p>Sec 14.3 Motion in Space</p></Link>
         <p>Intro to Sec 2.3</p>
