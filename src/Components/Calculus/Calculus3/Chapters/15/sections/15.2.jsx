@@ -17,7 +17,7 @@ export default function Calculus3_Ch15_Sec2() {
         The function f has the limit L as P(x, y) approaches <MathComponent tex="\mathrm{P_{0} (a,b), \hspace{.2cm} written}" />
        </p>
         <MathComponent tex="\lim_{(x,y) \to (a,b)} f(x,y) = \lim_{P \to P_{0}} f(x,y) = L," />
-        <MathComponent tex="\mathrm{if, \hspace{.2cm} given \hspace{.2cm} any \hspace{.2cm} \varepsilon > 0, \hspace{.2cm} there \hspace{.2cm} esists \hspace{.2cm} a \hspace{.2cm} \delta > 0 \hspace{.2cm} such \hspace{.2cm} that}" />
+        <MathComponent tex="\mathrm{if, \hspace{.2cm} given \hspace{.2cm} any \hspace{.2cm} \epsilon > 0, \hspace{.2cm} there \hspace{.2cm} esists \hspace{.2cm} a \hspace{.2cm} \delta > 0 \hspace{.2cm} such \hspace{.2cm} that}" />
         <MathComponent tex="\vert f(x,y) - L \vert < \epsilon" />
         <p>whenever (x,y) is in the domain of f and</p>
         <MathComponent tex="0 < \vert PP_{0} \vert = \sqrt{(x-a)^{2} + (y-b)^{2}} < \delta ." />
@@ -116,19 +116,19 @@ export default function Calculus3_Ch15_Sec2() {
             <div className="Example-1">
                     <h3>Example 1</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                      <h4>Limits of functions</h4>
                       <p>
-                        
+                        Evaluate the following limits.
                       </p>
-                      
+                      <MathComponent tex="\lim_{(x,y) \to (2,9)} 101" />
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="101" />    
                          
                     </p>
 
-                    *
+                    *546
                     </div>
                 </div>
 
@@ -136,19 +136,19 @@ export default function Calculus3_Ch15_Sec2() {
                 <div className="Example-2">
                     <h3>Example 2</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                    <h4>Limits of functions</h4>
                       <p>
-                        
+                        Evaluate the following limits.
                       </p>
-                      
+                      <MathComponent tex="\lim_{(x,y) \to (2,2)} \frac{y^{2}-4}{xy - 2x}" />
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="\frac{(y + 2)(y - 2)}{x(y - 2)} = \frac{y + 2}{x} = \frac{2 + 2}{2} = 2" />    
                          
                     </p>
 
-                    *
+                    *547
                     </div>
                 </div>
 
@@ -156,19 +156,17 @@ export default function Calculus3_Ch15_Sec2() {
                 <div className="Example-3">
                     <h3>Example 3</h3>
                     <div className="textBorder">
-                      <h4></h4>
-                      <p>
-                        
-                      </p>
-                      
+                      <h4>Continuity</h4>
+                      <MathComponent tex="\mathrm{At \hspace{.2cm} what \hspace{.2cm} points \hspace{.2cm} of \hspace{.2cm} \mathbb{R}^{2} \hspace{.2cm} are \hspace{.2cm} the \hspace{.2cm} following \hspace{.2cm} functions \hspace{.2cm} continuous?}" /> 
+                      <MathComponent tex="\mathrm{f(x,y) = x^{2} + 2xy - y^{3}}" /> 
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="\mathbb{R}^{2}" />    
                          
                     </p>
 
-                    *
+                    *548
                     </div>
                 </div>
 
@@ -176,44 +174,22 @@ export default function Calculus3_Ch15_Sec2() {
                 <div className="Example-4">
                     <h3>Example 4</h3>
                     <div className="textBorder">
-                      <h4></h4>
-                      <p>
-                        
-                      </p>
-                      
+                    <h4>Continuity</h4>
+                      <MathComponent tex="\mathrm{At \hspace{.2cm} what \hspace{.2cm} points \hspace{.2cm} of \hspace{.2cm} \mathbb{R}^{2} \hspace{.2cm} are \hspace{.2cm} the \hspace{.2cm} following \hspace{.2cm} functions \hspace{.2cm} continuous?}" /> 
+                      <MathComponent tex="\mathrm{f(x,y) = \sqrt{x^{2} + y^{2}}}" /> 
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="\mathbb{R}^{2}" />    
                          
                     </p>
 
-                    *
+                    *549
                     </div>
                 </div>
 
 
-                <div className="Example-5">
-                    <h3>Example 5</h3>
-                    <div className="textBorder">
-                      <h4></h4>
-                      <p>
-                        
-                      </p>
-                      
-                     
-                    <p>
-                        Answer: <br/>
-                         <MathComponent tex="" />    
-                         
-                    </p>
-
-                    *
-                    </div>
-                </div>
-
-
-
+            
 
             </div>
             </div>
