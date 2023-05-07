@@ -74,19 +74,19 @@ export default function Calculus3_Ch15_Sec3() {
             <div className="Example-1">
                     <h3>Example 1</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                      <h4>Partial Derivatives</h4>
                       <p>
-                        
+                        Find the first partial derivatives of the following functions.
                       </p>
-                      
+                      <MathComponent tex="\mathrm{f(x,y) = xe^{y}}" />
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="\mathrm{f_{x} (x,y) = e^{y}; \hspace{.2cm} f_{y} (x,y) = xe^{y} }" />    
                          
                     </p>
 
-                    *
+                    *555
                     </div>
                 </div>
 
@@ -94,19 +94,19 @@ export default function Calculus3_Ch15_Sec3() {
                 <div className="Example-2">
                     <h3>Example 2</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                    <h4>Partial Derivatives</h4>
                       <p>
-                        
+                        Find the first partial derivatives of the following functions.
                       </p>
-                      
+                      <MathComponent tex="\mathrm{f(x,y) = x \hspace{.2cm} cos \hspace{.2cm} xy}" />
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="\mathrm{f_{x} (x,y) = cos \hspace{.2cm} xy - xy \hspace{.2cm} sin \hspace{.2cm} xy; \hspace{.2cm} f_{y} (x,y) = - x^{2} \hspace{.2cm} sin \hspace{.2cm} xy }" />    
                          
                     </p>
 
-                    *
+                    *556
                     </div>
                 </div>
 
@@ -114,19 +114,19 @@ export default function Calculus3_Ch15_Sec3() {
                 <div className="Example-3">
                     <h3>Example 3</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                    <h4>Partial Derivatives</h4>
                       <p>
-                        
+                        Find the first partial derivatives of the following functions.
                       </p>
-                      
+                      <MathComponent tex="\mathrm{f(x,y) = x^{2y}}" />
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="\mathrm{f_{x} (x,y) = 2yx^{2y - 1}; \hspace{.2cm} f_{y} (x,y) = 2x^{2y} \hspace{.2cm} ln \hspace{.2cm} x }" />    
                          
                     </p>
 
-                    *
+                    *557
                     </div>
                 </div>
 
@@ -134,44 +134,24 @@ export default function Calculus3_Ch15_Sec3() {
                 <div className="Example-4">
                     <h3>Example 4</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                      <h4>Second partial derivatives</h4>
                       <p>
-                        
+                        Find the four second partial derivatives of the following function.
                       </p>
-                      
+                      <MathComponent tex="\mathrm{h(x,y) = x^{2} + xy^{2} + 1}" /> 
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="\mathrm{h_{xx}(x,y) = 6x; \hspace{.2cm} h_{xy}(x,y) = 2y = h_{yx}; \hspace{.2cm} h_{yy}(x,y) = 2x}" />    
                          
                     </p>
 
-                    *
+                    *558
                     </div>
                 </div>
 
 
-                <div className="Example-5">
-                    <h3>Example 5</h3>
-                    <div className="textBorder">
-                      <h4></h4>
-                      <p>
-                        
-                      </p>
-                      
-                     
-                    <p>
-                        Answer: <br/>
-                         <MathComponent tex="" />    
-                         
-                    </p>
-
-                    *
-                    </div>
-                </div>
-
-
-
+                
 
             </div>
             </div>
