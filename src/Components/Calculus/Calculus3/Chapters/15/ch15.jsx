@@ -18,7 +18,7 @@ export default function Calculus3_Ch15() {
         <p>Intro to Sec 4.2</p>
         <Link to="Sec15.3"><p>Sec 15.3 Partial Derivatives</p></Link>
         <p>Intro to Sec 2.3</p>
-        <Link to="Sec15.4"><p>Sec 14.4 Length of Curves</p></Link>
+        <Link to="Sec15.4"><p>Sec 15.4 The Chain Rule</p></Link>
         <p>Intro to Sec 2.3</p>
         <Link to="Sec15.5"><p>Sec 14.5 Lines and Planes in Space</p></Link>
         <p>Intro to Sec 2.3</p>
