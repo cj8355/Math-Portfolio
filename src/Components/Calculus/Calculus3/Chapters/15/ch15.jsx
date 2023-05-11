@@ -20,7 +20,7 @@ export default function Calculus3_Ch15() {
         <p>Intro to Sec 2.3</p>
         <Link to="Sec15.4"><p>Sec 15.4 The Chain Rule</p></Link>
         <p>Intro to Sec 2.3</p>
-        <Link to="Sec15.5"><p>Sec 14.5 Lines and Planes in Space</p></Link>
+        <Link to="Sec15.5"><p>Sec 15.5 Directional Derivatives and the Gradient</p></Link>
         <p>Intro to Sec 2.3</p>
         <Link to="Sec15.6"><p>Sec 13.6 Cylinders and Quadric Surfaces</p></Link>
         <p>Intro to Sec 2.3</p>
