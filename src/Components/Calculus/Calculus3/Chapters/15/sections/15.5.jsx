@@ -109,19 +109,19 @@ export default function Calculus3_Ch15_Sec5() {
             <div className="Example-1">
                     <h3>Example 1</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                      <h4>Computing gradients</h4>
                       <p>
-                        
+                        Compute the gradient of the following functions and evaluate it at the given point P.
                       </p>
-                      
+                      <MathComponent tex="\mathrm{f(x,y) = 2 + 3x^{2} - 5y^{2}; \hspace{.2cm} P(2,-1)}" />
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="\nabla f(x,y) = \langle 6x, -10y \rangle , \hspace{.2cm} \nabla f(2,-1) = \langle 12, 10 \rangle" />    
                          
                     </p>
 
-                    *
+                    *573
                     </div>
                 </div>
 
@@ -129,19 +129,19 @@ export default function Calculus3_Ch15_Sec5() {
                 <div className="Example-2">
                     <h3>Example 2</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                    <h4>Computing gradients</h4>
                       <p>
-                        
+                        Compute the gradient of the following functions and evaluate it at the given point P.
                       </p>
-                      
+                      <MathComponent tex="\mathrm{f(x,y) = xe^{2xy}; \hspace{.2cm} P(1,0)}" />
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="\nabla f(x,y) = e^{2xy} \langle 1 + 2xy, 2x^{2} \rangle , \hspace{.2cm} \nabla f(1,0) = \langle 1, 2 \rangle" />    
                          
                     </p>
 
-                    *
+                    *574
                     </div>
                 </div>
 
@@ -149,19 +149,20 @@ export default function Calculus3_Ch15_Sec5() {
                 <div className="Example-3">
                     <h3>Example 3</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                      <h4>Computing directional derivatives with the gradient</h4>
                       <p>
-                        
+                        Compute the directional derivative of the following functions at the given point P in the direction
+                        of the given vector. Be sure to use a unit vector for the direction vector.
                       </p>
-                      
+                      <MathComponent tex="f(x,y) = x^{2} - y^{2}; \hspace{.2cm} P(-1,-3); \hspace{.2cm} \langle \frac{3}{5}, - \frac{4}{5} \rangle" />
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="-6" />    
                          
                     </p>
 
-                    *
+                    *575
                     </div>
                 </div>
 
@@ -169,42 +170,22 @@ export default function Calculus3_Ch15_Sec5() {
                 <div className="Example-4">
                     <h3>Example 4</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                    <h4>Computing directional derivatives with the gradient</h4>
                       <p>
-                        
+                        Compute the directional derivative of the following functions at the given point P in the direction
+                        of the given vector. Be sure to use a unit vector for the direction vector.
                       </p>
-                      
+                      <MathComponent tex="f(x,y) = x^{2} - y^{2}; \hspace{.2cm} P(1,2); \hspace{.2cm} \langle -3, 4 \rangle" />
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="-2" />    
                          
                     </p>
 
-                    *
+                    *576
                     </div>
                 </div>
-
-
-                <div className="Example-5">
-                    <h3>Example 5</h3>
-                    <div className="textBorder">
-                      <h4></h4>
-                      <p>
-                        
-                      </p>
-                      
-                     
-                    <p>
-                        Answer: <br/>
-                         <MathComponent tex="" />    
-                         
-                    </p>
-
-                    *
-                    </div>
-                </div>
-
 
 
 
