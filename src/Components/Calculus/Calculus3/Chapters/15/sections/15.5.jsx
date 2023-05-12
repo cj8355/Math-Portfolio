@@ -59,27 +59,43 @@ export default function Calculus3_Ch15_Sec5() {
       </p>
 
 
-      <h2></h2>
+      <h2>The Gradient and Level Curves</h2>
       <p className="textBorder">
-       
-        <MathComponent tex="" />.
-        *
+       <p>
+        Given a function f differentiable at (a,b), the line tangent to the level curve of f at (a,b) is orthogonal to the gradient
+       </p>
+        <MathComponent tex="\nabla \mathrm{f(a,b), \hspace{.2cm} provided \hspace{.2cm} \nabla f(a,b) \neq 0.}" />.
+        *570
       </p>
 
 
-      <h2></h2>
+      <h2>Directional Derivative and Gradient in Three Dimensions</h2>
       <p className="textBorder">
        
-        <MathComponent tex="" />.
-        *
+        <MathComponent tex="\mathrm{Let \hspace{.2cm} f \hspace{.2cm} be \hspace{.2cm} differentiable \hspace{.2cm} at \hspace{.2cm} (a,b,c) \hspace{.2cm} and \hspace{.2cm} let \hspace{.2cm} u = \langle u_{1}, u_{2}, u_{3} \rangle \hspace{.2cm} be \hspace{.2cm} a \hspace{.2cm} unit \hspace{.2cm} vector.}" />
+        <p>The directional derivative of f at (a,b,b) in the direction of u is</p>
+        <MathComponent tex="\mathrm{D_{u} f(a,b,c) = \lim_{h \to 0} \frac{f(a + hu_{1}, b + hu_{2}, c + hu_{3}) - f(a,b,c)}{h}}," />
+        <p>provided this limit exists.</p>
+        <p>The gradient of f at the point (x,y,z) is the vector-valued function</p>
+        <MathComponent tex="\nabla \mathrm{f(x,y,z) = \langle f_{x}(x,y,z), f_{y}(x,y,z), f_{z}(x,y,z) \rangle}" />
+        <MathComponent tex="\mathrm{= f_{x}(x,y,z)i + f_{y}(x,y,z)j + f_{z}(x,y,z)k .}" />
+        *571
       </p>
 
 
-      <h2></h2>
+      <h2>Directional Derivative and Interpreting the Gradient</h2>
       <p className="textBorder">
-       
-        <MathComponent tex="" />.
-        *
+      <MathComponent tex="\mathrm{Let \hspace{.2cm} f \hspace{.2cm} be \hspace{.2cm} differentiable \hspace{.2cm} at \hspace{.2cm} (a,b,c) \hspace{.2cm} and \hspace{.2cm} let \hspace{.2cm} u = \langle u_{1}, u_{2}, u_{3} \rangle \hspace{.2cm} be \hspace{.2cm} a \hspace{.2cm} unit \hspace{.2cm} vector.}" />
+        <p>The directional derivative of f at (a,b,b) in the direction of u is</p>
+        <MathComponent tex="\mathrm{D_{u}f(a,b,c) = \nabla f(a,b,c) \cdot u}" />
+        <MathComponent tex="\mathrm{= \langle f_{x}(a,b,c), f_{y}(a,b,c), f_{z}(a,b,c) \rangle \cdot \rangle u_{1}, u_{2}, u_{3} \rangle .}" />
+        <MathComponent tex="\mathrm{Assuming \hspace{.2cm} \nabla f(a,b,c) \neq 0, \hspace{.2cm} the \hspace{.2cm} gradient \hspace{.2cm} in \hspace{.2cm} three \hspace{.2cm} dimensions \hspace{.2cm} has \hspace{.2cm} the \hspace{.2cm} following \hspace{.2cm} properties.}" /> 
+        <p>1. f has its maximum rate of increase at (a,b,c) in the direction of the gradient</p>
+        <MathComponent tex="\nabla \mathrm{f(a,b,c), \hspace{.2cm} and \hspace{.2cm} the \hspace{.2cm} rate \hspace{.2cm} of \hspace{.2cm} change \hspace{.2cm} in \hspace{.2cm} this \hspace{.2cm} direction \hspace{.2cm} is \hspace{.2cm} \vert \nabla f(a,b,c) \vert .}" />
+        <p>2. f has its maximum rate of decrease at (a,b,c) in the direction of</p>
+        <MathComponent tex="- \nabla \mathrm{f(a,b,c), \hspace{.2cm} and \hspace{.2cm} the \hspace{.2cm} rate \hspace{.2cm} of \hspace{.2cm} change \hspace{.2cm} in \hspace{.2cm} this \hspace{.2cm} direction \hspace{.2cm} is \hspace{.2cm} - \vert \nabla f(a,b,c) \vert .}" />
+        <MathComponent tex="\mathrm{3. \hspace{.2cm} The \hspace{.2cm} directional \hspace{.2cm} derivative \hspace{.2cm} is \hspace{.2cm} zero \hspace{.2cm} in \hspace{.2cm} any \hspace{.2cm} direction \hspace{.2cm} orthogonal \hspace{.2cm} to \hspace{.2cm} \nabla f(a,b,c).}" />
+        *572
       </p>
       
 
