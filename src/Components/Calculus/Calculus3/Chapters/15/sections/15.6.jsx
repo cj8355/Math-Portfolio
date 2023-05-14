@@ -70,19 +70,19 @@ export default function Calculus3_Ch15_Sec6() {
             <div className="Example-1">
                     <h3>Example 1</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                      <h4>Tangent planes</h4>
                       <p>
-                        
+                        Find an equation of the plane tangent to the following surfaces at the given points (two planes and two equations).
                       </p>
-                      
+                      <MathComponent tex="\mathrm{x^{2} + y + z = 3; \hspace{.2cm} (1,1,1) \hspace{.2cm} and \hspace{.2cm} (2,0,-1)}" />
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="2x + y + z = 2 + 1 + 1 = 4; \hspace{.2cm} 4x + y + z  = 8 + 0 - 1 = 7" />    
                          
                     </p>
 
-                    *
+                    *581
                     </div>
                 </div>
 
@@ -90,19 +90,19 @@ export default function Calculus3_Ch15_Sec6() {
                 <div className="Example-2">
                     <h3>Example 2</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                    <h4>Tangent planes</h4>
                       <p>
-                        
+                        Find an equation of the plane tangent to the following surfaces at the given points (two planes and two equations).
                       </p>
-                      
+                      <MathComponent tex="\mathrm{z = 4-2x^{2}-y^{2}; \hspace{.2cm} (2,2,-8) \hspace{.2cm} and \hspace{.2cm} (-1,-1,1)}" />
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="z = -8x-4y+16 \hspace{.2cm} and \hspace{.2cm} z=4x+2y+7" />    
                          
                     </p>
 
-                    *
+                    *582
                     </div>
                 </div>
 
@@ -110,19 +110,19 @@ export default function Calculus3_Ch15_Sec6() {
                 <div className="Example-3">
                     <h3>Example 3</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                    <h4>Tangent planes</h4>
                       <p>
-                        
+                        Find an equation of the plane tangent to the following surfaces at the given points (two planes and two equations).
                       </p>
-                      
+                      <MathComponent tex="\mathrm{z = e^{xy}; \hspace{.2cm} (1,0,1) \hspace{.2cm} and \hspace{.2cm} (0,1,1)}" />
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="z = y+1 \hspace{.2cm} and \hspace{.2cm} z=x+1" />    
                          
                     </p>
 
-                    *
+                    *583
                     </div>
                 </div>
 
@@ -130,43 +130,24 @@ export default function Calculus3_Ch15_Sec6() {
                 <div className="Example-4">
                     <h3>Example 4</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                      <h4>Linear approximations</h4>
                       <p>
-                        
+                        a. Find the linear approximation to the function f at the given point.
                       </p>
-                      
+                      <p>
+                        b. Use part (a) to estimate the given function value.
+                      </p>
+                      <p>f(x,y) = xy + x - y; (2,3); estimate f(2.1, 2.99)</p>
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
-                         
+                         <p>a. L(x,y) = 4x + y - 6</p>    
+                         <p>b. L(2.1, 2.99) = 5.39</p>
                     </p>
 
-                    *
+                    *584
                     </div>
                 </div>
-
-
-                <div className="Example-5">
-                    <h3>Example 5</h3>
-                    <div className="textBorder">
-                      <h4></h4>
-                      <p>
-                        
-                      </p>
-                      
-                     
-                    <p>
-                        Answer: <br/>
-                         <MathComponent tex="" />    
-                         
-                    </p>
-
-                    *
-                    </div>
-                </div>
-
-
 
 
             </div>
