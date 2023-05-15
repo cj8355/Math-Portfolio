@@ -24,6 +24,10 @@ export default function Calculus3_Ch15() {
         <p>Intro to Sec 2.3</p>
         <Link to="Sec15.6"><p>Sec 15.6 Tangent Planes and Linear Approximation</p></Link>
         <p>Intro to Sec 2.3</p>
+        <Link to="Sec15.7"><p>Sec 15.7 Maximum/Minimum Problems</p></Link>
+        <p>Intro to Sec 2.3</p>
+        <Link to="Sec15.8"><p>Sec 15.6 Tangent Planes and Linear Approximation</p></Link>
+        <p>Intro to Sec 2.3</p>
         
       
         </div>
