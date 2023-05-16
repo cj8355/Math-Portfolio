@@ -51,27 +51,42 @@ export default function Calculus3_Ch15_Sec7() {
       </p>
 
 
-      <h2></h2>
+      <h2>Second Derivative Test</h2>
       <p className="textBorder">
-       
-        <MathComponent tex="" />.
-        *
+       <p>Suppose the second partial derivatives of f are continuous throughout an open disk centered at the point (a,b), where</p>
+        <MathComponent tex="\mathrm{f_{x}(a,b) = f_{y}(a,b) = 0}" />
+        <MathComponent tex="\mathrm{Let \hspace{.2cm} D(x,y) = f_{xx}(x,y) f_{yy}(x,y) - (f_{xy}(x,y))^{2}.}" />
+        <MathComponent tex="\mathrm{1. \hspace{.2cm} If \hspace{.2cm} D(a,b) > 0 \hspace{.2cm} and \hspace{.2cm} f_{xx}(a,b) < 0, \hspace{.2cm} then \hspace{.2cm} f \hspace{.2cm} has \hspace{.2cm} a \hspace{.2cm} local \hspace{.2cm} maximum \hspace{.2cm} value \hspace{.2cm} at \hspace{.2cm} (a,b).}" />
+        <MathComponent tex="\mathrm{2. \hspace{.2cm} If \hspace{.2cm} D(a,b) > 0 \hspace{.2cm} and \hspace{.2cm} f_{xx}(a,b) > 0, \hspace{.2cm} then \hspace{.2cm} f \hspace{.2cm} has \hspace{.2cm} a \hspace{.2cm} local \hspace{.2cm} minimum \hspace{.2cm} value \hspace{.2cm} at \hspace{.2cm} (a,b).}" />
+        <MathComponent tex="\mathrm{3. \hspace{.2cm} If \hspace{.2cm} D(a,b) < 0, \hspace{.2cm} then \hspace{.2cm} f \hspace{.2cm} has \hspace{.2cm} a \hspace{.2cm} saddle \hspace{.2cm} point \hspace{.2cm} at \hspace{.2cm} (a,b).}" />
+        <p>4. If D(a,b) = 0, then the test is inconclusive.</p>
+        *589
       </p>
 
 
-      <h2></h2>
+      <h2>Absolute Maximum/Minimum Values</h2>
       <p className="textBorder">
        
-        <MathComponent tex="" />.
-        *
+        <MathComponent tex="\mathrm{Let \hspace{.2cm} f \hspace{.2cm} be \hspace{.2cm} defined \hspace{.2cm} on \hspace{.2cm} a \hspace{.2cm} set \hspace{.2cm} R \hspace{.2cm} in \hspace{.2cm} \mathbb{R}^{2} \hspace{.2cm} containing \hspace{.2cm} the \hspace{.2cm} point \hspace{.2cm} (a,b).}" />
+        <MathComponent tex="\mathrm{If \hspace{.2cm} f(a,b) \geq f(x,y)}" />
+        <p>for every (x,y) in R, then f(a,b) is an absolute maximum value of f on R.</p>
+        <MathComponent tex="\mathrm{If \hspace{.2cm} f(a,b) \leq f(x,y)}" />
+        <p>for every (x,y) in R, then f(a,b) is an absolute minimum value of f on R.</p>
+        *590
       </p>
 
 
-      <h2></h2>
+      <h2>Finding Absolute Maximum/Minimum Values on Closed Bounded Sets</h2>
       <p className="textBorder">
        
-        <MathComponent tex="" />.
-        *
+        <MathComponent tex="\mathrm{Let \hspace{.2cm} f \hspace{.2cm} be \hspace{.2cm} continuous \hspace{.2cm} on \hspace{.2cm} a \hspace{.2cm} closed \hspace{.2cm} bounded \hspace{.2cm} set \hspace{.2cm} R \hspace{.2cm} in \hspace{.2cm} \mathbb{R}^{2}.}" />
+        <p>To find the absolute maximum and minimum values of f on R:</p>
+        <p>1. Determine the values of f at all critical points in R.</p>
+        <p>2. Find the maximum and minimum values of f on the boundary of R.</p>
+        <p>3. The greatest function value found in Steps 1 and 2 is the absolute maximum value of f on R, and the least function value
+            found in Steps 1 and 2 is the absolute minimum value of f on R.
+        </p>
+        *591
       </p>
       
 
