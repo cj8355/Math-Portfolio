@@ -100,19 +100,19 @@ export default function Calculus3_Ch15_Sec7() {
             <div className="Example-1">
                     <h3>Example 1</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                      <h4>Critical points</h4>
                       <p>
-                        
+                        Find all critical points of the following functions.
                       </p>
-                      
+                      <MathComponent tex="\mathrm{f(x,y) = 3x^{2} - 4y^{2}}" /> 
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="\mathrm{f_{x}(a,b) = f_{y}(a,b) = 0 \hspace{.2cm} at \hspace{.2cm} (0,0)}" />    
                          
                     </p>
 
-                    *
+                    *592
                     </div>
                 </div>
 
@@ -120,19 +120,19 @@ export default function Calculus3_Ch15_Sec7() {
                 <div className="Example-2">
                     <h3>Example 2</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                    <h4>Critical points</h4>
                       <p>
-                        
+                        Find all critical points of the following functions.
                       </p>
-                      
+                      <MathComponent tex="\mathrm{f(x,y) = x^{4} - 2x^{2} + y^{2} - 4y + 5}" /> 
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="\mathrm{The \hspace{.2cm} partial \hspace{.2cm} derivatives \hspace{.2cm} f_{x}/f_{y} \hspace{.2cm} don't \hspace{.2cm} exist \hspace{.2cm} at \hspace{.2cm} (0,2), \hspace{.2cm} (\pm 1, 2)}" />    
                          
                     </p>
 
-                    *
+                    *593
                     </div>
                 </div>
 
@@ -140,19 +140,21 @@ export default function Calculus3_Ch15_Sec7() {
                 <div className="Example-3">
                     <h3>Example 3</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                      <h4>Analyzing critical points</h4>
                       <p>
-                        
+                        Find the critical points of the following function. Use the Second Derivative Test to determine (if possible) whether each
+                        critical point corresponds to a local maximum, a local minimum, or a saddle point. If the Second Derivative Test is inconclusive, determine
+                        the behavior of the function at the critical points.
                       </p>
-                      
+                      <MathComponent tex="\mathrm{f(x,y) = -4x^{2} + 8y^{2} - 3}" /> 
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="\mathrm{Saddle \hspace{.2cm} point \hspace{.2cm} at \hspace{.2cm} (0,0)}" />    
                          
                     </p>
 
-                    *
+                    *594
                     </div>
                 </div>
 
@@ -160,39 +162,21 @@ export default function Calculus3_Ch15_Sec7() {
                 <div className="Example-4">
                     <h3>Example 4</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                    <h4>Analyzing critical points</h4>
                       <p>
-                        
+                        Find the critical points of the following function. Use the Second Derivative Test to determine (if possible) whether each
+                        critical point corresponds to a local maximum, a local minimum, or a saddle point. If the Second Derivative Test is inconclusive, determine
+                        the behavior of the function at the critical points.
                       </p>
-                      
+                      <MathComponent tex="\mathrm{f(x,y) = f(x,y) = ye^{x} - e^{y}}" /> 
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="\mathrm{Saddle \hspace{.2cm} point \hspace{.2cm} at \hspace{.2cm} (0,0)}" />    
                          
                     </p>
 
-                    *
-                    </div>
-                </div>
-
-
-                <div className="Example-5">
-                    <h3>Example 5</h3>
-                    <div className="textBorder">
-                      <h4></h4>
-                      <p>
-                        
-                      </p>
-                      
-                     
-                    <p>
-                        Answer: <br/>
-                         <MathComponent tex="" />    
-                         
-                    </p>
-
-                    *
+                    *595
                     </div>
                 </div>
 
