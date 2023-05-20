@@ -14,7 +14,7 @@ export default function Calculus3() {
         <p>Intro to ch 5</p>
         <Link to="Ch.15"><p>Ch. 15 Functions of Several Variables</p></Link>
         <p>Intro to ch 5</p>
-        <Link to="Ch.16"><p>Ch. 11 Power Series</p></Link>
+        <Link to="Ch.16"><p>Ch. 16 Multiple Integration</p></Link>
         <p>Intro to ch 5</p>
             .....
         </div>
