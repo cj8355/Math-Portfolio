@@ -59,19 +59,19 @@ export default function Calculus3_Ch16_Sec1() {
             <div className="Example-1">
                     <h3>Example 1</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                      <h4>Iterated integrals</h4>
                       <p>
-                        
+                        Evaluate the following iterated integrals.
                       </p>
-                      
+                      <MathComponent tex="\mathrm{\int_{0}^{2} \int_{0}^{1} 4xy \hspace{.2cm} dx \hspace{.2cm} dy}" />
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="\mathrm{\int_{0}^{2}  2x^{2}y \vert_{0}^{1} \hspace{.2cm} dy = \int_{0}^{2} 2y \hspace{.2cm} dy = 4}" />    
                          
                     </p>
 
-                    *
+                    *607
                     </div>
                 </div>
 
@@ -79,19 +79,19 @@ export default function Calculus3_Ch16_Sec1() {
                 <div className="Example-2">
                     <h3>Example 2</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                    <h4>Iterated integrals</h4>
                       <p>
-                        
+                        Evaluate the following iterated integrals.
                       </p>
-                      
+                      <MathComponent tex="\mathrm{\int_{0}^{1} \int_{0}^{1} t^{2} e^{st} \hspace{.2cm} ds \hspace{.2cm} dt}" />
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="\mathrm{= \frac{1}{2}}" />    
                          
                     </p>
 
-                    *
+                    *608
                     </div>
                 </div>
 
@@ -99,19 +99,19 @@ export default function Calculus3_Ch16_Sec1() {
                 <div className="Example-3">
                     <h3>Example 3</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                    <h4>Iterated integrals</h4>
                       <p>
-                        
+                        Evaluate the following iterated integrals.
                       </p>
-                      
+                      <MathComponent tex="\mathrm{\int_{1}^{2} \int_{1}^{2} \frac{x}{x+y} \hspace{.2cm} dy \hspace{.2cm} dx}" />
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="\mathrm{= \frac{1}{2}}" />    
                          
                     </p>
 
-                    *
+                    *609
                     </div>
                 </div>
 
@@ -119,42 +119,21 @@ export default function Calculus3_Ch16_Sec1() {
                 <div className="Example-4">
                     <h3>Example 4</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                      <h4>Double Integrals</h4>
                       <p>
-                        
+                        Evaluate each double integrand over the region R by converting it to an iterated integral
                       </p>
-                      
+                      <MathComponent tex="\mathrm{\int_{R} \int (x+2y) \hspace{.2cm} dA; \hspace{.2cm} R = \{(x,y): 0 \leq x \leq 3, 1 \leq y \leq 4 \}}" />
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="\int_{1}^{4} \int_{0}^{3} (x+2y) \hspace{.2cm} dx \hspace{.2cm} dy = \frac{117}{2}" />    
                          
                     </p>
 
-                    *
+                    *610
                     </div>
                 </div>
-
-
-                <div className="Example-5">
-                    <h3>Example 5</h3>
-                    <div className="textBorder">
-                      <h4></h4>
-                      <p>
-                        
-                      </p>
-                      
-                     
-                    <p>
-                        Answer: <br/>
-                         <MathComponent tex="" />    
-                         
-                    </p>
-
-                    *
-                    </div>
-                </div>
-
 
 
 
