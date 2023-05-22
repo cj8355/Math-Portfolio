@@ -14,7 +14,7 @@ export default function Calculus3_Ch16() {
             
         <Link to="Sec16.1"><p>Sec 16.1 Double Integrals over Rectangular Regions</p></Link>
         <p>Intro to Sec 6.1</p>
-        <Link to="Sec16.2"><p>Sec 15.2 Limits and Continuity</p></Link>
+        <Link to="Sec16.2"><p>Sec 16.2 Double Integrals over General Regions</p></Link>
         <p>Intro to Sec 4.2</p>
         <Link to="Sec16.3"><p>Sec 15.3 Partial Derivatives</p></Link>
         <p>Intro to Sec 2.3</p>

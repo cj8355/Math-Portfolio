@@ -110,6 +110,7 @@ import Calculus3_Ch15_Sec7 from './Components/Calculus/Calculus3/Chapters/15/sec
 import Calculus3_Ch15_Sec8 from './Components/Calculus/Calculus3/Chapters/15/sections/15.8';
 import Calculus3_Ch16 from './Components/Calculus/Calculus3/Chapters/16/ch16';
 import Calculus3_Ch16_Sec1 from './Components/Calculus/Calculus3/Chapters/16/sections/16.1';
+import Calculus3_Ch16_Sec2 from './Components/Calculus/Calculus3/Chapters/16/sections/16.2';
 
 function App() {
   return (
@@ -254,6 +255,7 @@ function App() {
 
         <Route path='/calculus/calculus3/Ch.16' element={<Calculus3_Ch16 />}/>
         <Route path='/calculus/calculus3/Ch.16/Sec16.1' element={<Calculus3_Ch16_Sec1/>}/>
+        <Route path='/calculus/calculus3/Ch.16/Sec16.2' element={<Calculus3_Ch16_Sec2/>}/>
 
 
       </Routes>
