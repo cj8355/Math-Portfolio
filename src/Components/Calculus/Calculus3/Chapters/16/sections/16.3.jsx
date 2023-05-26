@@ -51,19 +51,19 @@ export default function Calculus3_Ch16_Sec3() {
             <div className="Example-1">
                     <h3>Example 1</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                      <h4>Cartesian to polar coordinates</h4>
                       <p>
-                        
+                        Evaluate the following integral using polar coordinates.
                       </p>
-                      
-                     
+                      <MathComponent tex="\mathrm{Assume \hspace{.2cm} (r, \theta) \hspace{.2cm} are \hspace{.2cm} polar \hspace{.2cm} coordinates.}" />
+                      <MathComponent tex="\int_{R} \int (x^{2} + y^{2}) \hspace{.2cm} dA: \hspace{.2cm} R = \{(r, \theta): 0 \leq r \leq 4, \hspace{.2cm} 0 \leq \theta \leq 2 \pi \}" />
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="128 \pi" />    
                          
                     </p>
 
-                    *
+                    *620
                     </div>
                 </div>
 
@@ -71,19 +71,19 @@ export default function Calculus3_Ch16_Sec3() {
                 <div className="Example-2">
                     <h3>Example 2</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                    <h4>Cartesian to polar coordinates</h4>
                       <p>
-                        
+                        Evaluate the following integral using polar coordinates.
                       </p>
-                      
-                     
+                      <MathComponent tex="\mathrm{Assume \hspace{.2cm} (r, \theta) \hspace{.2cm} are \hspace{.2cm} polar \hspace{.2cm} coordinates.}" />
+                      <MathComponent tex="\int_{R} \int 2xy \hspace{.2cm} dA: \hspace{.2cm} R = \{(x,y): x^{2} + y^{2} \leq 9, \hspace{.2cm} y \geq 0 \}" />
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="0" />    
                          
                     </p>
 
-                    *
+                    *621
                     </div>
                 </div>
 
@@ -91,62 +91,21 @@ export default function Calculus3_Ch16_Sec3() {
                 <div className="Example-3">
                     <h3>Example 3</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                    <h4>Cartesian to polar coordinates</h4>
                       <p>
-                        
+                        Evaluate the following integral using polar coordinates.
                       </p>
-                      
-                     
+                      <MathComponent tex="\mathrm{Assume \hspace{.2cm} (r, \theta) \hspace{.2cm} are \hspace{.2cm} polar \hspace{.2cm} coordinates.}" />
+                      <MathComponent tex="\int_{R} \int \sqrt{x^{2} + y^{2}} \hspace{.2cm} dA: \hspace{.2cm} R = \{(x,y): 1 \leq x^{2} + y^{2} \leq 4 \}" />
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="\frac{14 \pi}{3}" />    
                          
                     </p>
 
-                    *
+                    *622
                     </div>
                 </div>
-
-
-                <div className="Example-4">
-                    <h3>Example 4</h3>
-                    <div className="textBorder">
-                      <h4></h4>
-                      <p>
-                        
-                      </p>
-                      
-                     
-                    <p>
-                        Answer: <br/>
-                         <MathComponent tex="" />    
-                         
-                    </p>
-
-                    *
-                    </div>
-                </div>
-
-
-                <div className="Example-5">
-                    <h3>Example 5</h3>
-                    <div className="textBorder">
-                      <h4></h4>
-                      <p>
-                        
-                      </p>
-                      
-                     
-                    <p>
-                        Answer: <br/>
-                         <MathComponent tex="" />    
-                         
-                    </p>
-
-                    *
-                    </div>
-                </div>
-
 
 
 

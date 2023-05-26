@@ -18,7 +18,7 @@ export default function Calculus3_Ch16() {
         <p>Intro to Sec 4.2</p>
         <Link to="Sec16.3"><p>Sec 16.3 Double Integrals in Polar Coordinates</p></Link>
         <p>Intro to Sec 2.3</p>
-        <Link to="Sec16.4"><p>Sec 15.4 The Chain Rule</p></Link>
+        <Link to="Sec16.4"><p>Sec 16.4 Triple Integrals</p></Link>
         <p>Intro to Sec 2.3</p>
         <Link to="Sec16.5"><p>Sec 15.5 Directional Derivatives and the Gradient</p></Link>
         <p>Intro to Sec 2.3</p>
