@@ -42,19 +42,19 @@ export default function Calculus3_Ch16_Sec4() {
             <div className="Example-1">
                     <h3>Example 1</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                      <h4>Integrals over boxes</h4>
                       <p>
-                        
+                        Evaluate the following integral. A sketch of the region of integration may be useful.
                       </p>
-                      
+                      <MathComponent tex="\int_{-2}^{2} \int_{3}^{6} \int_{0}^{2} dx \hspace{.2cm} dy \hspace{.2cm} dz" />
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="24" />    
                          
                     </p>
 
-                    *
+                    *625
                     </div>
                 </div>
 
@@ -62,19 +62,19 @@ export default function Calculus3_Ch16_Sec4() {
                 <div className="Example-2">
                     <h3>Example 2</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                    <h4>Integrals over boxes</h4>
                       <p>
-                        
+                        Evaluate the following integral. A sketch of the region of integration may be useful.
                       </p>
-                      
+                      <MathComponent tex="\int_{0}^{\pi /2} \int_{0}^{1} \int_{0}^{\pi /2} sin \hspace{.2cm} \pi x \hspace{.2cm} cos \hspace{.2cm} y \hspace{.2cm} sin \hspace{.2cm} 2z \hspace{.2cm} dy \hspace{.2cm} dx \hspace{.2cm} dz" />
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="\frac{2}{\pi}" />    
                          
                     </p>
 
-                    *
+                    *626
                     </div>
                 </div>
 
@@ -82,19 +82,19 @@ export default function Calculus3_Ch16_Sec4() {
                 <div className="Example-3">
                     <h3>Example 3</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                      <h4>Triple integrals</h4>
                       <p>
-                        
+                      Evaluate the following integral.
                       </p>
-                      
+                      <MathComponent tex="\int_{0}^{2} \int_{0}^{4} \int_{y^{2}}^{4} \sqrt{x} \hspace{.2cm} dz \hspace{.2cm} dx \hspace{.2cm} dy" />
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="\frac{256}{9}" />    
                          
                     </p>
 
-                    *
+                    *627
                     </div>
                 </div>
 
@@ -102,43 +102,24 @@ export default function Calculus3_Ch16_Sec4() {
                 <div className="Example-4">
                     <h3>Example 4</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                    <h4>Triple integrals</h4>
                       <p>
-                        
+                      Evaluate the following integral.
                       </p>
-                      
+                      <MathComponent tex="\int_{0}^{1} \int_{0}^{\sqrt{1-x^{2}}} \int_{0}^{\sqrt{1-x^{2}-y^{2}}} \hspace{.2cm} dz \hspace{.2cm} dy \hspace{.2cm} dx" />
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="\frac{2}{3}" />    
                          
                     </p>
 
-                    *
+                    *628
                     </div>
                 </div>
 
 
-                <div className="Example-5">
-                    <h3>Example 5</h3>
-                    <div className="textBorder">
-                      <h4></h4>
-                      <p>
-                        
-                      </p>
-                      
-                     
-                    <p>
-                        Answer: <br/>
-                         <MathComponent tex="" />    
-                         
-                    </p>
-
-                    *
-                    </div>
-                </div>
-
-
+                
 
 
             </div>
