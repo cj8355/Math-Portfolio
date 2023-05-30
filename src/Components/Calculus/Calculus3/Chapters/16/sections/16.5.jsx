@@ -83,19 +83,19 @@ export default function Calculus3_Ch16_Sec5() {
             <div className="Example-1">
                     <h3>Example 1</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                      <h4>Integrals in cylindrical coordinates</h4>
                       <p>
-                        
+                        Evaluate the following integrals in cylindrical coordinates.
                       </p>
-                      
+                      <MathComponent tex="\mathrm{\int_{0}^{4} \int_{0}^{\sqrt{2}/2} \int_{x}^{\sqrt{1-x^{2}}} e^{-x^{2} - y^{2}} \hspace{.2cm} dy \hspace{.2cm} dx \hspace{.2cm} dz}" /> 
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="\pi (1-e^{-1})/2" />    
                          
                     </p>
 
-                    *
+                    *633
                     </div>
                 </div>
 
@@ -103,19 +103,19 @@ export default function Calculus3_Ch16_Sec5() {
                 <div className="Example-2">
                     <h3>Example 2</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                    <h4>Integrals in cylindrical coordinates</h4>
                       <p>
-                        
+                        Evaluate the following integrals in cylindrical coordinates.
                       </p>
-                      
+                      <MathComponent tex="\mathrm{\int_{0}^{3} \int_{0}^{\sqrt{9-x^{2}}} \int_{0}^{\sqrt{x^{2}+y^{2}}} (x^{2}+y^{2})^{-1/2} \hspace{.2cm} dz \hspace{.2cm} dy \hspace{.2cm} dx}" /> 
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="9 \pi / 4" />    
                          
                     </p>
 
-                    *
+                    *634
                     </div>
                 </div>
 
@@ -123,59 +123,19 @@ export default function Calculus3_Ch16_Sec5() {
                 <div className="Example-3">
                     <h3>Example 3</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                      <h4>Mass from density</h4>
                       <p>
-                        
+                        Find the mass of the following objects with the given density functions.
                       </p>
-                      
-                     
+                      <MathComponent tex="\mathrm{Assume \hspace{.2cm} (r, \theta , z) \hspace{.2cm} are \hspace{.2cm} cylindrical \hspace{.2cm} coordinates.}" />
+                      <MathComponent tex="\mathrm{The \hspace{.2cm} solid \hspace{.2cm} cylinder \hspace{.2cm} D = \{(r, \theta , z): 0 \leq r \leq 4, 0 \leq z \leq 10 \} \hspace{.2cm} with \hspace{.2cm} density \hspace{.2cm} \rho (r, \theta , z) = 1 + z/2}" />
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="560 \pi" />    
                          
                     </p>
 
-                    *
-                    </div>
-                </div>
-
-
-                <div className="Example-4">
-                    <h3>Example 4</h3>
-                    <div className="textBorder">
-                      <h4></h4>
-                      <p>
-                        
-                      </p>
-                      
-                     
-                    <p>
-                        Answer: <br/>
-                         <MathComponent tex="" />    
-                         
-                    </p>
-
-                    *
-                    </div>
-                </div>
-
-
-                <div className="Example-5">
-                    <h3>Example 5</h3>
-                    <div className="textBorder">
-                      <h4></h4>
-                      <p>
-                        
-                      </p>
-                      
-                     
-                    <p>
-                        Answer: <br/>
-                         <MathComponent tex="" />    
-                         
-                    </p>
-
-                    *
+                    *635
                     </div>
                 </div>
 
