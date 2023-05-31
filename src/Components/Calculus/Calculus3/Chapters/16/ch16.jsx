@@ -22,7 +22,7 @@ export default function Calculus3_Ch16() {
         <p>Intro to Sec 2.3</p>
         <Link to="Sec16.5"><p>Sec 16.5 Triple Integrals in Cylindrical and Spherical Coordinates</p></Link>
         <p>Intro to Sec 2.3</p>
-        <Link to="Sec16.6"><p>Sec 15.6 Tangent Planes and Linear Approximation</p></Link>
+        <Link to="Sec16.6"><p>Sec 16.6 Integrals for Mass Calculations</p></Link>
         <p>Intro to Sec 2.3</p>
         <Link to="Sec16.7"><p>Sec 15.7 Maximum/Minimum Problems</p></Link>
         <p>Intro to Sec 2.3</p>
