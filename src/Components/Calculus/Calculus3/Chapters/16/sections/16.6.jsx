@@ -55,19 +55,19 @@ export default function Calculus3_Ch16_Sec6() {
             <div className="Example-1">
                     <h3>Example 1</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                      <h4>One-dimensional objects</h4>
                       <p>
-                        
+                        Find the mass and center of mass of the thin rods with the following density functions.
                       </p>
-                      
+                      <MathComponent tex="\rho (x) = 1 + sin \hspace{.2cm} x, \hspace{.2cm} for \hspace{.2cm} 0 \leq x \leq \pi " />
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="\mathrm{mass \hspace{.2cm} is \hspace{.2cm} 2 + \pi; \hspace{.2cm} \bar{x} = \frac{\pi}{2}}" />    
                          
                     </p>
 
-                    *
+                    *639
                     </div>
                 </div>
 
@@ -75,19 +75,19 @@ export default function Calculus3_Ch16_Sec6() {
                 <div className="Example-2">
                     <h3>Example 2</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                    <h4>One-dimensional objects</h4>
                       <p>
-                        
+                        Find the mass and center of mass of the thin rods with the following density functions.
                       </p>
-                      
+                      <MathComponent tex="\rho (x) = 2 - \frac{x^{2}}{16}, \hspace{.2cm} for \hspace{.2cm} 0 \leq x \leq 4 " />
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="\mathrm{mass \hspace{.2cm} is \hspace{.2cm} \frac{20}{3}; \hspace{.2cm} \bar{x} = \frac{9}{5}}" />    
                          
                     </p>
 
-                    *
+                    *640
                     </div>
                 </div>
 
@@ -95,19 +95,19 @@ export default function Calculus3_Ch16_Sec6() {
                 <div className="Example-3">
                     <h3>Example 3</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                      <h4>Variable-density plates</h4>
                       <p>
-                        
+                        Find the center of mass of the following plane regions with variable density. Describe the distribution of mass in the region.
                       </p>
-                      
+                      <MathComponent tex="\mathrm{R = \{(x,y): 0 \leq x \leq 4, \hspace{.2cm} 0 \leq y \leq 2 \}: \hspace{.2cm} \rho (x,y) = 1 + x/2}" /> 
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="\mathrm{( \frac{7}{3},1); \hspace{.2cm} density \hspace{.2cm} increases \hspace{.2cm} to \hspace{.2cm} the \hspace{.2cm} right.}" />    
                          
                     </p>
 
-                    *
+                    *641
                     </div>
                 </div>
 
@@ -115,39 +115,19 @@ export default function Calculus3_Ch16_Sec6() {
                 <div className="Example-4">
                     <h3>Example 4</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                    <h4>Variable-density plates</h4>
                       <p>
-                        
+                        Find the center of mass of the following plane regions with variable density. Describe the distribution of mass in the region.
                       </p>
-                      
+                      <MathComponent tex="\mathrm{The \hspace{.2cm} upper \hspace{.2cm} half \hspace{.2cm} (y \geq 0) \hspace{.2cm} of \hspace{.2cm} the \hspace{.2cm} plate \hspace{.2cm} bounded \hspace{.2cm} by \hspace{.2cm} the \hspace{.2cm} ellipse \hspace{.2cm} x^{2} + 9y^{2} = 9 \hspace{.2cm} with \hspace{.2cm} \rho (x,y) = 1 + y}" /> 
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="\mathrm{(0, \frac{16 + 3 \pi}{16 + 12 \pi}) \approx (0,0.4735); \hspace{.2cm} density \hspace{.2cm} increases \hspace{.2cm} away \hspace{.2cm} from \hspace{.2cm} the \hspace{.2cm} x-axis.}" />    
                          
                     </p>
 
-                    *
-                    </div>
-                </div>
-
-
-                <div className="Example-5">
-                    <h3>Example 5</h3>
-                    <div className="textBorder">
-                      <h4></h4>
-                      <p>
-                        
-                      </p>
-                      
-                     
-                    <p>
-                        Answer: <br/>
-                         <MathComponent tex="" />    
-                         
-                    </p>
-
-                    *
+                    *642
                     </div>
                 </div>
 
