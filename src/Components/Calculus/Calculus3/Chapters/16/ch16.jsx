@@ -24,7 +24,7 @@ export default function Calculus3_Ch16() {
         <p>Intro to Sec 2.3</p>
         <Link to="Sec16.6"><p>Sec 16.6 Integrals for Mass Calculations</p></Link>
         <p>Intro to Sec 2.3</p>
-        <Link to="Sec16.7"><p>Sec 15.7 Maximum/Minimum Problems</p></Link>
+        <Link to="Sec16.7"><p>Sec 16.7 Change of Variables in Multiple Integrals</p></Link>
         <p>Intro to Sec 2.3</p>
         <Link to="Sec16.8"><p>Sec 15.8 Lagrange Multipliers</p></Link>
         <p>Intro to Sec 2.3</p>
