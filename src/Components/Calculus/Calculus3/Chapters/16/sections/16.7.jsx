@@ -80,19 +80,20 @@ export default function Calculus3_Ch16_Sec7() {
             <div className="Example-1">
                     <h3>Example 1</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                      <h4>Transforming a square</h4>
+                      <MathComponent tex="\mathrm{Let \hspace{.2cm} S = \{(u,v): 0 \leq u \leq 1, 0 \leq v \leq 1 \} \hspace{.2cm} be \hspace{.2cm} a \hspace{.2cm} unit \hspace{.2cm} square \hspace{.2cm} in \hspace{.2cm} the \hspace{.2cm} uv-plane. }" />
                       <p>
-                        
+                        Find the image of S in the xy-plane under the following transformations
                       </p>
-                      
+                      <MathComponent tex="\mathrm{T: \hspace{.2cm} x = 2u, \hspace{.2cm} y = v/2}" /> 
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="\mathrm{The \hspace{.2cm} rectangle \hspace{.2cm} with \hspace{.2cm} vertices \hspace{.2cm} at \hspace{.2cm} (0,0), (2,0), (2, \frac{1}{2}), \hspace{.2cm} and \hspace{.2cm} (0, \frac{1}{2})}" />    
                          
                     </p>
 
-                    *
+                    *648
                     </div>
                 </div>
 
@@ -100,19 +101,20 @@ export default function Calculus3_Ch16_Sec7() {
                 <div className="Example-2">
                     <h3>Example 2</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                    <h4>Transforming a square</h4>
+                      <MathComponent tex="\mathrm{Let \hspace{.2cm} S = \{(u,v): 0 \leq u \leq 1, 0 \leq v \leq 1 \} \hspace{.2cm} be \hspace{.2cm} a \hspace{.2cm} unit \hspace{.2cm} square \hspace{.2cm} in \hspace{.2cm} the \hspace{.2cm} uv-plane. }" />
                       <p>
-                        
+                        Find the image of S in the xy-plane under the following transformations
                       </p>
-                      
+                      <MathComponent tex="\mathrm{T: \hspace{.2cm} x = u^{2} - v^{2}, \hspace{.2cm} y = 2uv}" /> 
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="\mathrm{The \hspace{.2cm} region \hspace{.2cm} above \hspace{.2cm} the \hspace{.2cm} x-axis \hspace{.2cm} and \hspace{.2cm} bounded \hspace{.2cm} by \hspace{.2cm} the \hspace{.2cm} curves \hspace{.2cm} y^{2} = 4 \pm 4x }" />    
                          
                     </p>
 
-                    *
+                    *649
                     </div>
                 </div>
 
@@ -120,19 +122,20 @@ export default function Calculus3_Ch16_Sec7() {
                 <div className="Example-3">
                     <h3>Example 3</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                    <h4>Transforming a square</h4>
+                      <MathComponent tex="\mathrm{Let \hspace{.2cm} S = \{(u,v): 0 \leq u \leq 1, 0 \leq v \leq 1 \} \hspace{.2cm} be \hspace{.2cm} a \hspace{.2cm} unit \hspace{.2cm} square \hspace{.2cm} in \hspace{.2cm} the \hspace{.2cm} uv-plane. }" />
                       <p>
-                        
+                        Find the image of S in the xy-plane under the following transformations
                       </p>
-                      
+                      <MathComponent tex="\mathrm{T: \hspace{.2cm} x = u \hspace{.2cm} cos \hspace{.2cm} \pi v, \hspace{.2cm} y = u \hspace{.2cm} sin \hspace{.2cm} \pi v}" /> 
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="\mathrm{The \hspace{.2cm} upper \hspace{.2cm} half \hspace{.2cm} of \hspace{.2cm} the \hspace{.2cm} unit \hspace{.2cm} circle}" />    
                          
                     </p>
 
-                    *
+                    *650
                     </div>
                 </div>
 
@@ -140,19 +143,19 @@ export default function Calculus3_Ch16_Sec7() {
                 <div className="Example-4">
                     <h3>Example 4</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                      <h4>Computing Jacobians</h4>
                       <p>
-                        
+                        Compute the Jacobian J(u,v) for the following transformations
                       </p>
-                      
+                      <MathComponent tex="\mathrm{T: \hspace{.2cm} x = 3u, \hspace{.2cm} y = -3v}" />
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="-9" />    
                          
                     </p>
 
-                    *
+                    *651
                     </div>
                 </div>
 
@@ -160,19 +163,19 @@ export default function Calculus3_Ch16_Sec7() {
                 <div className="Example-5">
                     <h3>Example 5</h3>
                     <div className="textBorder">
-                      <h4></h4>
+                    <h4>Computing Jacobians</h4>
                       <p>
-                        
+                        Compute the Jacobian J(u,v) for the following transformations
                       </p>
-                      
+                      <MathComponent tex="\mathrm{T: \hspace{.2cm} x = 2uv, \hspace{.2cm} y = u^{2} - v^{2}}" />
                      
                     <p>
                         Answer: <br/>
-                         <MathComponent tex="" />    
+                         <MathComponent tex="-4(u^{2} + v^{2})" />    
                          
                     </p>
 
-                    *
+                    *652
                     </div>
                 </div>
 
