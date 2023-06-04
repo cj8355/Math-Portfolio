@@ -120,6 +120,8 @@ import Abstract from './Components/Abstract-Math/Abstract';
 import FinancialMath from './Components/Financial-Math/FinancialMath';
 import NumberTheory from './Components/Number-Theory/NumberTheory';
 import ModernAlgebra from './Components/Modern-Algebra/ModernAlgebra';
+import NumberTheory_Ch1 from './Components/Number-Theory/Chapters/1/ch1';
+import NumberTheory_Ch1_Sec1 from './Components/Number-Theory/Chapters/1/Sections/1.1';
 
 function App() {
   return (
@@ -280,7 +282,8 @@ function App() {
 
 
         <Route path='/numberTheory' element={<NumberTheory/>}/>
-
+        <Route path='/numberTheory/Ch.1' element={<NumberTheory_Ch1 />}/>
+        <Route path='/numberTheory/Ch.1/Sec1.1' element={<NumberTheory_Ch1_Sec1/>}/>
 
 
         <Route path='/modernAlgebra' element={<ModernAlgebra/>}/>
