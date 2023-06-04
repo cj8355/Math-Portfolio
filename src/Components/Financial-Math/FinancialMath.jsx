@@ -1,12 +1,12 @@
 import { Link, Route, Routes } from 'react-router-dom';
-import "./abstract.css";
+import "./financialMath.css";
 
-export default function Abstract() {
+export default function FinancialMath() {
     
     
     return (
         <div className='container'> 
-        <Link to="calculus1"><p>ABBBB 1</p></Link>
+        <Link to="calculus1"><p>FINNNNN</p></Link>
         <p>Intro to Calc 1</p>
         
         
