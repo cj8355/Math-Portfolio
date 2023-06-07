@@ -18,7 +18,7 @@ export default function NumberTheory_Ch1() {
         <p>Formulas, Graphs, Tables and Words</p>
         <Link to="Sec1.3"><p>Sec 1.3 Mathematical Induction</p></Link>
         <p>Properties of exponential functions, The Natural Exponential Function, Horizontal Line Test, Finding Inverse Functions</p>
-        <Link to="Sec1.4"><p>Sec 1.4 Trigonometric Functions and Their Inverses</p></Link>
+        <Link to="Sec1.4"><p>Sec 1.4 The Fibonacci Numbers</p></Link>
         <p>Radian Measure, Trigonometric Functions, Trigonometric Identities</p>
         
             .....
