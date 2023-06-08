@@ -20,6 +20,8 @@ export default function NumberTheory_Ch1() {
         <p>Properties of exponential functions, The Natural Exponential Function, Horizontal Line Test, Finding Inverse Functions</p>
         <Link to="Sec1.4"><p>Sec 1.4 The Fibonacci Numbers</p></Link>
         <p>Radian Measure, Trigonometric Functions, Trigonometric Identities</p>
+        <Link to="Sec1.5"><p>Sec 1.5 Divisibility</p></Link>
+        <p>Radian Measure, Trigonometric Functions, Trigonometric Identities</p>
         
             .....
         </div>
