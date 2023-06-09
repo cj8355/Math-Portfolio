@@ -1,18 +1,18 @@
 import { Link } from "react-router-dom";
 import { MathComponent } from "mathjax-react";
-import "./ch2.css";
+import "./ch3.css";
 
-export default function NumberTheory_Ch2() {
+export default function NumberTheory_Ch3() {
     
     
     return (
         <div className='container'> 
-        <h1>Ch 2</h1>
-        <p>Ch 2)</p>
+        <h1>Ch 3 Primes and Greatest Common Divisors</h1>
+        <p>Ch 333)</p>
             
             
             
-        <Link to="Sec2.1"><p>Sec 2.1 Representations of Integers</p></Link>
+        <Link to="Sec3.1"><p>Sec 3.1 Prime Numbers</p></Link>
         <p>Intro to Sec 1.1</p>
         <Link to="Sec2.2"><p>Sec 2.2 Computer Operations with Integers</p></Link>
         <p>Formulas, Graphs, Tables and Words</p>
