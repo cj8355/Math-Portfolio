@@ -14,7 +14,7 @@ export default function NumberTheory_Ch3() {
             
         <Link to="Sec3.1"><p>Sec 3.1 Prime Numbers</p></Link>
         <p>Intro to Sec 1.1</p>
-        <Link to="Sec2.2"><p>Sec 2.2 Computer Operations with Integers</p></Link>
+        <Link to="Sec3.2"><p>Sec 3.2 The Distribution of Primes</p></Link>
         <p>Formulas, Graphs, Tables and Words</p>
         <Link to="Sec2.3"><p>Sec 1.3 Mathematical Induction</p></Link>
         <p>Properties of exponential functions, The Natural Exponential Function, Horizontal Line Test, Finding Inverse Functions</p>
