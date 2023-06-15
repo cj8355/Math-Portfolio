@@ -20,7 +20,7 @@ export default function ModernAlgebra_Ch1() {
         <p>  </p>
         <Link to="Sec1.3"><p>Sec 3 Abelian Examples</p></Link>
         <p>Radian Measure, Trigonometric Functions, Trigonometric Identities</p>
-        <Link to="Sec1.5"><p>Sec 1.5 Divisibility</p></Link>
+        <Link to="Sec1.4"><p>Sec 4 Nonabelian Examples</p></Link>
         <p>Radian Measure, Trigonometric Functions, Trigonometric Identities</p>
         
             .....
