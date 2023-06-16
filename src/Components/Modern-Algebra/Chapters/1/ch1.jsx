@@ -22,6 +22,8 @@ export default function ModernAlgebra_Ch1() {
         <p>Radian Measure, Trigonometric Functions, Trigonometric Identities</p>
         <Link to="Sec1.4"><p>Sec 4 Nonabelian Examples</p></Link>
         <p>Radian Measure, Trigonometric Functions, Trigonometric Identities</p>
+        <Link to="Sec1.5"><p>Sec 5 Subgroups</p></Link>
+        <p>Rre,es</p>
         
             .....
         </div>
