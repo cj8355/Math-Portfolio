@@ -24,6 +24,8 @@ export default function ModernAlgebra_Ch1() {
         <p>Radian Measure, Trigonometric Functions, Trigonometric Identities</p>
         <Link to="Sec1.5"><p>Sec 5 Subgroups</p></Link>
         <p>Rre,es</p>
+        <Link to="Sec1.6"><p>Sec 6 Cyclic Groups</p></Link>
+        <p>Rre,es</p>
         
             .....
         </div>
