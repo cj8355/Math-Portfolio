@@ -26,6 +26,8 @@ export default function ModernAlgebra_Ch1() {
         <p>Rre,es</p>
         <Link to="Sec1.6"><p>Sec 6 Cyclic Groups</p></Link>
         <p>Rre,es</p>
+        <Link to="Sec1.7"><p>Sec 7 Generating Sets and Cayley Diagraphs</p></Link>
+        <p>Rre,es</p>
         
             .....
         </div>
