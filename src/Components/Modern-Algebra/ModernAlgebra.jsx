@@ -9,7 +9,7 @@ export default function ModernAlgebra() {
         <h1>Modern Algebra</h1>
         <Link to="Ch.1"><p>Part 1 </p></Link>
         <p>Intro to ch 1</p>
-        <Link to="Ch.2"><p>Ch. 2</p></Link>
+        <Link to="Ch.2"><p>Part 2</p></Link>
         <p>Intro to ch 2</p>
         <Link to="Ch.3"><p>Ch. 3</p></Link>
         <p>Intro to ch 3</p>
