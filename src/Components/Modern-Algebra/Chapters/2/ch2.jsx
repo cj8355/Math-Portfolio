@@ -14,7 +14,7 @@ export default function ModernAlgebra_Ch2() {
             
         <Link to="Sec2.8"><p>Sec 8 Groups of Permutations</p></Link>
         <p>Intro to Sec 1.1</p>
-        <Link to="Sec2.1"><p>Sec 1 Binary Operations</p></Link>
+        <Link to="Sec2.9"><p>Sec 9 Finitely Generated Abelian Groups</p></Link>
         <p>Formulas, Graphs, Tables and Words</p>
         <Link to="Sec2.2"><p>Sec 2 Groups</p></Link>
         <p>  </p>
