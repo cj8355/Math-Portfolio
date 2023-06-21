@@ -143,6 +143,7 @@ import ModernAlgebra_Part1_Sec7 from './Components/Modern-Algebra/Chapters/1/sec
 import ModernAlgebra_Ch2 from './Components/Modern-Algebra/Chapters/2/ch2';
 import ModernAlgebra_Part2_Sec8 from './Components/Modern-Algebra/Chapters/2/sections/2.8';
 import ModernAlgebra_Part2_Sec9 from './Components/Modern-Algebra/Chapters/2/sections/2.9';
+import ModernAlgebra_Part2_Sec10 from './Components/Modern-Algebra/Chapters/2/sections/2.10';
 
 function App() {
   return (
@@ -334,6 +335,7 @@ function App() {
         <Route path='/modernAlgebra/Ch.2' element={<ModernAlgebra_Ch2 />}/>
         <Route path='/modernAlgebra/Ch.2/Sec2.8' element={<ModernAlgebra_Part2_Sec8/>}/>
         <Route path='/modernAlgebra/Ch.2/Sec2.9' element={<ModernAlgebra_Part2_Sec9/>}/>
+        <Route path='/modernAlgebra/Ch.2/Sec2.10' element={<ModernAlgebra_Part2_Sec10/>}/>
 
 
       </Routes>

@@ -16,7 +16,7 @@ export default function ModernAlgebra_Ch2() {
         <p>Intro to Sec 1.1</p>
         <Link to="Sec2.9"><p>Sec 9 Finitely Generated Abelian Groups</p></Link>
         <p>Formulas, Graphs, Tables and Words</p>
-        <Link to="Sec2.2"><p>Sec 2 Groups</p></Link>
+        <Link to="Sec2.10"><p>Sec 10 Cosets and the Theorem of Lagrange</p></Link>
         <p>  </p>
         <Link to="Sec1.3"><p>Sec 3 Abelian Examples</p></Link>
         <p>Radian Measure, Trigonometric Functions, Trigonometric Identities</p>
