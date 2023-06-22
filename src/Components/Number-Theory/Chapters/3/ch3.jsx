@@ -16,7 +16,7 @@ export default function NumberTheory_Ch3() {
         <p>Intro to Sec 1.1</p>
         <Link to="Sec3.2"><p>Sec 3.2 The Distribution of Primes</p></Link>
         <p>Formulas, Graphs, Tables and Words</p>
-        <Link to="Sec2.3"><p>Sec 1.3 Mathematical Induction</p></Link>
+        <Link to="Sec3.3"><p>Sec 3.3 Greatest Common Divisors and their Properties</p></Link>
         <p>Properties of exponential functions, The Natural Exponential Function, Horizontal Line Test, Finding Inverse Functions</p>
         <Link to="Sec2.4"><p>Sec 1.4 The Fibonacci Numbers</p></Link>
         <p>Radian Measure, Trigonometric Functions, Trigonometric Identities</p>
