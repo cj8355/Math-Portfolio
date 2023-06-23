@@ -18,7 +18,7 @@ export default function NumberTheory_Ch3() {
         <p>Formulas, Graphs, Tables and Words</p>
         <Link to="Sec3.3"><p>Sec 3.3 Greatest Common Divisors and their Properties</p></Link>
         <p>Properties of exponential functions, The Natural Exponential Function, Horizontal Line Test, Finding Inverse Functions</p>
-        <Link to="Sec2.4"><p>Sec 1.4 The Fibonacci Numbers</p></Link>
+        <Link to="Sec3.4"><p>Sec 3.4 The Euclidean Algorithm</p></Link>
         <p>Radian Measure, Trigonometric Functions, Trigonometric Identities</p>
         <Link to="Sec1.5"><p>Sec 1.5 Divisibility</p></Link>
         <p>Radian Measure, Trigonometric Functions, Trigonometric Identities</p>
