@@ -20,7 +20,7 @@ export default function NumberTheory_Ch3() {
         <p>Properties of exponential functions, The Natural Exponential Function, Horizontal Line Test, Finding Inverse Functions</p>
         <Link to="Sec3.4"><p>Sec 3.4 The Euclidean Algorithm</p></Link>
         <p>Radian Measure, Trigonometric Functions, Trigonometric Identities</p>
-        <Link to="Sec1.5"><p>Sec 1.5 Divisibility</p></Link>
+        <Link to="Sec3.5"><p>Sec 3.5 The Fundamental Theorem of Arithmetic</p></Link>
         <p>Radian Measure, Trigonometric Functions, Trigonometric Identities</p>
         
             .....
