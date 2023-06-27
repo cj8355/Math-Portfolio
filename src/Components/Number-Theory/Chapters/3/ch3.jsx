@@ -22,7 +22,8 @@ export default function NumberTheory_Ch3() {
         <p>Radian Measure, Trigonometric Functions, Trigonometric Identities</p>
         <Link to="Sec3.5"><p>Sec 3.5 The Fundamental Theorem of Arithmetic</p></Link>
         <p>Radian Measure, Trigonometric Functions, Trigonometric Identities</p>
-        
+        <Link to="Sec3.6"><p>Sec 3.6 Factorization Methods and the Fermat Numbers</p></Link>
+        <p>Radian Measure, Trigonometric Functions, Trigonometric Identities</p>
             .....
         </div>
     );
