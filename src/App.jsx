@@ -148,6 +148,7 @@ import NumberTheory_Ch3_Sec3 from './Components/Number-Theory/Chapters/3/section
 import NumberTheory_Ch3_Sec4 from './Components/Number-Theory/Chapters/3/sections/3.4';
 import NumberTheory_Ch3_Sec5 from './Components/Number-Theory/Chapters/3/sections/3.5';
 import NumberTheory_Ch3_Sec6 from './Components/Number-Theory/Chapters/3/sections/3.6';
+import FinancialMath_Ch1 from './Components/Financial-Math/Chapters/ch1';
 
 function App() {
   return (
@@ -304,6 +305,7 @@ function App() {
 
 
         <Route path='/financialMath' element={<FinancialMath/>}/>
+        <Route path='/financialMath/Ch.1' element={<FinancialMath_Ch1 />}/>
 
 
 

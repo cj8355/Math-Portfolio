@@ -6,8 +6,8 @@ export default function FinancialMath() {
     
     return (
         <div className='container'> 
-        <Link to="calculus1"><p>FINNNNN</p></Link>
-        <p>Intro to Calc 1</p>
+        <Link to="Ch.1"><p>Probability</p></Link>
+        <p>Intro to </p>
         
         
         </div>
