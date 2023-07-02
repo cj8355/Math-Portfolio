@@ -61,7 +61,7 @@ export default function FinancialMath_Ch1() {
         of a random variable is determined by the outcome of the experiment, we can assign probabilities to each of its possible values.
        </p>
        <p>Definition</p>
-        <MathComponent tex="\mathrm{If \hspace{.2cm} X \hspace{.2cm} is \hspace{.2cm} a \hspace{.2cm} random \hspace{.2cm} variable \hspace{.2cm} whose \hspace{.2cm} possible \hspace{.2cm} values \hspace{.2cm} are \hspace{.2cm} x_{1},x_{2},...,x_{n}, \hspace{.2cm} \\ then \hspace{.2cm} the \hspace{.2cm} expected \hspace{.2cm} value \hspace{.2cm} of \hspace{.2cm} X, \hspace{.2cm} denoted \hspace{.2cm} by \hspace{.2cm} E[X], \hspace{.2cm} is \hspace{.2cm} defined \hspace{.2cm} by \}}" />
+        <MathComponent tex="\mathrm{If \hspace{.2cm} X \hspace{.2cm} is \hspace{.2cm} a \hspace{.2cm} random \hspace{.2cm} variable \hspace{.2cm} whose \hspace{.2cm} possible \hspace{.2cm} values \hspace{.2cm} are \hspace{.2cm} x_{1},x_{2},...,x_{n}, \hspace{.2cm}  then \hspace{.2cm} the \hspace{.2cm} expected \hspace{.2cm} value \hspace{.2cm} of \hspace{.2cm} X, \hspace{.2cm} denoted \hspace{.2cm} by \hspace{.2cm} E[X], \hspace{.2cm} is \hspace{.2cm} defined \hspace{.2cm} by \}}" />
         <MathComponent tex="\mathrm{E[X] = \sum_{j=1}^{n} x_{j} P\{X = x_{j} \}.}" />
         <p>Alternative names for E[X] are the expectation or the mean of X.</p>
         <p>
