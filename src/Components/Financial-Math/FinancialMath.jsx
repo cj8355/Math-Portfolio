@@ -16,7 +16,7 @@ export default function FinancialMath() {
         <p>Intro to </p>
         <Link to="Ch.5"><p>Pricing Contracts via Arbitrage</p></Link>
         <p>Intro to </p>
-        <Link to="Ch.6"><p>Probability</p></Link>
+        <Link to="Ch.6"><p>The Arbitrage Theorem</p></Link>
         <p>Intro to </p>
         
         
