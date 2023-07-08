@@ -18,6 +18,8 @@ export default function FinancialMath() {
         <p>Intro to </p>
         <Link to="Ch.6"><p>The Arbitrage Theorem</p></Link>
         <p>Intro to </p>
+        <Link to="Ch.7"><p>The Black-Scholes</p></Link>
+        <p>Intro to </p>
         
         
         </div>
