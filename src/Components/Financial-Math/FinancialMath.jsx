@@ -20,6 +20,8 @@ export default function FinancialMath() {
         <p>Intro to </p>
         <Link to="Ch.7"><p>The Black-Scholes</p></Link>
         <p>Intro to </p>
+        <Link to="Ch.8"><p>Additional Results on Options</p></Link>
+        <p>Intro to </p>
         
         
         </div>

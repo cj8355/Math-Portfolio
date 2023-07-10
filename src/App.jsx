@@ -155,6 +155,7 @@ import FinancialMath_Ch4 from './Components/Financial-Math/Chapters/ch4';
 import FinancialMath_Ch5 from './Components/Financial-Math/Chapters/ch5';
 import FinancialMath_Ch6 from './Components/Financial-Math/Chapters/ch6';
 import FinancialMath_Ch7 from './Components/Financial-Math/Chapters/ch7';
+import FinancialMath_Ch8 from './Components/Financial-Math/Chapters/ch8';
 
 function App() {
   return (
@@ -318,6 +319,7 @@ function App() {
         <Route path='/financialMath/Ch.5' element={<FinancialMath_Ch5 />}/>
         <Route path='/financialMath/Ch.6' element={<FinancialMath_Ch6 />}/>
         <Route path='/financialMath/Ch.7' element={<FinancialMath_Ch7 />}/>
+        <Route path='/financialMath/Ch.8' element={<FinancialMath_Ch8 />}/>
 
 
 
