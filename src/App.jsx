@@ -157,6 +157,8 @@ import FinancialMath_Ch6 from './Components/Financial-Math/Chapters/ch6';
 import FinancialMath_Ch7 from './Components/Financial-Math/Chapters/ch7';
 import FinancialMath_Ch8 from './Components/Financial-Math/Chapters/ch8';
 import NumberTheory_Ch3_Sec7 from './Components/Number-Theory/Chapters/3/sections/3.7';
+import NumberTheory_Ch4 from './Components/Number-Theory/Chapters/4/ch4';
+import NumberTheory_Ch4_Sec1 from './Components/Number-Theory/Chapters/4/sections/4.1';
 
 function App() {
   return (
@@ -345,6 +347,10 @@ function App() {
         <Route path='/numberTheory/Ch.3/Sec3.5' element={<NumberTheory_Ch3_Sec5/>}/>
         <Route path='/numberTheory/Ch.3/Sec3.6' element={<NumberTheory_Ch3_Sec6/>}/>
         <Route path='/numberTheory/Ch.3/Sec3.7' element={<NumberTheory_Ch3_Sec7/>}/>
+
+
+        <Route path='/numberTheory/Ch.4' element={<NumberTheory_Ch4 />}/>
+        <Route path='/numberTheory/Ch.4/Sec4.1' element={<NumberTheory_Ch4_Sec1/>}/>
 
 
         <Route path='/modernAlgebra' element={<ModernAlgebra/>}/>
