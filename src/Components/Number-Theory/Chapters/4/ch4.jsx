@@ -16,7 +16,7 @@ export default function NumberTheory_Ch4() {
         <p>Intro to Sec 1.1</p>
         <Link to="Sec4.2"><p>Sec 4.2 Linear Congruences</p></Link>
         <p>Formulas, Graphs, Tables and Words</p>
-        <Link to="Sec4.3"><p>Sec 3.3 Greatest Common Divisors and their Properties</p></Link>
+        <Link to="Sec4.3"><p>Sec 4.3 The Chinese Remainder Theorem</p></Link>
         <p>Properties of exponential functions, The Natural Exponential Function, Horizontal Line Test, Finding Inverse Functions</p>
         <Link to="Sec4.4"><p>Sec 3.4 The Euclidean Algorithm</p></Link>
         <p>Radian Measure, Trigonometric Functions, Trigonometric Identities</p>
