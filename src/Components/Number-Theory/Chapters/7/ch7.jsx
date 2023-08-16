@@ -16,7 +16,7 @@ export default function NumberTheory_Ch7() {
         <p>Intro to Sec 1.1</p>
         <Link to="Sec7.2"><p>Sec 7.2 The Sum and Number of Divisors</p></Link>
         <p>Formulas, Graphs, Tables and Words</p>
-        <Link to="Sec4.3"><p>Sec 4.3 The Chinese Remainder Theorem</p></Link>
+        <Link to="Sec7.3"><p>Sec 7.3 Perfect Numbers and Mersenne Primes</p></Link>
         <p>Properties of exponential functions, The Natural Exponential Function, Horizontal Line Test, Finding Inverse Functions</p>
         <Link to="Sec4.4"><p>Sec 3.4 The Euclidean Algorithm</p></Link>
         <p>Radian Measure, Trigonometric Functions, Trigonometric Identities</p>
