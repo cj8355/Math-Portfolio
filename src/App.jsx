@@ -165,6 +165,7 @@ import NumberTheory_Ch5 from './Components/Number-Theory/Chapters/5/ch5';
 import NumberTheory_Ch5_Sec1 from './Components/Number-Theory/Chapters/5/sections/5.1';
 import NumberTheory_Ch6 from './Components/Number-Theory/Chapters/6/ch6';
 import NumberTheory_Ch6_Sec1 from './Components/Number-Theory/Chapters/6/sections/6.1';
+import NumberTheory_Ch6_Sec3 from './Components/Number-Theory/Chapters/6/sections/6.3';
 
 function App() {
   return (
@@ -365,6 +366,7 @@ function App() {
 
         <Route path='/numberTheory/Ch.6' element={<NumberTheory_Ch6 />}/>
         <Route path='/numberTheory/Ch.6/Sec6.1' element={<NumberTheory_Ch6_Sec1/>}/>
+        <Route path='/numberTheory/Ch.6/Sec6.3' element={<NumberTheory_Ch6_Sec3/>}/>
 
 
         <Route path='/modernAlgebra' element={<ModernAlgebra/>}/>
