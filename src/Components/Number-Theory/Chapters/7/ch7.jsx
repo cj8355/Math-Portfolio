@@ -14,7 +14,7 @@ export default function NumberTheory_Ch7() {
             
         <Link to="Sec7.1"><p>Sec 7.1 The Euler Phi-Function</p></Link>
         <p>Intro to Sec 1.1</p>
-        <Link to="Sec6.3"><p>Sec 6.3 Euler's Theorem</p></Link>
+        <Link to="Sec7.2"><p>Sec 7.2 The Sum and Number of Divisors</p></Link>
         <p>Formulas, Graphs, Tables and Words</p>
         <Link to="Sec4.3"><p>Sec 4.3 The Chinese Remainder Theorem</p></Link>
         <p>Properties of exponential functions, The Natural Exponential Function, Horizontal Line Test, Finding Inverse Functions</p>
