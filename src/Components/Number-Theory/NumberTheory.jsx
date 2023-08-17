@@ -21,6 +21,8 @@ export default function NumberTheory() {
         <p>Intro to ch 5</p>
         <Link to="Ch.7"><p>Ch. 7</p></Link>
         <p>Intro to ch 5</p>
+        <Link to="Ch.8"><p>Ch. 8</p></Link>
+        <p>Intro to ch 5</p>
         
         
         </div>
