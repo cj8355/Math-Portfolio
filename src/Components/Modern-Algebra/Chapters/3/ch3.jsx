@@ -14,7 +14,7 @@ export default function ModernAlgebra_Ch3() {
             
         <Link to="Sec3.12"><p>Sec 12 Factor Groups </p></Link>
         <p>Intro to Sec 1.1</p>
-        <Link to="Sec2.9"><p>Sec 9 Finitely Generated Abelian Groups</p></Link>
+        <Link to="Sec3.13"><p>Sec 13 Finitely Generated Abelian Groups</p></Link>
         <p>Formulas, Graphs, Tables and Words</p>
         <Link to="Sec2.10"><p>Sec 10 Cosets and the Theorem of Lagrange</p></Link>
         <p>  </p>
