@@ -14,7 +14,7 @@ export default function ModernAlgebra_Ch5() {
             
         <Link to="Sec5.22"><p>Sec 22 Rings and Fields  </p></Link>
         <p>Intro to Sec 1.1</p>
-        <Link to="Sec3.13"><p>Sec 13 Finitely Generated Abelian Groups</p></Link>
+        <Link to="Sec5.23"><p>Sec 23 Finitely Generated Abelian Groups</p></Link>
         <p>Formulas, Graphs, Tables and Words</p>
         <Link to="Sec2.10"><p>Sec 10 Cosets and the Theorem of Lagrange</p></Link>
         <p>  </p>
