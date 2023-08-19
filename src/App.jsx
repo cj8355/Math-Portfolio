@@ -175,6 +175,8 @@ import NumberTheory_Ch8_Sec1 from './Components/Number-Theory/Chapters/8/section
 import ModernAlgebra_Ch3 from './Components/Modern-Algebra/Chapters/3/ch3';
 import ModernAlgebra_Part3_Sec12 from './Components/Modern-Algebra/Chapters/3/sections/3.12';
 import ModernAlgebra_Part3_Sec13 from './Components/Modern-Algebra/Chapters/3/sections/3.13';
+import ModernAlgebra_Ch5 from './Components/Modern-Algebra/Chapters/5/ch5';
+import ModernAlgebra_Part5_Sec22 from './Components/Modern-Algebra/Chapters/5/sections/5.22';
 
 function App() {
   return (
@@ -405,6 +407,9 @@ function App() {
         <Route path='/modernAlgebra/Ch.3' element={<ModernAlgebra_Ch3 />}/>
         <Route path='/modernAlgebra/Ch.3/Sec3.12' element={<ModernAlgebra_Part3_Sec12/>}/>
         <Route path='/modernAlgebra/Ch.3/Sec3.13' element={<ModernAlgebra_Part3_Sec13/>}/>
+
+        <Route path='/modernAlgebra/Ch.5' element={<ModernAlgebra_Ch5 />}/>
+        <Route path='/modernAlgebra/Ch.5/Sec5.22' element={<ModernAlgebra_Part5_Sec22/>}/>
 
 
       </Routes>
