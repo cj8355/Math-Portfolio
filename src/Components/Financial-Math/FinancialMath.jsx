@@ -22,6 +22,8 @@ export default function FinancialMath() {
         <p>Intro to </p>
         <Link to="Ch.8"><p>Additional Results on Options</p></Link>
         <p>Intro to </p>
+        <Link to="Ch.9"><p>Valuing by Expected Utility</p></Link>
+        <p>Intro to </p>
         
         
         </div>

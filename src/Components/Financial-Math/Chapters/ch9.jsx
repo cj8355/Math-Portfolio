@@ -1,38 +1,34 @@
 import { Link } from "react-router-dom";
-import "./6.1.css";
+import "./ch9.css";
 import { MathComponent } from "mathjax-react";
 
-export default function Calculus2_Ch6_Sec1() {
+export default function FinancialMath_Ch9() {
     
     
     return (
         <div className='container'> 
-        <h1>Ch. 6 Sec. Integration Strategies</h1>
+        <h1>Ch. 9 Valuing by Expected Utility</h1>
         <div className="sectionText">
 
       
-      <h2></h2>
+      <h2>Value at Risk</h2>
       <p className="textBorder">
-       
-        <MathComponent tex="" />
-        *
+       <p>The value at risk (VAR) of an investment is the value v such that there is only a 1-percent chance that the loss from the investment will be greater than v.</p>
+       <p>At 1% the VAR can be calculated by:</p>
+        <MathComponent tex="\mathrm{VAR = - \mu + 2.33 \sigma}" />
+        *56
       </p>
 
 
-      <h2></h2>
+      <h2>Conditional Value at Risk</h2>
       <p className="textBorder">
-       
-        <MathComponent tex="" />
-        *
+       <p>The conditional expected loss, given that it exceeds the VAR, is called the conditional value at risk or CVAR, and the CVAR criterion is to choose the investment having the smallest CVAR.</p>
+        <MathComponent tex="\mathrm{CVAR = 2.64 \sigma - \mu}" />
+        *57
       </p>
 
 
-      <h2></h2>
-      <p className="textBorder">
-       
-        <MathComponent tex="" />
-        *
-      </p>
+      
       
 
 
