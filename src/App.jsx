@@ -182,6 +182,7 @@ import ModernAlgebra_Part5_Sec24 from './Components/Modern-Algebra/Chapters/5/se
 import ModernAlgebra_Ch6 from './Components/Modern-Algebra/Chapters/6/ch6';
 import ModernAlgebra_Part6_Sec26 from './Components/Modern-Algebra/Chapters/6/sections/6.26';
 import FinancialMath_Ch9 from './Components/Financial-Math/Chapters/ch9';
+import FinancialMath_Ch10 from './Components/Financial-Math/Chapters/ch10';
 
 function App() {
   return (
@@ -347,6 +348,7 @@ function App() {
         <Route path='/financialMath/Ch.7' element={<FinancialMath_Ch7 />}/>
         <Route path='/financialMath/Ch.8' element={<FinancialMath_Ch8 />}/>
         <Route path='/financialMath/Ch.9' element={<FinancialMath_Ch9 />}/>
+        <Route path='/financialMath/Ch.10' element={<FinancialMath_Ch10 />}/>
 
 
 
